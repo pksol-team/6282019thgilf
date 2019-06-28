@@ -1,0 +1,136 @@
+0000.000 (0) Opened log file at time: Fri, 21 Jun 2019 04:16:42 +0000 on http://awward.1clickhostings.com
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.4.24 WP: 5.2.1 PHP: 7.2.18 (cgi-fcgi, Linux chicago.dcts.solutions 3.10.0-962.3.2.lve1.5.24.9.el7.x86_64 #1 SMP Wed Feb 13 08:24:50 EST 2019 x86_64) MySQL: 10.3.15-MariaDB WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 10.5M | 14M) multisite: N openssl: OpenSSL 1.0.2r  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.031 (0) Free space on disk containing Updraft's temporary directory: 498205.7 MB
+0000.032 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.033 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.037 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1561006028, seconds_ago=84574)
+0000.038 (0) Set semaphore last lock (fd) time to 2019-06-21 04:16:42
+0000.038 (0) Semaphore lock (fd) complete
+0000.039 (0) Backup run: resumption=0, nonce=5921e6c15f78, file_nonce=5921e6c15f78 begun at=1561090602 (0s ago), job type=backup
+0000.040 (0) Scheduling a resumption (1) after 300 seconds (1561090902) in case this run gets aborted
+0000.053 (0) Checking if we have a zip executable available
+0000.053 (0) Testing: /usr/bin/zip
+0000.058 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.059 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.059 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.060 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.060 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.063 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.064 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.073 (0) Working binary zip found: /usr/bin/zip
+0000.074 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.075 (0) Creation of backups of directories: beginning
+0000.076 (0) No backup of plugins: excluded by user's options
+0000.076 (0) No backup of themes: excluded by user's options
+0000.077 (0) No backup of uploads: excluded by user's options
+0000.077 (0) No backup of wpcore: excluded by user's options
+0000.077 (0) No backup of others: excluded by user's options
+0000.077 (0) No backup of more: excluded by user's options
+0000.079 (0) Saving backup status to database (elements: 0)
+0000.080 (0) Beginning creation of database dump (WordPress DB)
+0000.081 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0000.114 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wpp8_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nC (truncated - 1211 bytes total)
+0000.115 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.120 (0) Table wpp8_options: Total expected rows (approximate): 540
+0000.156 (0) Table wpp8_options: Total rows added: 544 in 0.04 seconds
+0000.157 (0) Table wpp8_options: finishing file (backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_options.table.gz - 237.9 KB)
+0000.159 (0) Table wpp8_users: Total expected rows (approximate): 0
+0000.160 (0) Table wpp8_users: Total rows added: 3 in 0.00 seconds
+0000.161 (0) Table wpp8_users: finishing file (backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_users.table.gz - 0.7 KB)
+0000.163 (0) Table wpp8_usermeta: Total expected rows (approximate): 63
+0000.164 (0) Table wpp8_usermeta: Total rows added: 71 in 0.00 seconds
+0000.165 (0) Table wpp8_usermeta: finishing file (backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_usermeta.table.gz - 2.2 KB)
+0000.166 (0) Table wpp8_commentmeta: Total expected rows (approximate): 26
+0000.168 (0) Table wpp8_commentmeta: Total rows added: 27 in 0.00 seconds
+0000.168 (0) Table wpp8_commentmeta: finishing file (backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_commentmeta.table.gz - 0.6 KB)
+0000.170 (0) Table wpp8_comments: Total expected rows (approximate): 14
+0000.171 (0) Table wpp8_comments: Total rows added: 14 in 0.00 seconds
+0000.172 (0) Table wpp8_comments: finishing file (backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_comments.table.gz - 1.7 KB)
+0000.173 (0) Table wpp8_links: Total expected rows (approximate): 0
+0000.174 (0) Table wpp8_links: Total rows added: 0 in 0.00 seconds
+0000.175 (0) Table wpp8_links: finishing file (backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_links.table.gz - 0.4 KB)
+0000.176 (0) Table wpp8_postmeta: Total expected rows (approximate): 606
+0000.181 (0) Table wpp8_postmeta: Total rows added: 607 in 0.00 seconds
+0000.182 (0) Table wpp8_postmeta: finishing file (backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_postmeta.table.gz - 11.7 KB)
+0000.184 (0) Table wpp8_posts: Total expected rows (approximate): 199
+0000.189 (0) Table wpp8_posts: Total rows added: 200 in 0.01 seconds
+0000.190 (0) Table wpp8_posts: finishing file (backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_posts.table.gz - 20.7 KB)
+0000.192 (0) Table wpp8_term_relationships: Total expected rows (approximate): 10
+0000.193 (0) Table wpp8_term_relationships: Total rows added: 10 in 0.00 seconds
+0000.194 (0) Table wpp8_term_relationships: finishing file (backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_term_relationships.table.gz - 0.4 KB)
+0000.195 (0) Table wpp8_term_taxonomy: Total expected rows (approximate): 3
+0000.196 (0) Table wpp8_term_taxonomy: Total rows added: 3 in 0.00 seconds
+0000.197 (0) Table wpp8_term_taxonomy: finishing file (backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_term_taxonomy.table.gz - 0.4 KB)
+0000.199 (0) Table wpp8_termmeta: Total expected rows (approximate): 0
+0000.199 (0) Table wpp8_termmeta: Total rows added: 0 in 0.00 seconds
+0000.200 (0) Table wpp8_termmeta: finishing file (backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_termmeta.table.gz - 0.4 KB)
+0000.201 (0) Table wpp8_terms: Total expected rows (approximate): 3
+0000.203 (0) Table wpp8_terms: Total rows added: 3 in 0.00 seconds
+0000.203 (0) Table wpp8_terms: finishing file (backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_terms.table.gz - 0.4 KB)
+0000.205 (0) Table wpp8_apsl_users_social_profile_details: Total expected rows (approximate): 0
+0000.206 (0) Table wpp8_apsl_users_social_profile_details: Total rows added: 0 in 0.00 seconds
+0000.207 (0) Table wpp8_apsl_users_social_profile_details: finishing file (backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_apsl_users_social_profile_details.table.gz - 0.5 KB)
+0000.209 (0) Table wpp8_revslider_css: Total expected rows (approximate): 109
+0000.212 (0) Table wpp8_revslider_css: Total rows added: 109 in 0.00 seconds
+0000.212 (0) Table wpp8_revslider_css: finishing file (backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_revslider_css.table.gz - 4.9 KB)
+0000.214 (0) Table wpp8_revslider_layer_animations: Total expected rows (approximate): 0
+0000.215 (0) Table wpp8_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0000.216 (0) Table wpp8_revslider_layer_animations: finishing file (backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_revslider_layer_animations.table.gz - 0.3 KB)
+0000.218 (0) Table wpp8_revslider_navigations: Total expected rows (approximate): 0
+0000.219 (0) Table wpp8_revslider_navigations: Total rows added: 0 in 0.00 seconds
+0000.219 (0) Table wpp8_revslider_navigations: finishing file (backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_revslider_navigations.table.gz - 0.3 KB)
+0000.221 (0) Table wpp8_revslider_sliders: Total expected rows (approximate): 0
+0000.222 (0) Table wpp8_revslider_sliders: Total rows added: 0 in 0.00 seconds
+0000.223 (0) Table wpp8_revslider_sliders: finishing file (backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_revslider_sliders.table.gz - 0.3 KB)
+0000.225 (0) Table wpp8_revslider_slides: Total expected rows (approximate): 0
+0000.226 (0) Table wpp8_revslider_slides: Total rows added: 0 in 0.00 seconds
+0000.226 (0) Table wpp8_revslider_slides: finishing file (backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_revslider_slides.table.gz - 0.3 KB)
+0000.228 (0) Table wpp8_revslider_static_slides: Total expected rows (approximate): 0
+0000.229 (0) Table wpp8_revslider_static_slides: Total rows added: 0 in 0.00 seconds
+0000.230 (0) Table wpp8_revslider_static_slides: finishing file (backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_revslider_static_slides.table.gz - 0.3 KB)
+0000.231 (0) Table wpp8_uwp_form_extras: Total expected rows (approximate): 5
+0000.233 (0) Table wpp8_uwp_form_extras: Total rows added: 5 in 0.00 seconds
+0000.233 (0) Table wpp8_uwp_form_extras: finishing file (backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_uwp_form_extras.table.gz - 0.7 KB)
+0000.235 (0) Table wpp8_uwp_form_fields: Total expected rows (approximate): 17
+0000.237 (0) Table wpp8_uwp_form_fields: Total rows added: 17 in 0.00 seconds
+0000.237 (0) Table wpp8_uwp_form_fields: finishing file (backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_uwp_form_fields.table.gz - 1.1 KB)
+0000.239 (0) Table wpp8_wpfm_backup: Total expected rows (approximate): 0
+0000.240 (0) Table wpp8_wpfm_backup: Total rows added: 0 in 0.00 seconds
+0000.240 (0) Table wpp8_wpfm_backup: finishing file (backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_wpfm_backup.table.gz - 0.3 KB)
+0000.242 (0) backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_options.table.gz (1/22): adding to final database dump
+0000.276 (0) backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_users.table.gz (2/22): adding to final database dump
+0000.277 (0) backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_usermeta.table.gz (3/22): adding to final database dump
+0000.278 (0) backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_commentmeta.table.gz (4/22): adding to final database dump
+0000.279 (0) backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_comments.table.gz (5/22): adding to final database dump
+0000.279 (0) backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_links.table.gz (6/22): adding to final database dump
+0000.280 (0) backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_postmeta.table.gz (7/22): adding to final database dump
+0000.282 (0) backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_posts.table.gz (8/22): adding to final database dump
+0000.285 (0) backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_term_relationships.table.gz (9/22): adding to final database dump
+0000.286 (0) backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_term_taxonomy.table.gz (10/22): adding to final database dump
+0000.286 (0) backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_termmeta.table.gz (11/22): adding to final database dump
+0000.287 (0) backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_terms.table.gz (12/22): adding to final database dump
+0000.287 (0) backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_apsl_users_social_profile_details.table.gz (13/22): adding to final database dump
+0000.288 (0) backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_revslider_css.table.gz (14/22): adding to final database dump
+0000.289 (0) backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_revslider_layer_animations.table.gz (15/22): adding to final database dump
+0000.289 (0) backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_revslider_navigations.table.gz (16/22): adding to final database dump
+0000.290 (0) backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_revslider_sliders.table.gz (17/22): adding to final database dump
+0000.290 (0) backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_revslider_slides.table.gz (18/22): adding to final database dump
+0000.291 (0) backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_revslider_static_slides.table.gz (19/22): adding to final database dump
+0000.291 (0) backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_uwp_form_extras.table.gz (20/22): adding to final database dump
+0000.292 (0) backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_uwp_form_fields.table.gz (21/22): adding to final database dump
+0000.292 (0) backup_2019-06-21-0416_Gooders_5921e6c15f78-db-table-wpp8_wpfm_backup.table.gz (22/22): adding to final database dump
+0000.293 (0) backup_2019-06-21-0416_Gooders_5921e6c15f78-db.gz: finished writing out complete database file (264 KB)
+0000.297 (0) Total database tables backed up: 22 (backup_2019-06-21-0416_Gooders_5921e6c15f78-db.gz, size: 288261, sha256)
+0000.300 (0) backup_2019-06-21-0416_Gooders_5921e6c15f78-db.gz: db: This file has not yet been successfully uploaded: will queue
+0000.301 (0) Saving backup history. Total backup size: 281.5 KB
+0000.302 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0000.303 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0000.304 (0) No remote despatch: user chose no remote backup service
+0000.304 (0) Recording as successfully uploaded: backup_2019-06-21-0416_Gooders_5921e6c15f78-db.gz
+0000.305 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0000.305 (0) Resume backup (5921e6c15f78, 0): finish run
+0000.306 (0) Decremented the semaphore (fd) by 1
+0000.306 (0) Semaphore (fd) unlocked
+0000.307 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0000.308 (0) No email will/can be sent - the user has not configured an email address.
+0000.308 (0) The backup apparently succeeded and is now complete

@@ -1,0 +1,4325 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Reviewer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-04 22:53-0000\n"
+"PO-Revision-Date: 2019-06-04 22:53-0000\n"
+"Last-Translator: GhostPool\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;esc_attr_e;_n_noop:1,2;"
+"esc_html__;esc_html_e;esc_attr__\n"
+"X-Poedit-Basepath: ./\n"
+"X-Generator: Poedit 1.7.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/class-activator.php:39
+msgid "Default Review Template"
+msgstr ""
+
+#: ../admin/class-review-templates.php:12
+#: ../admin/class-review-templates.php:13
+msgid "Ultimate Reviewer"
+msgstr ""
+
+#: ../admin/class-review-templates.php:29
+msgctxt "general name"
+msgid "Review Templates"
+msgstr ""
+
+#: ../admin/class-review-templates.php:30
+msgctxt "singular name"
+msgid "Review Template"
+msgstr ""
+
+#: ../admin/class-review-templates.php:31
+msgctxt "admin menu"
+msgid "Review Templates"
+msgstr ""
+
+#: ../admin/class-review-templates.php:32
+msgctxt "add new on admin bar"
+msgid "Review Template"
+msgstr ""
+
+#: ../admin/class-review-templates.php:33
+msgctxt "review"
+msgid "Add New"
+msgstr ""
+
+#: ../admin/class-review-templates.php:34
+msgid "Add New Review Template"
+msgstr ""
+
+#: ../admin/class-review-templates.php:35
+msgid "New Review Template"
+msgstr ""
+
+#: ../admin/class-review-templates.php:36
+msgid "Edit Review Template"
+msgstr ""
+
+#: ../admin/class-review-templates.php:37
+msgid "View Review Template"
+msgstr ""
+
+#: ../admin/class-review-templates.php:38
+msgid "Review Templates"
+msgstr ""
+
+#: ../admin/class-review-templates.php:39
+msgid "Search Review Templates"
+msgstr ""
+
+#: ../admin/class-review-templates.php:40
+msgid "Parent Review Templates:"
+msgstr ""
+
+#: ../admin/class-review-templates.php:41
+msgid "No review templates found."
+msgstr ""
+
+#: ../admin/class-review-templates.php:42
+msgid "No review templates found in Trash."
+msgstr ""
+
+#: ../admin/class-review-templates.php:47
+msgid "Review template."
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../admin/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../admin/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../admin/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../admin/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../admin/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../admin/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../admin/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../admin/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../admin/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:386
+#: ../admin/class-tgm-plugin-activation.php:827
+#: ../admin/class-tgm-plugin-activation.php:2533
+#: ../admin/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:387
+#: ../admin/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:388
+#: ../admin/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../admin/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:934
+#: ../admin/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2321
+#: ../admin/settings/fields/standard-link-color.php:33
+msgid "Active"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../admin/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../admin/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../admin/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2547
+#: ../admin/status/class-status.php:38
+msgid "Plugin"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2553
+#: ../admin/status/class-status.php:44 ../admin/status/class-status.php:220
+msgid "Version"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2554
+#: ../admin/status/class-status.php:20 ../admin/status/class-status.php:21
+#: ../admin/status/class-status.php:32
+msgid "Status"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:3509
+#: ../admin/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s done."
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../admin/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../admin/framework.php:15
+msgid "Settings"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:5
+msgid "Add User Rating"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:11
+#: ../admin/page-builder/bad-points-options.php:11
+#: ../admin/page-builder/comparison-table-options.php:11
+#: ../admin/page-builder/excerpt-options.php:11
+#: ../admin/page-builder/good-points-options.php:11
+#: ../admin/page-builder/image-options.php:11
+#: ../admin/page-builder/review-button-options.php:11
+#: ../admin/page-builder/review-template-options.php:10
+#: ../admin/page-builder/reviews-list-options.php:11
+#: ../admin/page-builder/show-rating-options.php:1007
+#: ../admin/page-builder/summary-options.php:11
+#: ../admin/page-builder/up-down-voting-options.php:11
+msgid "Review"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:15
+#: ../admin/page-builder/bad-points-options.php:14
+#: ../admin/page-builder/bad-points-options.php:23
+#: ../admin/page-builder/comparison-table-options.php:1038
+#: ../admin/page-builder/excerpt-options.php:15
+#: ../admin/page-builder/excerpt-options.php:24
+#: ../admin/page-builder/good-points-options.php:15
+#: ../admin/page-builder/good-points-options.php:24
+#: ../admin/page-builder/reviews-list-options.php:15
+#: ../admin/page-builder/reviews-list-options.php:123
+#: ../admin/page-builder/show-rating-options.php:8
+#: ../admin/page-builder/summary-options.php:15
+#: ../admin/page-builder/summary-options.php:24
+#: ../admin/page-builder/up-down-voting-options.php:15
+#: ../admin/page-builder/up-down-voting-options.php:88
+#: ../admin/settings/config-global.php:529
+#: ../admin/widgets/reviews-list.php:195
+msgid "Title"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:19
+#: ../public/class-add-user-ratings.php:9
+msgid "Add Rating"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:24
+#: ../admin/page-builder/up-down-voting-options.php:24
+#: ../admin/settings/config-global.php:1170
+msgid "Permissions"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:25
+#: ../admin/page-builder/up-down-voting-options.php:25
+msgid "Choose which users or roles can submit user reviews."
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:28
+#: ../admin/page-builder/up-down-voting-options.php:28
+#: ../admin/settings/config-global.php:100
+#: ../admin/settings/config-global.php:139
+#: ../admin/settings/config-global.php:1175
+msgid "All users"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:29
+#: ../admin/page-builder/up-down-voting-options.php:29
+#: ../admin/settings/config-global.php:101
+#: ../admin/settings/config-global.php:140
+#: ../admin/settings/config-global.php:1176
+msgid "Logged in users only"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:30
+#: ../admin/page-builder/up-down-voting-options.php:30
+#: ../admin/settings/config-global.php:102
+#: ../admin/settings/config-global.php:141
+#: ../admin/settings/config-global.php:1177
+msgid "Specific roles only"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:37
+#: ../admin/page-builder/up-down-voting-options.php:37
+#: ../admin/settings/config-global.php:110
+#: ../admin/settings/config-global.php:149
+#: ../admin/settings/config-global.php:1186
+msgid "Roles"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:47
+#: ../admin/settings/config-global.php:211
+msgid "Criteria & Weights"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:48
+#: ../admin/settings/config-global.php:214
+msgid ""
+"Enter each criterion on a new line. To add weights add a colon and then the "
+"weight e.g."
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:48
+#: ../admin/settings/config-global.php:214
+msgid "Criterion 1:0.5"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:48
+#: ../admin/settings/config-global.php:214
+msgid "Criterion 2:0.75"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:55
+#: ../admin/settings/config-global.php:253
+msgid "Minimum Rating"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:63
+#: ../admin/page-builder/show-rating-options.php:52
+#: ../admin/settings/config-global.php:263
+msgid "Maximum Rating"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:72
+#: ../admin/page-builder/show-rating-options.php:60
+#: ../admin/settings/config-global.php:273
+msgid "Rating Step"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:73
+#: ../admin/page-builder/show-rating-options.php:61
+#: ../admin/settings/config-global.php:276
+msgid "The increments you can rate between the minimum and maximum rating."
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:81
+#: ../admin/settings/config-global.php:284
+msgid "Rating Fractions"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:82
+#: ../admin/settings/config-global.php:287
+msgid "Indicates the number of equal parts that make up a whole symbol."
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:93
+#: ../admin/page-builder/comparison-table-options.php:21
+#: ../admin/page-builder/reviews-list-options.php:92
+#: ../admin/page-builder/reviews-list-options.php:279
+#: ../admin/page-builder/show-rating-options.php:92
+#: ../admin/settings/config-global.php:910
+msgid "Format"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:97
+#: ../admin/page-builder/reviews-list-options.php:283
+#: ../admin/page-builder/show-rating-options.php:96
+#: ../admin/settings/config-global.php:224
+#: ../admin/settings/config-global.php:914
+msgid "Column"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:98
+#: ../admin/page-builder/reviews-list-options.php:284
+#: ../admin/page-builder/show-rating-options.php:97
+#: ../admin/settings/config-global.php:225
+#: ../admin/settings/config-global.php:915
+msgid "Rows"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:104
+#: ../admin/page-builder/add-user-ratings-options.php:121
+#: ../admin/page-builder/add-user-ratings-options.php:131
+#: ../admin/page-builder/add-user-ratings-options.php:144
+#: ../admin/page-builder/add-user-ratings-options.php:159
+#: ../admin/page-builder/add-user-ratings-options.php:166
+#: ../admin/page-builder/add-user-ratings-options.php:173
+#: ../admin/page-builder/add-user-ratings-options.php:180
+#: ../admin/page-builder/add-user-ratings-options.php:187
+#: ../admin/page-builder/add-user-ratings-options.php:198
+#: ../admin/page-builder/add-user-ratings-options.php:205
+#: ../admin/page-builder/add-user-ratings-options.php:218
+#: ../admin/page-builder/add-user-ratings-options.php:225
+#: ../admin/page-builder/add-user-ratings-options.php:242
+#: ../admin/page-builder/add-user-ratings-options.php:249
+#: ../admin/page-builder/add-user-ratings-options.php:266
+#: ../admin/page-builder/add-user-ratings-options.php:273
+#: ../admin/page-builder/add-user-ratings-options.php:286
+#: ../admin/page-builder/add-user-ratings-options.php:299
+#: ../admin/page-builder/add-user-ratings-options.php:311
+#: ../admin/page-builder/add-user-ratings-options.php:328
+#: ../admin/page-builder/add-user-ratings-options.php:340
+#: ../admin/page-builder/add-user-ratings-options.php:352
+#: ../admin/page-builder/add-user-ratings-options.php:364
+#: ../admin/page-builder/add-user-ratings-options.php:376
+#: ../admin/page-builder/add-user-ratings-options.php:388
+#: ../admin/page-builder/add-user-ratings-options.php:395
+#: ../admin/page-builder/add-user-ratings-options.php:407
+#: ../admin/page-builder/add-user-ratings-options.php:419
+#: ../admin/page-builder/add-user-ratings-options.php:431
+#: ../admin/page-builder/add-user-ratings-options.php:443
+#: ../admin/page-builder/add-user-ratings-options.php:455
+#: ../admin/page-builder/add-user-ratings-options.php:467
+#: ../admin/page-builder/add-user-ratings-options.php:479
+#: ../admin/page-builder/add-user-ratings-options.php:491
+#: ../admin/page-builder/add-user-ratings-options.php:503
+#: ../admin/page-builder/add-user-ratings-options.php:515
+#: ../admin/page-builder/add-user-ratings-options.php:527
+#: ../admin/page-builder/add-user-ratings-options.php:539
+#: ../admin/page-builder/add-user-ratings-options.php:551
+#: ../admin/page-builder/add-user-ratings-options.php:563
+#: ../admin/page-builder/add-user-ratings-options.php:575
+#: ../admin/page-builder/add-user-ratings-options.php:587
+#: ../admin/page-builder/add-user-ratings-options.php:599
+#: ../admin/page-builder/add-user-ratings-options.php:611
+#: ../admin/page-builder/add-user-ratings-options.php:623
+#: ../admin/page-builder/add-user-ratings-options.php:635
+#: ../admin/page-builder/add-user-ratings-options.php:643
+#: ../admin/page-builder/add-user-ratings-options.php:651
+#: ../admin/page-builder/add-user-ratings-options.php:659
+#: ../admin/page-builder/add-user-ratings-options.php:667
+#: ../admin/page-builder/add-user-ratings-options.php:675
+#: ../admin/page-builder/add-user-ratings-options.php:683
+#: ../admin/page-builder/add-user-ratings-options.php:691
+#: ../admin/page-builder/bad-points-options.php:25
+#: ../admin/page-builder/bad-points-options.php:33
+#: ../admin/page-builder/bad-points-options.php:41
+#: ../admin/page-builder/bad-points-options.php:49
+#: ../admin/page-builder/bad-points-options.php:57
+#: ../admin/page-builder/bad-points-options.php:65
+#: ../admin/page-builder/bad-points-options.php:73
+#: ../admin/page-builder/bad-points-options.php:81
+#: ../admin/page-builder/bad-points-options.php:89
+#: ../admin/page-builder/bad-points-options.php:97
+#: ../admin/page-builder/bad-points-options.php:105
+#: ../admin/page-builder/bad-points-options.php:113
+#: ../admin/page-builder/bad-points-options.php:121
+#: ../admin/page-builder/excerpt-options.php:26
+#: ../admin/page-builder/excerpt-options.php:34
+#: ../admin/page-builder/excerpt-options.php:42
+#: ../admin/page-builder/excerpt-options.php:50
+#: ../admin/page-builder/excerpt-options.php:58
+#: ../admin/page-builder/excerpt-options.php:66
+#: ../admin/page-builder/excerpt-options.php:74
+#: ../admin/page-builder/excerpt-options.php:82
+#: ../admin/page-builder/good-points-options.php:26
+#: ../admin/page-builder/good-points-options.php:34
+#: ../admin/page-builder/good-points-options.php:42
+#: ../admin/page-builder/good-points-options.php:50
+#: ../admin/page-builder/good-points-options.php:58
+#: ../admin/page-builder/good-points-options.php:66
+#: ../admin/page-builder/good-points-options.php:74
+#: ../admin/page-builder/good-points-options.php:82
+#: ../admin/page-builder/good-points-options.php:90
+#: ../admin/page-builder/good-points-options.php:98
+#: ../admin/page-builder/good-points-options.php:106
+#: ../admin/page-builder/good-points-options.php:114
+#: ../admin/page-builder/good-points-options.php:122
+#: ../admin/page-builder/show-rating-options.php:104
+#: ../admin/page-builder/show-rating-options.php:125
+#: ../admin/page-builder/show-rating-options.php:139
+#: ../admin/page-builder/show-rating-options.php:152
+#: ../admin/page-builder/show-rating-options.php:170
+#: ../admin/page-builder/show-rating-options.php:177
+#: ../admin/page-builder/show-rating-options.php:188
+#: ../admin/page-builder/show-rating-options.php:199
+#: ../admin/page-builder/show-rating-options.php:206
+#: ../admin/page-builder/show-rating-options.php:217
+#: ../admin/page-builder/show-rating-options.php:224
+#: ../admin/page-builder/show-rating-options.php:231
+#: ../admin/page-builder/show-rating-options.php:244
+#: ../admin/page-builder/show-rating-options.php:251
+#: ../admin/page-builder/show-rating-options.php:268
+#: ../admin/page-builder/show-rating-options.php:275
+#: ../admin/page-builder/show-rating-options.php:292
+#: ../admin/page-builder/show-rating-options.php:299
+#: ../admin/page-builder/show-rating-options.php:312
+#: ../admin/page-builder/show-rating-options.php:325
+#: ../admin/page-builder/show-rating-options.php:337
+#: ../admin/page-builder/show-rating-options.php:350
+#: ../admin/page-builder/show-rating-options.php:363
+#: ../admin/page-builder/show-rating-options.php:375
+#: ../admin/page-builder/show-rating-options.php:387
+#: ../admin/page-builder/show-rating-options.php:404
+#: ../admin/page-builder/show-rating-options.php:416
+#: ../admin/page-builder/show-rating-options.php:428
+#: ../admin/page-builder/show-rating-options.php:440
+#: ../admin/page-builder/show-rating-options.php:452
+#: ../admin/page-builder/show-rating-options.php:459
+#: ../admin/page-builder/show-rating-options.php:476
+#: ../admin/page-builder/show-rating-options.php:488
+#: ../admin/page-builder/show-rating-options.php:500
+#: ../admin/page-builder/show-rating-options.php:512
+#: ../admin/page-builder/show-rating-options.php:519
+#: ../admin/page-builder/show-rating-options.php:536
+#: ../admin/page-builder/show-rating-options.php:548
+#: ../admin/page-builder/show-rating-options.php:560
+#: ../admin/page-builder/show-rating-options.php:572
+#: ../admin/page-builder/show-rating-options.php:584
+#: ../admin/page-builder/show-rating-options.php:596
+#: ../admin/page-builder/show-rating-options.php:603
+#: ../admin/page-builder/show-rating-options.php:615
+#: ../admin/page-builder/show-rating-options.php:627
+#: ../admin/page-builder/show-rating-options.php:639
+#: ../admin/page-builder/show-rating-options.php:651
+#: ../admin/page-builder/show-rating-options.php:663
+#: ../admin/page-builder/show-rating-options.php:675
+#: ../admin/page-builder/show-rating-options.php:687
+#: ../admin/page-builder/show-rating-options.php:699
+#: ../admin/page-builder/show-rating-options.php:711
+#: ../admin/page-builder/show-rating-options.php:723
+#: ../admin/page-builder/show-rating-options.php:735
+#: ../admin/page-builder/show-rating-options.php:747
+#: ../admin/page-builder/show-rating-options.php:759
+#: ../admin/page-builder/show-rating-options.php:771
+#: ../admin/page-builder/show-rating-options.php:783
+#: ../admin/page-builder/show-rating-options.php:795
+#: ../admin/page-builder/show-rating-options.php:807
+#: ../admin/page-builder/show-rating-options.php:819
+#: ../admin/page-builder/show-rating-options.php:831
+#: ../admin/page-builder/show-rating-options.php:843
+#: ../admin/page-builder/show-rating-options.php:855
+#: ../admin/page-builder/show-rating-options.php:867
+#: ../admin/page-builder/show-rating-options.php:879
+#: ../admin/page-builder/show-rating-options.php:891
+#: ../admin/page-builder/show-rating-options.php:903
+#: ../admin/page-builder/show-rating-options.php:915
+#: ../admin/page-builder/show-rating-options.php:927
+#: ../admin/page-builder/summary-options.php:26
+#: ../admin/page-builder/summary-options.php:34
+#: ../admin/page-builder/summary-options.php:42
+#: ../admin/page-builder/summary-options.php:50
+#: ../admin/page-builder/summary-options.php:58
+#: ../admin/page-builder/summary-options.php:66
+#: ../admin/page-builder/summary-options.php:74
+#: ../admin/page-builder/summary-options.php:82
+#: ../admin/page-builder/up-down-voting-options.php:68
+#: ../admin/page-builder/up-down-voting-options.php:83
+#: ../admin/page-builder/up-down-voting-options.php:90
+#: ../admin/page-builder/up-down-voting-options.php:98
+#: ../admin/page-builder/up-down-voting-options.php:106
+#: ../admin/page-builder/up-down-voting-options.php:114
+#: ../admin/page-builder/up-down-voting-options.php:126
+#: ../admin/page-builder/up-down-voting-options.php:135
+#: ../admin/page-builder/up-down-voting-options.php:143
+#: ../admin/page-builder/up-down-voting-options.php:155
+#: ../admin/page-builder/up-down-voting-options.php:167
+#: ../admin/page-builder/up-down-voting-options.php:179
+#: ../admin/page-builder/up-down-voting-options.php:191
+#: ../admin/page-builder/up-down-voting-options.php:203
+#: ../admin/page-builder/up-down-voting-options.php:215
+#: ../admin/page-builder/up-down-voting-options.php:227
+#: ../admin/page-builder/up-down-voting-options.php:239
+#: ../admin/page-builder/up-down-voting-options.php:251
+#: ../admin/page-builder/up-down-voting-options.php:267
+#: ../admin/page-builder/up-down-voting-options.php:277
+#: ../admin/page-builder/up-down-voting-options.php:285
+#: ../admin/page-builder/up-down-voting-options.php:297
+#: ../admin/page-builder/up-down-voting-options.php:309
+#: ../admin/page-builder/up-down-voting-options.php:321
+#: ../admin/page-builder/up-down-voting-options.php:333
+#: ../admin/page-builder/up-down-voting-options.php:345
+#: ../admin/page-builder/up-down-voting-options.php:357
+#: ../admin/page-builder/up-down-voting-options.php:369
+#: ../admin/page-builder/up-down-voting-options.php:381
+#: ../admin/page-builder/up-down-voting-options.php:393
+#: ../admin/page-builder/up-down-voting-options.php:405
+#: ../admin/page-builder/up-down-voting-options.php:413
+#: ../admin/page-builder/up-down-voting-options.php:421
+#: ../admin/page-builder/up-down-voting-options.php:429
+msgid "Styling"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:108
+#: ../admin/page-builder/comparison-table-options.php:267
+#: ../admin/page-builder/reviews-list-options.php:291
+#: ../admin/page-builder/show-rating-options.php:108
+#: ../admin/page-builder/up-down-voting-options.php:60
+#: ../admin/settings/config-global.php:234
+#: ../admin/settings/config-global.php:614
+#: ../admin/settings/config-global.php:924
+#: ../admin/settings/config-global.php:1197
+msgid "Style"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:113
+#: ../admin/page-builder/comparison-table-options.php:275
+#: ../admin/page-builder/reviews-list-options.php:299
+#: ../admin/page-builder/show-rating-options.php:117
+#: ../admin/settings/config-global.php:238
+#: ../admin/settings/config-global.php:622
+#: ../admin/settings/config-global.php:845
+#: ../admin/settings/config-global.php:932
+msgid "Stars"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:114
+#: ../admin/page-builder/comparison-table-options.php:276
+#: ../admin/page-builder/reviews-list-options.php:300
+#: ../admin/page-builder/show-rating-options.php:118
+#: ../admin/settings/config-global.php:239
+#: ../admin/settings/config-global.php:623
+#: ../admin/settings/config-global.php:846
+#: ../admin/settings/config-global.php:933
+msgid "Hearts"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:115
+#: ../admin/page-builder/comparison-table-options.php:277
+#: ../admin/page-builder/reviews-list-options.php:301
+#: ../admin/page-builder/show-rating-options.php:119
+#: ../admin/settings/config-global.php:240
+#: ../admin/settings/config-global.php:624
+#: ../admin/settings/config-global.php:847
+#: ../admin/settings/config-global.php:934
+msgid "Squares"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:116
+#: ../admin/page-builder/comparison-table-options.php:278
+#: ../admin/page-builder/reviews-list-options.php:302
+#: ../admin/page-builder/show-rating-options.php:120
+#: ../admin/settings/config-global.php:241
+#: ../admin/settings/config-global.php:625
+#: ../admin/settings/config-global.php:848
+#: ../admin/settings/config-global.php:935
+msgid "Circles"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:117
+#: ../admin/page-builder/comparison-table-options.php:279
+#: ../admin/page-builder/reviews-list-options.php:303
+#: ../admin/page-builder/show-rating-options.php:121
+#: ../admin/settings/config-global.php:242
+#: ../admin/settings/config-global.php:626
+#: ../admin/settings/config-global.php:849
+#: ../admin/settings/config-global.php:936
+msgid "Bars"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:118
+#: ../admin/page-builder/comparison-table-options.php:280
+#: ../admin/page-builder/reviews-list-options.php:304
+#: ../admin/page-builder/show-rating-options.php:122
+#: ../admin/settings/config-global.php:243
+#: ../admin/settings/config-global.php:627
+#: ../admin/settings/config-global.php:850
+#: ../admin/settings/config-global.php:937
+msgid "Custom Icon"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:119
+#: ../admin/page-builder/add-user-ratings-options.php:209
+#: ../admin/page-builder/comparison-table-options.php:281
+#: ../admin/page-builder/comparison-table-options.php:313
+#: ../admin/page-builder/reviews-list-options.php:305
+#: ../admin/page-builder/reviews-list-options.php:408
+#: ../admin/page-builder/show-rating-options.php:123
+#: ../admin/page-builder/show-rating-options.php:235
+#: ../admin/settings/config-global.php:244
+#: ../admin/settings/config-global.php:328
+#: ../admin/settings/config-global.php:628
+#: ../admin/settings/config-global.php:656
+#: ../admin/settings/config-global.php:851
+#: ../admin/settings/config-global.php:859
+#: ../admin/settings/config-global.php:938
+#: ../admin/settings/config-global.php:982
+msgid "Custom Image"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:126
+#: ../admin/page-builder/add-user-ratings-options.php:309
+#: ../admin/page-builder/show-rating-options.php:130
+#: ../admin/page-builder/show-rating-options.php:517
+msgid "Criterion Boxes"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:127
+#: ../admin/page-builder/show-rating-options.php:131
+msgid "Add a full width box around each criterion rating."
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:135
+#: ../admin/page-builder/reviews-list-options.php:312
+#: ../admin/page-builder/show-rating-options.php:143
+#: ../admin/settings/config-metaboxes.php:238
+msgid "Position"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:139
+#: ../admin/page-builder/add-user-ratings-options.php:155
+#: ../admin/page-builder/comparison-table-options.php:859
+#: ../admin/page-builder/review-button-options.php:67
+#: ../admin/page-builder/review-button-options.php:177
+#: ../admin/page-builder/reviews-list-options.php:316
+#: ../admin/page-builder/reviews-list-options.php:331
+#: ../admin/page-builder/show-rating-options.php:147
+#: ../admin/page-builder/show-rating-options.php:162
+#: ../admin/page-builder/up-down-voting-options.php:78
+#: ../admin/settings/config-global.php:301
+#: ../admin/settings/config-global.php:953
+#: ../admin/settings/config-global.php:1218
+#: ../admin/settings/fields/standard-spacing.php:35
+#: ../admin/settings/fields/standard-spacing.php:43
+msgid "Left"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:140
+#: ../admin/page-builder/review-button-options.php:68
+#: ../admin/page-builder/reviews-list-options.php:317
+#: ../admin/page-builder/show-rating-options.php:148
+msgid "Center"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:141
+#: ../admin/page-builder/add-user-ratings-options.php:156
+#: ../admin/page-builder/comparison-table-options.php:860
+#: ../admin/page-builder/review-button-options.php:69
+#: ../admin/page-builder/review-button-options.php:178
+#: ../admin/page-builder/reviews-list-options.php:318
+#: ../admin/page-builder/reviews-list-options.php:332
+#: ../admin/page-builder/show-rating-options.php:149
+#: ../admin/page-builder/show-rating-options.php:163
+#: ../admin/page-builder/up-down-voting-options.php:79
+#: ../admin/settings/config-global.php:302
+#: ../admin/settings/config-global.php:954
+#: ../admin/settings/config-global.php:1219
+#: ../admin/settings/fields/standard-spacing.php:31
+#: ../admin/settings/fields/standard-spacing.php:39
+msgid "Right"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:149
+#: ../admin/page-builder/reviews-list-options.php:326
+#: ../admin/page-builder/show-rating-options.php:157
+#: ../admin/settings/config-global.php:295
+#: ../admin/settings/config-global.php:947
+msgid "Rating Text Position"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:153
+#: ../admin/page-builder/reviews-list-options.php:329
+#: ../admin/page-builder/show-rating-options.php:160
+#: ../admin/page-builder/up-down-voting-options.php:76
+#: ../admin/settings/config-global.php:299
+#: ../admin/settings/config-global.php:951
+#: ../admin/settings/config-global.php:1216
+#: ../admin/settings/config-metaboxes.php:242
+#: ../admin/settings/fields/standard-spacing.php:29
+#: ../admin/settings/fields/standard-spacing.php:37
+msgid "Top"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:154
+#: ../admin/page-builder/reviews-list-options.php:330
+#: ../admin/page-builder/show-rating-options.php:161
+#: ../admin/page-builder/up-down-voting-options.php:77
+#: ../admin/settings/config-global.php:300
+#: ../admin/settings/config-global.php:952
+#: ../admin/settings/config-global.php:1217
+#: ../admin/settings/config-metaboxes.php:243
+#: ../admin/settings/fields/standard-spacing.php:33
+#: ../admin/settings/fields/standard-spacing.php:41
+msgid "Bottom"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:164
+#: ../admin/page-builder/comparison-table-options.php:289
+#: ../admin/page-builder/reviews-list-options.php:105
+#: ../admin/page-builder/reviews-list-options.php:344
+#: ../admin/page-builder/show-rating-options.php:175
+#: ../admin/page-builder/up-down-voting-options.php:130
+#: ../admin/page-builder/up-down-voting-options.php:272
+#: ../admin/settings/config-global.php:311
+#: ../admin/settings/config-global.php:636
+#: ../admin/settings/config-global.php:963
+msgid "Show"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:171
+#: ../admin/page-builder/add-user-ratings-options.php:489
+#: ../admin/page-builder/reviews-list-options.php:351
+#: ../admin/page-builder/show-rating-options.php:182
+#: ../admin/page-builder/show-rating-options.php:697
+#: ../admin/settings/config-global.php:640
+msgid "Average User Rating Text"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:178
+#: ../admin/page-builder/add-user-ratings-options.php:537
+#: ../admin/page-builder/reviews-list-options.php:362
+#: ../admin/page-builder/show-rating-options.php:193
+#: ../admin/page-builder/show-rating-options.php:745
+#: ../admin/settings/config-global.php:315
+#: ../admin/settings/config-global.php:967
+msgid "Your User Rating Text"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:185
+#: ../admin/page-builder/comparison-table-options.php:296
+#: ../admin/page-builder/comparison-table-options.php:645
+#: ../admin/page-builder/reviews-list-options.php:373
+#: ../admin/page-builder/reviews-list-options.php:740
+#: ../admin/page-builder/show-rating-options.php:204
+#: ../admin/page-builder/show-rating-options.php:793
+#: ../admin/settings/config-global.php:316
+#: ../admin/settings/config-global.php:641
+#: ../admin/settings/config-global.php:968
+msgid "Maximum Rating Text"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:192
+#: ../admin/page-builder/reviews-list-options.php:384
+#: ../admin/page-builder/show-rating-options.php:211
+msgid "User Votes Text "
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:203
+#: ../admin/page-builder/add-user-ratings-options.php:633
+msgid "Submit Button"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:210
+#: ../admin/page-builder/comparison-table-options.php:314
+#: ../admin/page-builder/reviews-list-options.php:409
+#: ../admin/page-builder/show-rating-options.php:236
+#: ../admin/settings/config-global.php:332
+msgid ""
+"Your image should include the filled and empty icons. For an example see the"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:210
+#: ../admin/page-builder/comparison-table-options.php:314
+#: ../admin/page-builder/reviews-list-options.php:409
+#: ../admin/page-builder/show-rating-options.php:236
+#: ../admin/settings/config-global.php:332
+msgid "default image"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:223
+#: ../admin/page-builder/comparison-table-options.php:327
+#: ../admin/page-builder/reviews-list-options.php:422
+#: ../admin/page-builder/show-rating-options.php:249
+#: ../admin/settings/config-global.php:339
+#: ../admin/settings/config-global.php:665
+#: ../admin/settings/config-global.php:868
+msgid "Icons"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:233
+#: ../admin/page-builder/comparison-table-options.php:337
+#: ../admin/page-builder/reviews-list-options.php:432
+#: ../admin/page-builder/show-rating-options.php:259
+#: ../admin/settings/config-global.php:343
+#: ../admin/settings/config-global.php:669
+#: ../admin/settings/config-global.php:872
+#: ../admin/settings/config-global.php:996
+msgid "Empty Icon"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:245
+#: ../admin/page-builder/comparison-table-options.php:349
+#: ../admin/page-builder/reviews-list-options.php:444
+#: ../admin/page-builder/show-rating-options.php:271
+#: ../admin/settings/config-global.php:362
+#: ../admin/settings/config-global.php:687
+#: ../admin/settings/config-global.php:891
+#: ../admin/settings/config-global.php:1014
+msgid "Empty Icon Color"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:257
+#: ../admin/page-builder/comparison-table-options.php:361
+#: ../admin/page-builder/reviews-list-options.php:456
+#: ../admin/page-builder/show-rating-options.php:283
+#: ../admin/settings/config-global.php:344
+#: ../admin/settings/config-global.php:670
+#: ../admin/settings/config-global.php:873
+#: ../admin/settings/config-global.php:997
+msgid "Filled Icon"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:269
+#: ../admin/page-builder/comparison-table-options.php:373
+#: ../admin/page-builder/reviews-list-options.php:468
+#: ../admin/page-builder/show-rating-options.php:295
+#: ../admin/settings/config-global.php:363
+#: ../admin/settings/config-global.php:688
+#: ../admin/settings/config-global.php:892
+#: ../admin/settings/config-global.php:1015
+msgid "Filled Icon Color"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:281
+#: ../admin/page-builder/comparison-table-options.php:385
+#: ../admin/page-builder/comparison-table-options.php:423
+#: ../admin/page-builder/comparison-table-options.php:545
+#: ../admin/page-builder/comparison-table-options.php:783
+#: ../admin/page-builder/review-button-options.php:110
+#: ../admin/page-builder/reviews-list-options.php:480
+#: ../admin/page-builder/reviews-list-options.php:518
+#: ../admin/page-builder/reviews-list-options.php:640
+#: ../admin/page-builder/show-rating-options.php:307
+#: ../admin/page-builder/show-rating-options.php:345
+#: ../admin/page-builder/show-rating-options.php:467
+msgid "Width (px)"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:294
+#: ../admin/page-builder/comparison-table-options.php:398
+#: ../admin/page-builder/comparison-table-options.php:436
+#: ../admin/page-builder/reviews-list-options.php:493
+#: ../admin/page-builder/reviews-list-options.php:531
+#: ../admin/page-builder/show-rating-options.php:320
+#: ../admin/page-builder/show-rating-options.php:358
+msgid "Height (px)"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:319
+#: ../admin/page-builder/show-rating-options.php:527
+msgid "Padding (px)"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:331
+#: ../admin/page-builder/comparison-table-options.php:172
+#: ../admin/page-builder/show-rating-options.php:539
+msgid "Background Color 1"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:343
+#: ../admin/page-builder/comparison-table-options.php:179
+#: ../admin/page-builder/show-rating-options.php:551
+msgid "Background Color 2"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:355
+#: ../admin/page-builder/comparison-table-options.php:485
+#: ../admin/page-builder/reviews-list-options.php:580
+#: ../admin/page-builder/show-rating-options.php:407
+#: ../admin/page-builder/show-rating-options.php:563
+msgid "Border Width (px)"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:367
+#: ../admin/page-builder/add-user-ratings-options.php:655
+#: ../admin/page-builder/comparison-table-options.php:145
+#: ../admin/page-builder/comparison-table-options.php:194
+#: ../admin/page-builder/comparison-table-options.php:497
+#: ../admin/page-builder/reviews-list-options.php:229
+#: ../admin/page-builder/reviews-list-options.php:592
+#: ../admin/page-builder/show-rating-options.php:419
+#: ../admin/page-builder/show-rating-options.php:575
+#: ../admin/settings/config-global.php:711
+#: ../admin/settings/config-global.php:1056
+msgid "Border Color"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:379
+#: ../admin/page-builder/add-user-ratings-options.php:427
+#: ../admin/page-builder/add-user-ratings-options.php:475
+#: ../admin/page-builder/add-user-ratings-options.php:523
+#: ../admin/page-builder/add-user-ratings-options.php:571
+#: ../admin/page-builder/add-user-ratings-options.php:619
+#: ../admin/page-builder/add-user-ratings-options.php:687
+#: ../admin/page-builder/bad-points-options.php:45
+#: ../admin/page-builder/bad-points-options.php:85
+#: ../admin/page-builder/bad-points-options.php:117
+#: ../admin/page-builder/comparison-table-options.php:159
+#: ../admin/page-builder/comparison-table-options.php:222
+#: ../admin/page-builder/comparison-table-options.php:631
+#: ../admin/page-builder/comparison-table-options.php:679
+#: ../admin/page-builder/comparison-table-options.php:903
+#: ../admin/page-builder/comparison-table-options.php:934
+#: ../admin/page-builder/comparison-table-options.php:975
+#: ../admin/page-builder/comparison-table-options.php:1006
+#: ../admin/page-builder/excerpt-options.php:46
+#: ../admin/page-builder/excerpt-options.php:78
+#: ../admin/page-builder/good-points-options.php:46
+#: ../admin/page-builder/good-points-options.php:86
+#: ../admin/page-builder/good-points-options.php:118
+#: ../admin/page-builder/reviews-list-options.php:726
+#: ../admin/page-builder/reviews-list-options.php:774
+#: ../admin/page-builder/reviews-list-options.php:822
+#: ../admin/page-builder/reviews-list-options.php:870
+#: ../admin/page-builder/show-rating-options.php:587
+#: ../admin/page-builder/show-rating-options.php:635
+#: ../admin/page-builder/show-rating-options.php:683
+#: ../admin/page-builder/show-rating-options.php:731
+#: ../admin/page-builder/show-rating-options.php:779
+#: ../admin/page-builder/show-rating-options.php:827
+#: ../admin/page-builder/show-rating-options.php:875
+#: ../admin/page-builder/show-rating-options.php:923
+#: ../admin/page-builder/summary-options.php:46
+#: ../admin/page-builder/summary-options.php:78
+#: ../admin/page-builder/up-down-voting-options.php:110
+#: ../admin/page-builder/up-down-voting-options.php:425
+#: ../admin/settings/config-global.php:383
+#: ../admin/settings/config-global.php:402
+#: ../admin/settings/config-global.php:421
+#: ../admin/settings/config-global.php:757
+#: ../admin/settings/config-global.php:775
+#: ../admin/settings/config-global.php:793
+#: ../admin/settings/config-global.php:1034
+#: ../admin/settings/config-global.php:1057
+#: ../admin/settings/config-global.php:1093
+#: ../admin/settings/config-global.php:1111
+#: ../admin/settings/config-global.php:1129
+#: ../admin/settings/config-global.php:1293
+msgid "Extra CSS"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:393
+#: ../admin/page-builder/show-rating-options.php:601
+msgid "Element Title"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:403
+#: ../admin/page-builder/add-user-ratings-options.php:451
+#: ../admin/page-builder/add-user-ratings-options.php:499
+#: ../admin/page-builder/add-user-ratings-options.php:547
+#: ../admin/page-builder/add-user-ratings-options.php:595
+#: ../admin/page-builder/bad-points-options.php:29
+#: ../admin/page-builder/bad-points-options.php:69
+#: ../admin/page-builder/bad-points-options.php:101
+#: ../admin/page-builder/comparison-table-options.php:607
+#: ../admin/page-builder/comparison-table-options.php:655
+#: ../admin/page-builder/comparison-table-options.php:751
+#: ../admin/page-builder/comparison-table-options.php:887
+#: ../admin/page-builder/comparison-table-options.php:918
+#: ../admin/page-builder/comparison-table-options.php:959
+#: ../admin/page-builder/comparison-table-options.php:990
+#: ../admin/page-builder/excerpt-options.php:30
+#: ../admin/page-builder/excerpt-options.php:62
+#: ../admin/page-builder/good-points-options.php:30
+#: ../admin/page-builder/good-points-options.php:70
+#: ../admin/page-builder/good-points-options.php:102
+#: ../admin/page-builder/review-button-options.php:82
+#: ../admin/page-builder/reviews-list-options.php:702
+#: ../admin/page-builder/reviews-list-options.php:750
+#: ../admin/page-builder/reviews-list-options.php:798
+#: ../admin/page-builder/reviews-list-options.php:846
+#: ../admin/page-builder/show-rating-options.php:611
+#: ../admin/page-builder/show-rating-options.php:659
+#: ../admin/page-builder/show-rating-options.php:707
+#: ../admin/page-builder/show-rating-options.php:755
+#: ../admin/page-builder/show-rating-options.php:803
+#: ../admin/page-builder/show-rating-options.php:851
+#: ../admin/page-builder/show-rating-options.php:899
+#: ../admin/page-builder/summary-options.php:30
+#: ../admin/page-builder/summary-options.php:62
+#: ../admin/page-builder/up-down-voting-options.php:94
+#: ../admin/page-builder/up-down-voting-options.php:409
+msgid "Size (px)"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:415
+#: ../admin/page-builder/add-user-ratings-options.php:463
+#: ../admin/page-builder/add-user-ratings-options.php:511
+#: ../admin/page-builder/add-user-ratings-options.php:559
+#: ../admin/page-builder/add-user-ratings-options.php:607
+#: ../admin/page-builder/bad-points-options.php:37
+#: ../admin/page-builder/bad-points-options.php:77
+#: ../admin/page-builder/bad-points-options.php:109
+#: ../admin/page-builder/comparison-table-options.php:619
+#: ../admin/page-builder/comparison-table-options.php:667
+#: ../admin/page-builder/comparison-table-options.php:727
+#: ../admin/page-builder/comparison-table-options.php:759
+#: ../admin/page-builder/comparison-table-options.php:799
+#: ../admin/page-builder/comparison-table-options.php:895
+#: ../admin/page-builder/comparison-table-options.php:926
+#: ../admin/page-builder/comparison-table-options.php:967
+#: ../admin/page-builder/comparison-table-options.php:998
+#: ../admin/page-builder/excerpt-options.php:38
+#: ../admin/page-builder/excerpt-options.php:70
+#: ../admin/page-builder/good-points-options.php:38
+#: ../admin/page-builder/good-points-options.php:78
+#: ../admin/page-builder/good-points-options.php:110
+#: ../admin/page-builder/review-button-options.php:49
+#: ../admin/page-builder/review-button-options.php:89
+#: ../admin/page-builder/review-button-options.php:124
+#: ../admin/page-builder/reviews-list-options.php:714
+#: ../admin/page-builder/reviews-list-options.php:762
+#: ../admin/page-builder/reviews-list-options.php:810
+#: ../admin/page-builder/reviews-list-options.php:858
+#: ../admin/page-builder/show-rating-options.php:623
+#: ../admin/page-builder/show-rating-options.php:671
+#: ../admin/page-builder/show-rating-options.php:719
+#: ../admin/page-builder/show-rating-options.php:767
+#: ../admin/page-builder/show-rating-options.php:815
+#: ../admin/page-builder/show-rating-options.php:863
+#: ../admin/page-builder/show-rating-options.php:911
+#: ../admin/page-builder/summary-options.php:38
+#: ../admin/page-builder/summary-options.php:70
+#: ../admin/page-builder/up-down-voting-options.php:102
+#: ../admin/page-builder/up-down-voting-options.php:417
+#: ../admin/settings/config-global.php:382
+#: ../admin/settings/config-global.php:401
+#: ../admin/settings/config-global.php:420
+#: ../admin/settings/config-global.php:756
+#: ../admin/settings/config-global.php:774
+#: ../admin/settings/config-global.php:792
+#: ../admin/settings/config-global.php:1033
+#: ../admin/settings/config-global.php:1078
+#: ../admin/settings/config-global.php:1092
+#: ../admin/settings/config-global.php:1110
+#: ../admin/settings/config-global.php:1128
+#: ../admin/settings/config-global.php:1292
+#: ../admin/settings/fields/standard-typography.php:152
+msgid "Color"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:441
+#: ../admin/page-builder/comparison-table-options.php:597
+#: ../admin/page-builder/reviews-list-options.php:692
+#: ../admin/page-builder/show-rating-options.php:649
+#: ../admin/settings/config-global.php:377
+#: ../admin/settings/config-global.php:1028
+msgid "Criteria Title"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:585
+#: ../admin/page-builder/reviews-list-options.php:788
+#: ../admin/page-builder/show-rating-options.php:841
+#: ../admin/settings/config-global.php:642
+msgid "User Votes Text"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:639
+#: ../admin/page-builder/comparison-table-options.php:152
+#: ../admin/page-builder/comparison-table-options.php:201
+#: ../admin/page-builder/comparison-table-options.php:461
+#: ../admin/page-builder/reviews-list-options.php:556
+#: ../admin/page-builder/show-rating-options.php:383
+#: ../admin/settings/config-global.php:708
+#: ../admin/settings/config-global.php:1053
+msgid "Text Color"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:647
+msgid "Text Hover Color"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:663
+msgid "Border Hover Color"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:671
+#: ../admin/page-builder/comparison-table-options.php:138
+#: ../admin/page-builder/comparison-table-options.php:473
+#: ../admin/page-builder/reviews-list-options.php:568
+#: ../admin/page-builder/show-rating-options.php:395
+#: ../admin/settings/config-global.php:709
+#: ../admin/settings/config-global.php:1054
+#: ../admin/settings/config-global.php:1237
+#: ../admin/settings/config-global.php:1266
+#: ../admin/settings/fields/standard-background.php:40
+msgid "Background Color"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:679
+msgid "Background Hover Color"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:700
+#: ../admin/page-builder/reviews-list-options.php:887
+#: ../admin/page-builder/show-rating-options.php:940
+#: ../admin/settings/config-global.php:805
+msgid "Average User Rating Label"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:703
+#: ../admin/page-builder/reviews-list-options.php:890
+#: ../admin/page-builder/show-rating-options.php:943
+#: ../admin/settings/config-global.php:808
+#: ../public/class-add-user-ratings.php:62 ../public/class-reviews-list.php:81
+#: ../public/class-show-rating.php:75
+msgid "Average User Rating:"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:704
+#: ../admin/page-builder/add-user-ratings-options.php:716
+#: ../admin/page-builder/add-user-ratings-options.php:728
+#: ../admin/page-builder/add-user-ratings-options.php:740
+#: ../admin/page-builder/add-user-ratings-options.php:752
+#: ../admin/page-builder/add-user-ratings-options.php:760
+#: ../admin/page-builder/add-user-ratings-options.php:768
+#: ../admin/page-builder/add-user-ratings-options.php:776
+#: ../admin/page-builder/add-user-ratings-options.php:784
+#: ../admin/page-builder/add-user-ratings-options.php:793
+#: ../admin/page-builder/comparison-table-options.php:1023
+#: ../admin/page-builder/comparison-table-options.php:1031
+#: ../admin/page-builder/comparison-table-options.php:1039
+#: ../admin/page-builder/comparison-table-options.php:1047
+#: ../admin/page-builder/comparison-table-options.php:1055
+#: ../admin/page-builder/comparison-table-options.php:1063
+#: ../admin/page-builder/comparison-table-options.php:1071
+#: ../admin/page-builder/comparison-table-options.php:1079
+#: ../admin/page-builder/comparison-table-options.php:1087
+#: ../admin/page-builder/comparison-table-options.php:1095
+#: ../admin/page-builder/comparison-table-options.php:1103
+#: ../admin/page-builder/comparison-table-options.php:1111
+#: ../admin/page-builder/comparison-table-options.php:1119
+#: ../admin/page-builder/comparison-table-options.php:1127
+#: ../admin/page-builder/comparison-table-options.php:1135
+#: ../admin/page-builder/reviews-list-options.php:891
+#: ../admin/page-builder/reviews-list-options.php:903
+#: ../admin/page-builder/reviews-list-options.php:915
+#: ../admin/page-builder/reviews-list-options.php:927
+#: ../admin/page-builder/show-rating-options.php:944
+#: ../admin/page-builder/show-rating-options.php:956
+#: ../admin/page-builder/show-rating-options.php:968
+#: ../admin/page-builder/show-rating-options.php:980
+#: ../admin/page-builder/up-down-voting-options.php:442
+msgid "Labels"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:712
+#: ../admin/page-builder/reviews-list-options.php:899
+#: ../admin/page-builder/show-rating-options.php:952
+#: ../admin/settings/config-global.php:465
+#: ../admin/settings/config-global.php:1141
+msgid "Your User Rating Label"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:715
+#: ../admin/settings/config-global.php:468
+#: ../admin/settings/config-global.php:1144
+#: ../public/class-add-user-ratings.php:63
+msgid "Your Rating:"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:724
+#: ../admin/page-builder/reviews-list-options.php:911
+#: ../admin/page-builder/show-rating-options.php:964
+#: ../admin/settings/config-global.php:814
+msgid "User Votes Label (Singular)"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:727
+#: ../admin/page-builder/reviews-list-options.php:914
+#: ../admin/page-builder/show-rating-options.php:967
+#: ../admin/settings/config-global.php:817
+#: ../public/class-add-user-ratings.php:64 ../public/class-reviews-list.php:83
+#: ../public/class-show-rating.php:77
+msgid "vote"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:736
+#: ../admin/page-builder/reviews-list-options.php:923
+#: ../admin/page-builder/show-rating-options.php:976
+#: ../admin/settings/config-global.php:823
+msgid "User Votes Label (Plural)"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:739
+#: ../admin/page-builder/reviews-list-options.php:926
+#: ../admin/page-builder/show-rating-options.php:979
+#: ../admin/settings/config-global.php:826
+#: ../public/class-add-user-ratings.php:65 ../public/class-reviews-list.php:84
+#: ../public/class-show-rating.php:78
+msgid "votes"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:748
+msgid "Submit Button Label"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:751
+#: ../public/class-add-user-ratings.php:66
+msgid "Submit Rating"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:756
+#: ../admin/settings/config-global.php:485
+msgid "Logged In To Vote Label"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:759
+#: ../admin/settings/config-global.php:488
+#: ../public/class-add-user-ratings.php:67
+msgid "You must be logged in to vote."
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:764
+msgid "Success Message (Single Rating)"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:767
+#: ../public/class-add-user-ratings.php:68
+msgid "Thanks for submitting your rating!"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:772
+msgid "Error Message (Single Rating)"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:775
+#: ../public/class-add-user-ratings.php:69
+msgid "Please give a rating."
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:780
+msgid "Success Message (Multi Rating)"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:783
+#: ../public/class-add-user-ratings.php:70
+msgid "Thanks for submitting your ratings!"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:788
+msgid "Error Message (Multi Rating)"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:792
+#: ../public/class-add-user-ratings.php:71
+msgid "Please give a rating for each criterion."
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:801
+#: ../admin/page-builder/bad-points-options.php:126
+#: ../admin/page-builder/comparison-table-options.php:1143
+#: ../admin/page-builder/excerpt-options.php:87
+#: ../admin/page-builder/good-points-options.php:127
+#: ../admin/page-builder/image-options.php:43
+#: ../admin/page-builder/reviews-list-options.php:939
+#: ../admin/page-builder/show-rating-options.php:992
+#: ../admin/page-builder/summary-options.php:87
+#: ../admin/page-builder/up-down-voting-options.php:450
+msgid "CSS"
+msgstr ""
+
+#: ../admin/page-builder/add-user-ratings-options.php:804
+#: ../admin/page-builder/bad-points-options.php:129
+#: ../admin/page-builder/comparison-table-options.php:1146
+#: ../admin/page-builder/excerpt-options.php:90
+#: ../admin/page-builder/good-points-options.php:130
+#: ../admin/page-builder/image-options.php:46
+#: ../admin/page-builder/reviews-list-options.php:942
+#: ../admin/page-builder/show-rating-options.php:995
+#: ../admin/page-builder/summary-options.php:90
+#: ../admin/page-builder/up-down-voting-options.php:453
+msgid "Design Options"
+msgstr ""
+
+#: ../admin/page-builder/bad-points-options.php:5
+#: ../admin/page-builder/comparison-table-options.php:1126
+#: ../admin/settings/config-metaboxes.php:145
+msgid "Bad Points"
+msgstr ""
+
+#: ../admin/page-builder/bad-points-options.php:18
+#: ../public/shortcodes/bad-points.php:6
+msgid "Bad"
+msgstr ""
+
+#: ../admin/page-builder/bad-points-options.php:55
+#: ../admin/page-builder/good-points-options.php:56
+msgid "List Icon"
+msgstr ""
+
+#: ../admin/page-builder/bad-points-options.php:61
+#: ../admin/page-builder/comparison-table-options.php:817
+#: ../admin/page-builder/comparison-table-options.php:823
+#: ../admin/page-builder/comparison-table-options.php:879
+#: ../admin/page-builder/comparison-table-options.php:951
+#: ../admin/page-builder/good-points-options.php:62
+#: ../admin/page-builder/review-button-options.php:140
+#: ../admin/page-builder/review-button-options.php:145
+#: ../admin/page-builder/up-down-voting-options.php:139
+#: ../admin/page-builder/up-down-voting-options.php:281
+#: ../admin/settings/config-global.php:1233
+#: ../admin/settings/config-global.php:1262
+msgid "Icon"
+msgstr ""
+
+#: ../admin/page-builder/bad-points-options.php:95
+#: ../admin/page-builder/good-points-options.php:96
+msgid "List Text"
+msgstr ""
+
+#: ../admin/page-builder/class-page-builder.php:24
+msgid "Responsiveness"
+msgstr ""
+
+#: ../admin/page-builder/class-page-builder.php:25
+msgid ""
+"Adjust inner row for different screen sizes. Control visibility settings."
+msgstr ""
+
+#: ../admin/page-builder/class-page-builder.php:27
+msgid "Responsive Options"
+msgstr ""
+
+#: ../admin/page-builder/class-page-builder.php:125
+#: ../admin/settings/config-comments.php:322
+#: ../admin/settings/config-metaboxes.php:80
+#: ../admin/widgets/user-reviews.php:336
+msgid "Rating"
+msgstr ""
+
+#: ../admin/page-builder/class-page-builder.php:128
+msgid "Content"
+msgstr ""
+
+#: ../admin/page-builder/class-page-builder.php:129
+msgid "Show rating"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:5
+msgid "Comparison Table"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:25
+msgid "Vertical Grid"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:26
+msgid "Horizontal Grid"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:33
+#: ../admin/page-builder/reviews-list-options.php:23
+msgid "Post Types"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:40
+#: ../admin/page-builder/reviews-list-options.php:30
+#: ../admin/settings/config-metaboxes.php:214
+msgid "Post/Page IDs"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:41
+#: ../admin/page-builder/reviews-list-options.php:31
+#: ../admin/widgets/reviews-list.php:140
+msgid ""
+"Enter the post/pages IDs you want to show - separate IDs with a comma e.g. "
+"123, 456, 789"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:47
+#: ../admin/page-builder/comparison-table-options.php:1046
+#: ../admin/page-builder/reviews-list-options.php:37
+#: ../admin/settings/config-metaboxes.php:222
+msgid "Categories"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:48
+#: ../admin/page-builder/reviews-list-options.php:38
+#: ../admin/widgets/reviews-list.php:146
+msgid ""
+"Enter the category slugs you want to display posts from - separate slugs "
+"with a comma e.g. category-1, category-2, category-3"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:54
+#: ../admin/page-builder/comparison-table-options.php:1054
+#: ../admin/page-builder/reviews-list-options.php:44
+#: ../admin/settings/config-metaboxes.php:230
+msgid "Tags"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:55
+#: ../admin/page-builder/reviews-list-options.php:45
+#: ../admin/widgets/reviews-list.php:152
+msgid ""
+"Enter the tag slugs you want to display posts from - separate slugs with a "
+"comma e.g. tag-1, tag-2, tag-3"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:61
+msgid "Fields"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:62
+msgid "Enter each field on a new line. Available fields:"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:74
+#: ../admin/page-builder/reviews-list-options.php:58
+msgid "Sort"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:78
+#: ../admin/page-builder/reviews-list-options.php:61
+#: ../admin/widgets/reviews-list.php:163 ../admin/widgets/user-reviews.php:290
+#: ../public/class-ajax-comments.php:64
+msgid "Most Recent"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:79
+#: ../admin/page-builder/reviews-list-options.php:62
+#: ../admin/widgets/reviews-list.php:164
+msgid "Alphabetical"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:80
+#: ../admin/page-builder/reviews-list-options.php:63
+#: ../admin/widgets/reviews-list.php:165
+msgid "Highest Site Rated"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:81
+#: ../admin/page-builder/reviews-list-options.php:64
+#: ../admin/widgets/reviews-list.php:166
+msgid "Lowest Site Rated"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:82
+#: ../admin/page-builder/reviews-list-options.php:65
+#: ../admin/widgets/reviews-list.php:167
+msgid "Highest User Rated"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:83
+#: ../admin/page-builder/reviews-list-options.php:66
+#: ../admin/widgets/reviews-list.php:168
+msgid "Lowest User Rated"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:84
+#: ../admin/page-builder/reviews-list-options.php:67
+#: ../admin/widgets/reviews-list.php:169
+msgid "Most User Votes"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:85
+#: ../admin/page-builder/reviews-list-options.php:68
+#: ../admin/widgets/reviews-list.php:170
+msgid "Most Likes"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:86
+#: ../admin/page-builder/reviews-list-options.php:69
+#: ../admin/widgets/reviews-list.php:171
+msgid "Random"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:87
+#: ../admin/page-builder/reviews-list-options.php:70
+#: ../admin/widgets/reviews-list.php:172
+msgid "Post/Page Order"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:93
+msgid "User Sorting"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:94
+msgid "Allow users to change the order of the table."
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:102
+#: ../admin/page-builder/reviews-list-options.php:76
+msgid "Number"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:108
+msgid "Summary Length"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:109
+msgid ""
+"The number of characters in the summary. Leave empty to display all "
+"characters."
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:116
+#: ../admin/page-builder/reviews-list-options.php:203
+msgid "Excerpt Length"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:117
+#: ../admin/page-builder/reviews-list-options.php:204
+msgid ""
+"The number of characters in the excerpt. Leave empty to display all "
+"characters."
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:125
+#: ../admin/page-builder/image-options.php:16
+#: ../admin/page-builder/reviews-list-options.php:188
+msgid "Image Size"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:126
+#: ../admin/page-builder/image-options.php:17
+#: ../admin/widgets/reviews-list.php:235
+msgid ""
+"Enter image size e.g. \"thumbnail\", \"medium\", \"large\", \"full\" or "
+"enter size in pixels e.g. 200 x 100 (width x height)."
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:133
+msgid "Heading"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:167
+msgid "Cell"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:186
+msgid "Remove Vertical Borders"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:208
+msgid "Link Color"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:215
+msgid "Link Hover Color"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:233
+#: ../admin/page-builder/reviews-list-options.php:245
+msgid "Site Rating Criteria"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:234
+#: ../admin/page-builder/comparison-table-options.php:251
+#: ../admin/page-builder/reviews-list-options.php:246
+#: ../admin/page-builder/reviews-list-options.php:263
+msgid ""
+"Enter each criterion on a new line or leave empty to display the average "
+"rating."
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:238
+#: ../admin/page-builder/comparison-table-options.php:246
+#: ../admin/page-builder/comparison-table-options.php:255
+#: ../admin/page-builder/comparison-table-options.php:263
+#: ../admin/page-builder/comparison-table-options.php:284
+#: ../admin/page-builder/comparison-table-options.php:291
+#: ../admin/page-builder/comparison-table-options.php:298
+#: ../admin/page-builder/comparison-table-options.php:309
+#: ../admin/page-builder/comparison-table-options.php:322
+#: ../admin/page-builder/comparison-table-options.php:329
+#: ../admin/page-builder/comparison-table-options.php:346
+#: ../admin/page-builder/comparison-table-options.php:353
+#: ../admin/page-builder/comparison-table-options.php:370
+#: ../admin/page-builder/comparison-table-options.php:377
+#: ../admin/page-builder/comparison-table-options.php:390
+#: ../admin/page-builder/comparison-table-options.php:403
+#: ../admin/page-builder/comparison-table-options.php:415
+#: ../admin/page-builder/comparison-table-options.php:428
+#: ../admin/page-builder/comparison-table-options.php:441
+#: ../admin/page-builder/comparison-table-options.php:453
+#: ../admin/page-builder/comparison-table-options.php:465
+#: ../admin/page-builder/comparison-table-options.php:482
+#: ../admin/page-builder/comparison-table-options.php:494
+#: ../admin/page-builder/comparison-table-options.php:506
+#: ../admin/page-builder/comparison-table-options.php:518
+#: ../admin/page-builder/comparison-table-options.php:530
+#: ../admin/page-builder/comparison-table-options.php:537
+#: ../admin/page-builder/comparison-table-options.php:554
+#: ../admin/page-builder/comparison-table-options.php:566
+#: ../admin/page-builder/comparison-table-options.php:579
+#: ../admin/page-builder/comparison-table-options.php:592
+#: ../admin/page-builder/comparison-table-options.php:599
+#: ../admin/page-builder/comparison-table-options.php:611
+#: ../admin/page-builder/comparison-table-options.php:623
+#: ../admin/page-builder/comparison-table-options.php:635
+#: ../admin/page-builder/comparison-table-options.php:647
+#: ../admin/page-builder/comparison-table-options.php:659
+#: ../admin/page-builder/comparison-table-options.php:671
+#: ../admin/page-builder/comparison-table-options.php:683
+#: ../admin/page-builder/reviews-list-options.php:250
+#: ../admin/page-builder/reviews-list-options.php:258
+#: ../admin/page-builder/reviews-list-options.php:267
+#: ../admin/page-builder/reviews-list-options.php:275
+#: ../admin/page-builder/reviews-list-options.php:287
+#: ../admin/page-builder/reviews-list-options.php:308
+#: ../admin/page-builder/reviews-list-options.php:321
+#: ../admin/page-builder/reviews-list-options.php:339
+#: ../admin/page-builder/reviews-list-options.php:346
+#: ../admin/page-builder/reviews-list-options.php:357
+#: ../admin/page-builder/reviews-list-options.php:368
+#: ../admin/page-builder/reviews-list-options.php:375
+#: ../admin/page-builder/reviews-list-options.php:390
+#: ../admin/page-builder/reviews-list-options.php:397
+#: ../admin/page-builder/reviews-list-options.php:404
+#: ../admin/page-builder/reviews-list-options.php:417
+#: ../admin/page-builder/reviews-list-options.php:424
+#: ../admin/page-builder/reviews-list-options.php:441
+#: ../admin/page-builder/reviews-list-options.php:448
+#: ../admin/page-builder/reviews-list-options.php:465
+#: ../admin/page-builder/reviews-list-options.php:472
+#: ../admin/page-builder/reviews-list-options.php:485
+#: ../admin/page-builder/reviews-list-options.php:498
+#: ../admin/page-builder/reviews-list-options.php:510
+#: ../admin/page-builder/reviews-list-options.php:523
+#: ../admin/page-builder/reviews-list-options.php:536
+#: ../admin/page-builder/reviews-list-options.php:548
+#: ../admin/page-builder/reviews-list-options.php:560
+#: ../admin/page-builder/reviews-list-options.php:577
+#: ../admin/page-builder/reviews-list-options.php:589
+#: ../admin/page-builder/reviews-list-options.php:601
+#: ../admin/page-builder/reviews-list-options.php:613
+#: ../admin/page-builder/reviews-list-options.php:625
+#: ../admin/page-builder/reviews-list-options.php:632
+#: ../admin/page-builder/reviews-list-options.php:649
+#: ../admin/page-builder/reviews-list-options.php:661
+#: ../admin/page-builder/reviews-list-options.php:674
+#: ../admin/page-builder/reviews-list-options.php:687
+#: ../admin/page-builder/reviews-list-options.php:694
+#: ../admin/page-builder/reviews-list-options.php:706
+#: ../admin/page-builder/reviews-list-options.php:718
+#: ../admin/page-builder/reviews-list-options.php:730
+#: ../admin/page-builder/reviews-list-options.php:742
+#: ../admin/page-builder/reviews-list-options.php:754
+#: ../admin/page-builder/reviews-list-options.php:766
+#: ../admin/page-builder/reviews-list-options.php:778
+#: ../admin/page-builder/reviews-list-options.php:790
+#: ../admin/page-builder/reviews-list-options.php:802
+#: ../admin/page-builder/reviews-list-options.php:814
+#: ../admin/page-builder/reviews-list-options.php:826
+#: ../admin/page-builder/reviews-list-options.php:838
+#: ../admin/page-builder/reviews-list-options.php:850
+#: ../admin/page-builder/reviews-list-options.php:862
+#: ../admin/page-builder/reviews-list-options.php:874
+msgid "Ratings"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:242
+#: ../admin/page-builder/reviews-list-options.php:254
+msgid "Site Maximum Rating"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:250
+#: ../admin/page-builder/reviews-list-options.php:262
+msgid "User Rating Criteria"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:259
+#: ../admin/page-builder/reviews-list-options.php:271
+msgid "User Maximum Rating"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:271
+#: ../admin/page-builder/reviews-list-options.php:295
+#: ../admin/page-builder/show-rating-options.php:113
+#: ../admin/settings/config-global.php:618
+#: ../admin/settings/config-global.php:928
+msgid "Plain (Singular)"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:272
+#: ../admin/page-builder/reviews-list-options.php:296
+#: ../admin/page-builder/show-rating-options.php:114
+#: ../admin/settings/config-global.php:619
+#: ../admin/settings/config-global.php:929
+msgid "Squares (Singular)"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:273
+#: ../admin/page-builder/reviews-list-options.php:297
+#: ../admin/page-builder/show-rating-options.php:115
+#: ../admin/settings/config-global.php:620
+#: ../admin/settings/config-global.php:930
+msgid "Circles (Singular)"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:274
+#: ../admin/page-builder/reviews-list-options.php:298
+#: ../admin/page-builder/show-rating-options.php:116
+#: ../admin/settings/config-global.php:621
+#: ../admin/settings/config-global.php:931
+msgid "Gauge Circles (Singular)"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:307
+#: ../admin/page-builder/reviews-list-options.php:402
+#: ../admin/page-builder/show-rating-options.php:229
+#: ../admin/settings/config-global.php:643
+#: ../admin/settings/config-global.php:969
+msgid "Zero Ratings"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:413
+#: ../admin/page-builder/reviews-list-options.php:508
+#: ../admin/page-builder/show-rating-options.php:335
+msgid "Rating Container"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:449
+#: ../admin/page-builder/reviews-list-options.php:544
+#: ../admin/page-builder/show-rating-options.php:371
+msgid "Text Size (px)"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:509
+#: ../admin/page-builder/reviews-list-options.php:604
+#: ../admin/page-builder/show-rating-options.php:431
+#: ../admin/settings/config-global.php:712
+msgid "Container Extra CSS"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:521
+#: ../admin/page-builder/reviews-list-options.php:616
+#: ../admin/page-builder/show-rating-options.php:443
+#: ../admin/settings/config-global.php:713
+msgid "Text Extra CSS"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:535
+#: ../admin/page-builder/reviews-list-options.php:630
+#: ../admin/page-builder/show-rating-options.php:457
+msgid "Gauge"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:557
+#: ../admin/page-builder/reviews-list-options.php:652
+#: ../admin/page-builder/show-rating-options.php:479
+#: ../admin/settings/config-global.php:736
+msgid "Filled Color 1"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:570
+#: ../admin/page-builder/reviews-list-options.php:665
+#: ../admin/page-builder/show-rating-options.php:491
+#: ../admin/settings/config-global.php:737
+msgid "Filled Color 2"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:583
+#: ../admin/page-builder/reviews-list-options.php:678
+#: ../admin/page-builder/show-rating-options.php:503
+#: ../admin/settings/config-global.php:738
+msgid "Empty Color"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:696
+#: ../admin/page-builder/comparison-table-options.php:699
+#: ../admin/page-builder/review-button-options.php:19
+#: ../public/shortcodes/comparison-table.php:68
+msgid "Button Text"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:700
+#: ../admin/page-builder/comparison-table-options.php:708
+#: ../admin/page-builder/comparison-table-options.php:716
+#: ../admin/page-builder/comparison-table-options.php:724
+#: ../admin/page-builder/comparison-table-options.php:732
+#: ../admin/page-builder/comparison-table-options.php:740
+#: ../admin/page-builder/comparison-table-options.php:748
+#: ../admin/page-builder/comparison-table-options.php:756
+#: ../admin/page-builder/comparison-table-options.php:764
+#: ../admin/page-builder/comparison-table-options.php:772
+#: ../admin/page-builder/comparison-table-options.php:780
+#: ../admin/page-builder/comparison-table-options.php:788
+#: ../admin/page-builder/comparison-table-options.php:796
+#: ../admin/page-builder/comparison-table-options.php:804
+#: ../admin/page-builder/comparison-table-options.php:812
+#: ../admin/page-builder/comparison-table-options.php:820
+#: ../admin/page-builder/comparison-table-options.php:828
+#: ../admin/page-builder/comparison-table-options.php:836
+#: ../admin/page-builder/comparison-table-options.php:844
+#: ../admin/page-builder/comparison-table-options.php:852
+#: ../admin/page-builder/comparison-table-options.php:864
+msgid "Buttons"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:705
+#: ../admin/page-builder/review-button-options.php:30
+msgid "Button"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:711
+#: ../admin/page-builder/review-button-options.php:35
+msgid "Padding Width (px)"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:719
+#: ../admin/page-builder/review-button-options.php:42
+msgid "Padding Height (px)"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:735
+#: ../admin/page-builder/comparison-table-options.php:767
+#: ../admin/page-builder/comparison-table-options.php:807
+#: ../admin/page-builder/review-button-options.php:56
+#: ../admin/page-builder/review-button-options.php:96
+#: ../admin/page-builder/review-button-options.php:131
+msgid "Hover Color"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:745
+#: ../admin/page-builder/excerpt-options.php:56
+#: ../admin/page-builder/review-button-options.php:16
+#: ../admin/page-builder/review-button-options.php:77
+#: ../admin/page-builder/summary-options.php:56
+#: ../admin/page-builder/up-down-voting-options.php:151
+#: ../admin/page-builder/up-down-voting-options.php:293
+msgid "Text"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:777
+#: ../admin/page-builder/review-button-options.php:105
+msgid "Border"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:791
+#: ../admin/page-builder/review-button-options.php:117
+msgid "Radius (px)"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:831
+#: ../admin/page-builder/review-button-options.php:152
+#: ../admin/settings/config-global.php:1234
+#: ../admin/settings/config-global.php:1263
+msgid "Icon Size"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:839
+#: ../admin/page-builder/review-button-options.php:159
+#: ../admin/settings/config-global.php:1235
+#: ../admin/settings/config-global.php:1264
+msgid "Icon Color"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:847
+#: ../admin/page-builder/review-button-options.php:166
+msgid "Icon Hover Color"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:855
+#: ../admin/page-builder/review-button-options.php:63
+#: ../admin/page-builder/review-button-options.php:173
+msgid "Alignment"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:873
+msgid "Good List Icon"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:875
+#: ../admin/page-builder/comparison-table-options.php:883
+#: ../admin/page-builder/comparison-table-options.php:891
+#: ../admin/page-builder/comparison-table-options.php:899
+#: ../admin/page-builder/comparison-table-options.php:907
+#: ../admin/page-builder/comparison-table-options.php:914
+#: ../admin/page-builder/comparison-table-options.php:922
+#: ../admin/page-builder/comparison-table-options.php:930
+#: ../admin/page-builder/comparison-table-options.php:938
+#: ../admin/page-builder/comparison-table-options.php:947
+#: ../admin/page-builder/comparison-table-options.php:955
+#: ../admin/page-builder/comparison-table-options.php:963
+#: ../admin/page-builder/comparison-table-options.php:971
+#: ../admin/page-builder/comparison-table-options.php:979
+#: ../admin/page-builder/comparison-table-options.php:986
+#: ../admin/page-builder/comparison-table-options.php:994
+#: ../admin/page-builder/comparison-table-options.php:1002
+#: ../admin/page-builder/comparison-table-options.php:1010
+msgid "Good/Bad Points"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:912
+msgid "Good List Text"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:945
+msgid "Bad List Icon"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:984
+msgid "Bad List Text"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:1019
+msgid "Ranking Numbers Label"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:1027
+msgid "Review Image Label"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:1035
+msgid "Post Title Label"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:1043
+msgid "Post Categories Label"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:1051
+msgid "Post Tags Label"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:1059
+msgid "Site Rating Label"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:1062
+#: ../admin/page-builder/reviews-list-options.php:153
+#: ../admin/page-builder/show-rating-options.php:21
+#: ../admin/widgets/reviews-list.php:215
+msgid "Site Rating"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:1067
+msgid "User Rating Label"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:1070
+#: ../admin/page-builder/reviews-list-options.php:159
+#: ../admin/page-builder/show-rating-options.php:22
+#: ../admin/widgets/reviews-list.php:219
+msgid "User Rating"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:1075
+msgid "User Votes Label"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:1078
+#: ../admin/reviews-list/class-reviews-list.php:242
+msgid "User Votes"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:1083
+msgid "Likes Label"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:1086
+#: ../admin/page-builder/reviews-list-options.php:147
+#: ../admin/widgets/reviews-list.php:211 ../admin/widgets/user-reviews.php:344
+msgid "Likes"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:1091
+msgid "Dislikes Label"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:1094
+msgid "Dislikes"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:1099
+msgid "Summary Label"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:1102
+#: ../admin/page-builder/summary-options.php:5
+#: ../admin/page-builder/summary-options.php:19
+#: ../admin/settings/config-global.php:581
+#: ../admin/settings/config-metaboxes.php:117
+#: ../public/shortcodes/summary.php:6
+msgid "Summary"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:1107
+msgid "Excerpt Label"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:1110
+#: ../admin/page-builder/excerpt-options.php:5
+#: ../admin/page-builder/reviews-list-options.php:165
+#: ../admin/settings/config-metaboxes.php:97
+#: ../admin/widgets/reviews-list.php:223
+msgid "Excerpt"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:1115
+msgid "Good Points Label"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:1118
+#: ../admin/page-builder/good-points-options.php:5
+#: ../admin/settings/config-metaboxes.php:137
+msgid "Good Points"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:1123
+msgid "Bad Points Label"
+msgstr ""
+
+#: ../admin/page-builder/comparison-table-options.php:1131
+msgid "Button Label"
+msgstr ""
+
+#: ../admin/page-builder/good-points-options.php:19
+#: ../public/shortcodes/good-points.php:6
+msgid "Good"
+msgstr ""
+
+#: ../admin/page-builder/image-options.php:5
+#: ../admin/page-builder/reviews-list-options.php:117
+msgid "Image"
+msgstr ""
+
+#: ../admin/page-builder/image-options.php:23
+#: ../admin/page-builder/reviews-list-options.php:176
+msgid "Image Source"
+msgstr ""
+
+#: ../admin/page-builder/image-options.php:27
+#: ../admin/page-builder/reviews-list-options.php:180
+#: ../admin/settings/config-metaboxes.php:153
+msgid "Review Image 1"
+msgstr ""
+
+#: ../admin/page-builder/image-options.php:28
+#: ../admin/page-builder/reviews-list-options.php:181
+#: ../admin/settings/config-metaboxes.php:162
+msgid "Review Image 2"
+msgstr ""
+
+#: ../admin/page-builder/image-options.php:29
+#: ../admin/page-builder/reviews-list-options.php:182
+#: ../admin/widgets/reviews-list.php:191
+msgid "Featured Image"
+msgstr ""
+
+#: ../admin/page-builder/image-options.php:35
+msgid "Image As Background"
+msgstr ""
+
+#: ../admin/page-builder/image-options.php:36
+msgid ""
+"Your featured or review image will be used as the background for this row."
+msgstr ""
+
+#: ../admin/page-builder/preset-comparison-table-templates.php:6
+msgid "Comparison Table Template 1"
+msgstr ""
+
+#: ../admin/page-builder/preset-comparison-table-templates.php:17
+msgid "Comparison Table Template 2"
+msgstr ""
+
+#: ../admin/page-builder/preset-comparison-table-templates.php:28
+msgid "Comparison Table Template 3"
+msgstr ""
+
+#: ../admin/page-builder/preset-comparison-table-templates.php:39
+msgid "Comparison Table Template 4"
+msgstr ""
+
+#: ../admin/page-builder/preset-review-lists-templates.php:6
+msgid "Review List 1"
+msgstr ""
+
+#: ../admin/page-builder/preset-review-lists-templates.php:17
+msgid "Review List 2"
+msgstr ""
+
+#: ../admin/page-builder/preset-review-lists-templates.php:28
+msgid "Review List 3"
+msgstr ""
+
+#: ../admin/page-builder/preset-review-lists-templates.php:39
+msgid "Review List 4"
+msgstr ""
+
+#: ../admin/page-builder/preset-review-lists-templates.php:50
+msgid "Review List 5"
+msgstr ""
+
+#: ../admin/page-builder/preset-review-templates.php:6
+msgid "Review Template 1"
+msgstr ""
+
+#: ../admin/page-builder/preset-review-templates.php:17
+msgid "Review Template 2"
+msgstr ""
+
+#: ../admin/page-builder/preset-review-templates.php:29
+msgid "Review Template 3"
+msgstr ""
+
+#: ../admin/page-builder/preset-review-templates.php:40
+msgid "Review Template 4"
+msgstr ""
+
+#: ../admin/page-builder/preset-review-templates.php:51
+msgid "Review Template 5"
+msgstr ""
+
+#: ../admin/page-builder/preset-review-templates.php:63
+msgid "Review Template 6"
+msgstr ""
+
+#: ../admin/page-builder/review-button-options.php:5
+msgid "Review Button"
+msgstr ""
+
+#: ../admin/page-builder/review-button-options.php:24
+msgid "Link"
+msgstr ""
+
+#: ../admin/page-builder/review-template-options.php:5
+msgid "Review Template"
+msgstr ""
+
+#: ../admin/page-builder/review-template-options.php:14
+msgid "Template"
+msgstr ""
+
+#: ../admin/page-builder/review-template-options.php:15
+msgid "Select the template you want to display."
+msgstr ""
+
+#: ../admin/page-builder/review-template-options.php:23
+msgid "Extra Class Name"
+msgstr ""
+
+#: ../admin/page-builder/review-template-options.php:24
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: ../admin/page-builder/reviews-list-options.php:5
+msgid "Review List"
+msgstr ""
+
+#: ../admin/page-builder/reviews-list-options.php:51
+#: ../admin/widgets/reviews-list.php:156
+msgid "Current Taxonomy"
+msgstr ""
+
+#: ../admin/page-builder/reviews-list-options.php:52
+#: ../admin/widgets/reviews-list.php:157
+msgid "Only show posts from the current category/tag."
+msgstr ""
+
+#: ../admin/page-builder/reviews-list-options.php:83
+#: ../admin/widgets/reviews-list.php:182
+msgid "Exclude Current Item"
+msgstr ""
+
+#: ../admin/page-builder/reviews-list-options.php:84
+#: ../admin/widgets/reviews-list.php:183
+msgid "Exclude the current post/page from showing in the review list."
+msgstr ""
+
+#: ../admin/page-builder/reviews-list-options.php:87
+msgid "Yes"
+msgstr ""
+
+#: ../admin/page-builder/reviews-list-options.php:95
+msgid "List"
+msgstr ""
+
+#: ../admin/page-builder/reviews-list-options.php:96
+msgid "2 Columns"
+msgstr ""
+
+#: ../admin/page-builder/reviews-list-options.php:97
+msgid "3 Columns"
+msgstr ""
+
+#: ../admin/page-builder/reviews-list-options.php:98
+msgid "4 Columns"
+msgstr ""
+
+#: ../admin/page-builder/reviews-list-options.php:111
+msgid "Ranking"
+msgstr ""
+
+#: ../admin/page-builder/reviews-list-options.php:129
+#: ../admin/status/class-status.php:215 ../admin/widgets/reviews-list.php:199
+#: ../admin/widgets/user-reviews.php:328
+#: ../public/templates/aardvark/comments-template.php:93
+msgid "Name"
+msgstr ""
+
+#: ../admin/page-builder/reviews-list-options.php:135
+#: ../admin/reviews-list/class-reviews-list.php:243
+#: ../admin/widgets/reviews-list.php:203
+msgid "Date"
+msgstr ""
+
+#: ../admin/page-builder/reviews-list-options.php:141
+#: ../admin/settings/config-global.php:18
+#: ../admin/widgets/reviews-list.php:207
+msgid "Comments"
+msgstr ""
+
+#: ../admin/page-builder/reviews-list-options.php:171
+#: ../admin/widgets/reviews-list.php:227 ../admin/widgets/user-reviews.php:352
+msgid "View Link"
+msgstr ""
+
+#: ../admin/page-builder/reviews-list-options.php:195
+msgid "Title Length"
+msgstr ""
+
+#: ../admin/page-builder/reviews-list-options.php:196
+#: ../admin/widgets/reviews-list.php:241
+msgid ""
+"The number of characters in the title. Leave empty to display all characters."
+msgstr ""
+
+#: ../admin/page-builder/reviews-list-options.php:212
+msgid "Ratings Position"
+msgstr ""
+
+#: ../admin/page-builder/reviews-list-options.php:213
+msgid ""
+"Choose whether to show the ratings below or to the right of the post content."
+msgstr ""
+
+#: ../admin/page-builder/reviews-list-options.php:216
+msgid "Below"
+msgstr ""
+
+#: ../admin/page-builder/reviews-list-options.php:217
+msgid "To Right"
+msgstr ""
+
+#: ../admin/page-builder/reviews-list-options.php:218
+msgid "Over Image"
+msgstr ""
+
+#: ../admin/page-builder/reviews-list-options.php:237
+msgid "Posts"
+msgstr ""
+
+#: ../admin/page-builder/reviews-list-options.php:395
+#: ../admin/page-builder/reviews-list-options.php:836
+#: ../admin/page-builder/show-rating-options.php:222
+#: ../admin/page-builder/show-rating-options.php:889
+msgid "Ranges Text"
+msgstr ""
+
+#: ../admin/page-builder/reviews-list-options.php:902
+#: ../admin/page-builder/show-rating-options.php:955
+#: ../public/class-reviews-list.php:82 ../public/class-show-rating.php:76
+msgid "Site Rating:"
+msgstr ""
+
+#: ../admin/page-builder/show-rating-options.php:16
+msgid "Rating Data"
+msgstr ""
+
+#: ../admin/page-builder/show-rating-options.php:23
+msgid "Custom"
+msgstr ""
+
+#: ../admin/page-builder/show-rating-options.php:28
+msgid "Value"
+msgstr ""
+
+#: ../admin/page-builder/show-rating-options.php:29
+msgid ""
+"Add your own custom ratings that will overwrite ratings on posts/pages. To "
+"add multiple ratings separate each rating with a comma e.g. 5,8,10"
+msgstr ""
+
+#: ../admin/page-builder/show-rating-options.php:40
+msgid "Criteria"
+msgstr ""
+
+#: ../admin/page-builder/show-rating-options.php:41
+msgid "Enter each criterion on a new line."
+msgstr ""
+
+#: ../admin/page-builder/show-rating-options.php:67
+msgid "Rating Ranges"
+msgstr ""
+
+#: ../admin/page-builder/show-rating-options.php:68
+msgid "Set up your rating ranges in the follow way"
+msgstr ""
+
+#: ../admin/page-builder/show-rating-options.php:68
+msgid "Score 1-Score 2:Rating Text, Score 3-Score 4:Rating Text"
+msgstr ""
+
+#: ../admin/page-builder/show-rating-options.php:68
+msgid "e.g."
+msgstr ""
+
+#: ../admin/page-builder/show-rating-options.php:68
+msgid "0-2:Awful, 2.5-4:Bad, 4.5-6:Average, 6.5-8:Good, 8.5-10:Amazing"
+msgstr ""
+
+#: ../admin/page-builder/show-rating-options.php:80
+#: ../admin/page-builder/up-down-voting-options.php:48
+#: ../admin/settings/config-global.php:604
+msgid "Rich Snippets"
+msgstr ""
+
+#: ../admin/page-builder/show-rating-options.php:81
+#: ../admin/page-builder/up-down-voting-options.php:49
+#: ../admin/settings/config-global.php:607
+msgid ""
+"Allows search engines to read your rating data to display ratings in search "
+"results."
+msgstr ""
+
+#: ../admin/page-builder/show-rating-options.php:1001
+msgid "Show Rating"
+msgstr ""
+
+#: ../admin/page-builder/up-down-voting-options.php:5
+msgid "Up/Down Voting"
+msgstr ""
+
+#: ../admin/page-builder/up-down-voting-options.php:64
+#: ../admin/settings/config-global.php:1201
+msgid "Plain"
+msgstr ""
+
+#: ../admin/page-builder/up-down-voting-options.php:65
+#: ../admin/settings/config-global.php:1202
+msgid "Round Buttons"
+msgstr ""
+
+#: ../admin/page-builder/up-down-voting-options.php:66
+#: ../admin/settings/config-global.php:1203
+msgid "Rounded Buttons"
+msgstr ""
+
+#: ../admin/page-builder/up-down-voting-options.php:72
+#: ../admin/settings/config-global.php:1212
+msgid "Counter Position"
+msgstr ""
+
+#: ../admin/page-builder/up-down-voting-options.php:80
+#: ../admin/settings/config-global.php:1220
+msgid "Left And Right"
+msgstr ""
+
+#: ../admin/page-builder/up-down-voting-options.php:124
+msgid "Up Icon"
+msgstr ""
+
+#: ../admin/page-builder/up-down-voting-options.php:163
+#: ../admin/page-builder/up-down-voting-options.php:305
+msgid "Icon/Text Size (px)"
+msgstr ""
+
+#: ../admin/page-builder/up-down-voting-options.php:175
+#: ../admin/page-builder/up-down-voting-options.php:317
+msgid "Icon/Text Color"
+msgstr ""
+
+#: ../admin/page-builder/up-down-voting-options.php:187
+#: ../admin/page-builder/up-down-voting-options.php:329
+msgid "Icon/Text Color (Voted)"
+msgstr ""
+
+#: ../admin/page-builder/up-down-voting-options.php:199
+#: ../admin/page-builder/up-down-voting-options.php:341
+msgid "Button Size (px)"
+msgstr ""
+
+#: ../admin/page-builder/up-down-voting-options.php:211
+#: ../admin/page-builder/up-down-voting-options.php:353
+msgid "Button Color"
+msgstr ""
+
+#: ../admin/page-builder/up-down-voting-options.php:223
+#: ../admin/page-builder/up-down-voting-options.php:365
+msgid "Button Color (Voted)"
+msgstr ""
+
+#: ../admin/page-builder/up-down-voting-options.php:235
+#: ../admin/page-builder/up-down-voting-options.php:377
+msgid "Counter Size (px)"
+msgstr ""
+
+#: ../admin/page-builder/up-down-voting-options.php:247
+#: ../admin/page-builder/up-down-voting-options.php:389
+#: ../admin/settings/config-global.php:1240
+#: ../admin/settings/config-global.php:1269
+msgid "Counter Color"
+msgstr ""
+
+#: ../admin/page-builder/up-down-voting-options.php:265
+msgid "Down Icon"
+msgstr ""
+
+#: ../admin/page-builder/up-down-voting-options.php:403
+msgid "Already Voted Text"
+msgstr ""
+
+#: ../admin/page-builder/up-down-voting-options.php:438
+#: ../admin/settings/config-global.php:1305
+msgid "Already Voted Label"
+msgstr ""
+
+#: ../admin/page-builder/up-down-voting-options.php:441
+#: ../public/class-up-down-voting.php:50
+msgid "You have already voted."
+msgstr ""
+
+#: ../admin/reviews-list/class-reviews-list.php:31
+#: ../admin/reviews-list/class-reviews-list.php:32
+#: ../admin/reviews-list/class-reviews-list.php:115
+msgid "Reviews List"
+msgstr ""
+
+#: ../admin/reviews-list/class-reviews-list.php:239
+msgid "Item"
+msgstr ""
+
+#: ../admin/reviews-list/class-reviews-list.php:240
+msgid "Site Rating(s)"
+msgstr ""
+
+#: ../admin/reviews-list/class-reviews-list.php:241
+msgid "Avg User Rating"
+msgstr ""
+
+#: ../admin/reviews-list/class-reviews-list.php:244
+msgid "Actions"
+msgstr ""
+
+#: ../admin/reviews-list/class-reviews-list.php:315
+msgid "Are you sure you want to delete this item's site rating(s)."
+msgstr ""
+
+#: ../admin/reviews-list/class-reviews-list.php:315
+msgid "Review deleted"
+msgstr ""
+
+#: ../admin/reviews-list/class-reviews-list.php:315
+msgid "Delete Site Rating"
+msgstr ""
+
+#: ../admin/reviews-list/class-reviews-list.php:319
+msgid ""
+"Are you sure you want to delete this item's user ratings? This will delete "
+"the average user rating, all individual user ratings, comment ratings and up/"
+"down votes for this item."
+msgstr ""
+
+#: ../admin/reviews-list/class-reviews-list.php:319
+msgid "User ratings reset."
+msgstr ""
+
+#: ../admin/reviews-list/class-reviews-list.php:319
+msgid "Reset User Ratings"
+msgstr ""
+
+#: ../admin/reviews-list/class-reviews-list.php:322
+msgid "Loading"
+msgstr ""
+
+#: ../admin/settings/config-comments.php:30
+msgid "Review Details"
+msgstr ""
+
+#: ../admin/settings/config-comments.php:61
+msgid "Up Votes"
+msgstr ""
+
+#: ../admin/settings/config-comments.php:69
+msgid "Down Votes"
+msgstr ""
+
+#: ../admin/settings/config-comments.php:192
+msgid "Error: You do not have permission to comment."
+msgstr ""
+
+#: ../admin/settings/config-comments.php:201
+msgid "Error: You must give a review title."
+msgstr ""
+
+#: ../admin/settings/config-comments.php:205
+msgid "Error: You must give a rating."
+msgstr ""
+
+#: ../admin/settings/config-comments.php:209
+msgid "Error: You cannot post another comment."
+msgstr ""
+
+#: ../admin/settings/config-comments.php:320
+msgid "Author"
+msgstr ""
+
+#: ../admin/settings/config-comments.php:321
+#: ../public/templates/aardvark/comments-template.php:81
+msgid "Comment"
+msgstr ""
+
+#: ../admin/settings/config-comments.php:323
+msgid "In Response To"
+msgstr ""
+
+#: ../admin/settings/config-comments.php:324
+msgid "Submitted On"
+msgstr ""
+
+#: ../admin/settings/config-global.php:8
+#: ../admin/settings/config-global.php:11
+#: ../admin/settings/config-global.php:573
+msgid "General"
+msgstr ""
+
+#: ../admin/settings/config-global.php:21
+msgid "Comment Form"
+msgstr ""
+
+#: ../admin/settings/config-global.php:24
+msgid "Comment List"
+msgstr ""
+
+#: ../admin/settings/config-global.php:27
+msgid "Comment Summary"
+msgstr ""
+
+#: ../admin/settings/config-global.php:30
+msgid "Comment Ratings"
+msgstr ""
+
+#: ../admin/settings/config-global.php:33
+msgid "Comment Up/Down Voting"
+msgstr ""
+
+#: ../admin/settings/config-global.php:40
+#: ../admin/settings/config-global.php:43
+msgid "Advanced"
+msgstr ""
+
+#: ../admin/settings/config-global.php:44
+msgid "Advanced settings for the plugin."
+msgstr ""
+
+#: ../admin/settings/config-global.php:69
+msgid "Review Post Types"
+msgstr ""
+
+#: ../admin/settings/config-global.php:71
+msgid "Choose which post types can have reviews."
+msgstr ""
+
+#: ../admin/settings/config-global.php:80
+msgid "Review Management"
+msgstr ""
+
+#: ../admin/settings/config-global.php:82
+msgid ""
+"Choose which roles can add review data e.g. site ratings, summaries, good "
+"and bad points etc."
+msgstr ""
+
+#: ../admin/settings/config-global.php:95
+msgid "Comment Permissions"
+msgstr ""
+
+#: ../admin/settings/config-global.php:98
+msgid "Choose which users or roles can submit comments."
+msgstr ""
+
+#: ../admin/settings/config-global.php:120
+msgid "Review Support"
+msgstr ""
+
+#: ../admin/settings/config-global.php:123
+msgid "Choose to add review features to your theme comments."
+msgstr ""
+
+#: ../admin/settings/config-global.php:125
+#: ../admin/settings/config-global.php:180
+#: ../admin/settings/config-global.php:543
+#: ../admin/settings/config-global.php:557
+#: ../admin/settings/config-global.php:586
+#: ../admin/settings/config-global.php:1160
+#: ../admin/settings/config-metaboxes.php:26
+msgid "Enabled"
+msgstr ""
+
+#: ../admin/settings/config-global.php:126
+#: ../admin/settings/config-global.php:181
+#: ../admin/settings/config-global.php:544
+#: ../admin/settings/config-global.php:558
+#: ../admin/settings/config-global.php:587
+#: ../admin/settings/config-global.php:1161
+#: ../admin/settings/config-metaboxes.php:27
+msgid "Disabled"
+msgstr ""
+
+#: ../admin/settings/config-global.php:134
+msgid "Rating Permissions"
+msgstr ""
+
+#: ../admin/settings/config-global.php:137
+msgid "Choose which users or roles can submit ratings within comments."
+msgstr ""
+
+#: ../admin/settings/config-global.php:160
+msgid "Comment/Rating Limit"
+msgstr ""
+
+#: ../admin/settings/config-global.php:163
+msgid "Choose whether uses can rate and comment multiple times."
+msgstr ""
+
+#: ../admin/settings/config-global.php:165
+msgid "One rating / One comment"
+msgstr ""
+
+#: ../admin/settings/config-global.php:166
+msgid "One rating / Multiple comments"
+msgstr ""
+
+#: ../admin/settings/config-global.php:167
+msgid "Multiple ratings / Multiple comments"
+msgstr ""
+
+#: ../admin/settings/config-global.php:176
+#: ../admin/settings/config-global.php:437
+#: ../admin/widgets/user-reviews.php:340
+msgid "Review Title"
+msgstr ""
+
+#: ../admin/settings/config-global.php:190
+msgid "Review Title Length"
+msgstr ""
+
+#: ../admin/settings/config-global.php:193
+#: ../admin/settings/config-global.php:203
+msgid ""
+"The number of characters allowed. Leave empty to display all characters."
+msgstr ""
+
+#: ../admin/settings/config-global.php:200
+msgid "Review Text Length"
+msgstr ""
+
+#: ../admin/settings/config-global.php:220
+msgid "Rating Format"
+msgstr ""
+
+#: ../admin/settings/config-global.php:356
+#: ../admin/settings/config-global.php:681
+#: ../admin/settings/config-global.php:885
+#: ../admin/settings/config-global.php:1008
+msgid "Icon Styling"
+msgstr ""
+
+#: ../admin/settings/config-global.php:360
+#: ../admin/settings/config-global.php:685
+#: ../admin/settings/config-global.php:889
+#: ../admin/settings/config-global.php:1012
+msgid "Icon Width"
+msgstr ""
+
+#: ../admin/settings/config-global.php:361
+#: ../admin/settings/config-global.php:686
+#: ../admin/settings/config-global.php:890
+#: ../admin/settings/config-global.php:1013
+msgid "Icon Height"
+msgstr ""
+
+#: ../admin/settings/config-global.php:381
+#: ../admin/settings/config-global.php:400
+#: ../admin/settings/config-global.php:419
+#: ../admin/settings/config-global.php:755
+#: ../admin/settings/config-global.php:773
+#: ../admin/settings/config-global.php:791
+#: ../admin/settings/config-global.php:1032
+#: ../admin/settings/config-global.php:1091
+#: ../admin/settings/config-global.php:1109
+#: ../admin/settings/config-global.php:1127
+#: ../admin/settings/config-global.php:1291
+msgid "Size"
+msgstr ""
+
+#: ../admin/settings/config-global.php:396
+msgid "Your User Rating Styling"
+msgstr ""
+
+#: ../admin/settings/config-global.php:415
+#: ../admin/settings/config-global.php:769
+#: ../admin/settings/config-global.php:1123
+msgid "Maximum Rating Text Styling"
+msgstr ""
+
+#: ../admin/settings/config-global.php:434
+msgid "Review Title Field Label"
+msgstr ""
+
+#: ../admin/settings/config-global.php:444
+msgid "Rating Field Label"
+msgstr ""
+
+#: ../admin/settings/config-global.php:447
+msgid "Your Review"
+msgstr ""
+
+#: ../admin/settings/config-global.php:454
+msgid "Character Limit Label"
+msgstr ""
+
+#: ../admin/settings/config-global.php:457
+msgid "represents the character limit set above."
+msgstr ""
+
+#: ../admin/settings/config-global.php:458
+msgid "%NUMBER% characters remaining."
+msgstr ""
+
+#: ../admin/settings/config-global.php:475
+msgid "Already Commented/Voted Label"
+msgstr ""
+
+#: ../admin/settings/config-global.php:478
+msgid "You have already reviewed this post."
+msgstr ""
+
+#: ../admin/settings/config-global.php:495
+msgid "Success Message"
+msgstr ""
+
+#: ../admin/settings/config-global.php:498
+msgid "Thanks for submitting your comment!"
+msgstr ""
+
+#: ../admin/settings/config-global.php:505
+msgid "Error Message"
+msgstr ""
+
+#: ../admin/settings/config-global.php:508
+msgid "These fields are required."
+msgstr ""
+
+#: ../admin/settings/config-global.php:515
+msgid "Duplicate Comments Error Message"
+msgstr ""
+
+#: ../admin/settings/config-global.php:518
+msgid "You cannot post duplicate comments."
+msgstr ""
+
+#: ../admin/settings/config-global.php:532
+msgid "Customer Reviews"
+msgstr ""
+
+#: ../admin/settings/config-global.php:539
+msgid "Order Dropdown Menu"
+msgstr ""
+
+#: ../admin/settings/config-global.php:553
+msgid "Rating Dropdown Menu"
+msgstr ""
+
+#: ../admin/settings/config-global.php:584
+msgid ""
+"Displays a summary of the percentage of each rating e.g. the number of 5, 4, "
+"3, 2 and 1 star ratings."
+msgstr ""
+
+#: ../admin/settings/config-global.php:596
+msgid "Average Rating"
+msgstr ""
+
+#: ../admin/settings/config-global.php:701
+#: ../admin/settings/config-global.php:1046
+msgid "Rating Container Styling"
+msgstr ""
+
+#: ../admin/settings/config-global.php:705
+#: ../admin/settings/config-global.php:735
+#: ../admin/settings/config-global.php:1050
+#: ../admin/settings/fields/standard-dimensions.php:31
+msgid "Width"
+msgstr ""
+
+#: ../admin/settings/config-global.php:706
+#: ../admin/settings/config-global.php:1051
+#: ../admin/settings/fields/standard-dimensions.php:29
+msgid "Height"
+msgstr ""
+
+#: ../admin/settings/config-global.php:707
+#: ../admin/settings/config-global.php:1052
+msgid "Text Size"
+msgstr ""
+
+#: ../admin/settings/config-global.php:710
+#: ../admin/settings/config-global.php:1055
+msgid "Border Width"
+msgstr ""
+
+#: ../admin/settings/config-global.php:731
+msgid "Gauge Styling"
+msgstr ""
+
+#: ../admin/settings/config-global.php:751
+msgid "Average User Rating Text Styling"
+msgstr ""
+
+#: ../admin/settings/config-global.php:787
+msgid "User Votes Text Styling"
+msgstr ""
+
+#: ../admin/settings/config-global.php:833
+msgid "Rating Breakdown"
+msgstr ""
+
+#: ../admin/settings/config-global.php:841
+msgid "Summary Style"
+msgstr ""
+
+#: ../admin/settings/config-global.php:992
+msgid "Icond"
+msgstr ""
+
+#: ../admin/settings/config-global.php:1074
+msgid "Comment Divider"
+msgstr ""
+
+#: ../admin/settings/config-global.php:1087
+#: ../admin/settings/config-global.php:1105
+msgid "Your User Rating Text Styling"
+msgstr ""
+
+#: ../admin/settings/config-global.php:1155
+msgid "Support"
+msgstr ""
+
+#: ../admin/settings/config-global.php:1158
+msgid "Choose to add up/down voting to your theme comments."
+msgstr ""
+
+#: ../admin/settings/config-global.php:1173
+msgid "Choose which users or roles can up/down vote comments."
+msgstr ""
+
+#: ../admin/settings/config-global.php:1229
+msgid "Up Icon Styling"
+msgstr ""
+
+#: ../admin/settings/config-global.php:1236
+#: ../admin/settings/config-global.php:1265
+msgid "Icon Color (Voted)"
+msgstr ""
+
+#: ../admin/settings/config-global.php:1238
+#: ../admin/settings/config-global.php:1267
+msgid "Background Color (Voted)"
+msgstr ""
+
+#: ../admin/settings/config-global.php:1239
+#: ../admin/settings/config-global.php:1268
+msgid "Counter Size"
+msgstr ""
+
+#: ../admin/settings/config-global.php:1258
+msgid "Down Icon Styling"
+msgstr ""
+
+#: ../admin/settings/config-global.php:1287
+msgid "Already Voted Text Styling"
+msgstr ""
+
+#: ../admin/settings/config-global.php:1308
+msgid "You have already voted!"
+msgstr ""
+
+#: ../admin/settings/config-global.php:1315
+msgid "Import/Export"
+msgstr ""
+
+#: ../admin/settings/config-global.php:1324
+#: ../admin/settings/fields/standard-import.php:13
+msgid "Import"
+msgstr ""
+
+#: ../admin/settings/config-global.php:1326
+msgid "Upload your plugin settings file with a .txt extension."
+msgstr ""
+
+#: ../admin/settings/config-global.php:1332
+#: ../admin/settings/fields/standard-export.php:11
+msgid "Export"
+msgstr ""
+
+#: ../admin/settings/config-global.php:1334
+msgid "Downloads a .txt file that contains all your plugin settings data."
+msgstr ""
+
+#: ../admin/settings/config-metaboxes.php:22
+msgid "Show Review Template"
+msgstr ""
+
+#: ../admin/settings/config-metaboxes.php:23
+msgid ""
+"Show the review template for this page if it has been automatically inserted."
+msgstr ""
+
+#: ../admin/settings/config-metaboxes.php:68
+msgid "Manually Add Overall Rating"
+msgstr ""
+
+#: ../admin/settings/config-metaboxes.php:69
+msgid "Manually add your own overall average rating."
+msgstr ""
+
+#: ../admin/settings/config-metaboxes.php:77
+msgid "Overall Rating"
+msgstr ""
+
+#: ../admin/settings/config-metaboxes.php:98
+msgid "The text displayed in the Excerpt element."
+msgstr ""
+
+#: ../admin/settings/config-metaboxes.php:118
+msgid "The text displayed in the Summary element."
+msgstr ""
+
+#: ../admin/settings/config-metaboxes.php:139
+#: ../admin/settings/config-metaboxes.php:147
+msgid "Add"
+msgstr ""
+
+#: ../admin/settings/config-metaboxes.php:154
+msgid "This image is used when displaying images in review templates."
+msgstr ""
+
+#: ../admin/settings/config-metaboxes.php:163
+msgid ""
+"This is an alternative image is used when displaying images in review "
+"templates."
+msgstr ""
+
+#: ../admin/settings/config-metaboxes.php:171
+msgid "Review Button Text"
+msgstr ""
+
+#: ../admin/settings/config-metaboxes.php:172
+msgid ""
+"This is the text used for buttons in review templates - leave empty to use "
+"the text set in the Review Button element."
+msgstr ""
+
+#: ../admin/settings/config-metaboxes.php:179
+msgid "Review Button Link"
+msgstr ""
+
+#: ../admin/settings/config-metaboxes.php:180
+msgid ""
+"This is the link used for buttons in review templates - leave empty to use "
+"the link set in the Review Button element."
+msgstr ""
+
+#: ../admin/settings/config-metaboxes.php:189
+msgid "Review Settings"
+msgstr ""
+
+#: ../admin/settings/config-metaboxes.php:206
+msgid "Automatic Insertion"
+msgstr ""
+
+#: ../admin/settings/config-metaboxes.php:207
+msgid ""
+"Choose which post types to automatically display this review template. You "
+"can also insert review templates manually using the Review Box page builder "
+"element."
+msgstr ""
+
+#: ../admin/settings/config-metaboxes.php:215
+msgid ""
+"Enter the IDs of the post/pages you want to show this template on - separate "
+"each ID with a comma e.g. 123, 456, 789"
+msgstr ""
+
+#: ../admin/settings/config-metaboxes.php:223
+msgid ""
+"Enter the category slugs for the posts you want to show this template on - "
+"separate slugs with a comma e.g. category-1, category-2, category-3"
+msgstr ""
+
+#: ../admin/settings/config-metaboxes.php:231
+msgid ""
+"Enter the tag slugs for the posts you want to show this template on - "
+"separate slugs with a comma e.g. tag-1, tag-2, tag-3."
+msgstr ""
+
+#: ../admin/settings/config-metaboxes.php:239
+msgid ""
+"Choose where to display your review template if it's automatically inserted."
+msgstr ""
+
+#: ../admin/settings/config-metaboxes.php:252
+msgid "Template Settings"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:50
+msgid "Background Image"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:61
+#: ../admin/settings/fields/standard-background.php:63
+#: ../admin/settings/fields/standard-media.php:57
+#: ../admin/settings/fields/standard-media.php:59
+#: ../admin/settings/fields/standard-styling.php:80
+#: ../admin/settings/fields/standard-styling.php:82
+msgid "Change Image"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:61
+#: ../admin/settings/fields/standard-background.php:63
+#: ../admin/settings/fields/standard-media.php:57
+#: ../admin/settings/fields/standard-media.php:59
+#: ../admin/settings/fields/standard-styling.php:80
+#: ../admin/settings/fields/standard-styling.php:82
+msgid "Add Image"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:66
+#: ../admin/settings/fields/standard-media.php:62
+#: ../admin/settings/fields/standard-styling.php:85
+msgid "Remove Image"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:75
+msgid "Background Repeat"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:78
+msgid "No Repeat"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:79
+msgid "Repeat All"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:80
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:81
+msgid "Repeat Vertically"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:82
+#: ../admin/settings/fields/standard-background.php:101
+#: ../admin/settings/fields/standard-background.php:124
+#: ../admin/settings/fields/standard-background.php:171
+#: ../admin/settings/fields/standard-background.php:194
+msgid "Inherit"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:98
+msgid "Background Size"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:102
+msgid "Cover"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:103
+msgid "Contain"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:119
+msgid "Background Attachment"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:122
+msgid "Fixed"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:123
+msgid "Scroll"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:140
+msgid "Background Position"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:143
+msgid "Left Top"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:144
+msgid "Left center"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:145
+msgid "Left Bottom"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:146
+msgid "Center Top"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:147
+msgid "Center Center"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:148
+msgid "Center Bottom"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:149
+msgid "Right Top"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:150
+msgid "Right Center"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:151
+msgid "Right Bottom"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:167
+msgid "Background Clip"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:172
+#: ../admin/settings/fields/standard-background.php:195
+msgid "Border Box"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:173
+#: ../admin/settings/fields/standard-background.php:196
+msgid "Content Box"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:174
+#: ../admin/settings/fields/standard-background.php:197
+msgid "Padding Box"
+msgstr ""
+
+#: ../admin/settings/fields/standard-background.php:190
+msgid "Background Origin"
+msgstr ""
+
+#: ../admin/settings/fields/standard-color-gradient.php:29
+msgid "From"
+msgstr ""
+
+#: ../admin/settings/fields/standard-color-gradient.php:31
+msgid "To"
+msgstr ""
+
+#: ../admin/settings/fields/standard-gallery.php:24
+#: ../admin/settings/fields/standard-gallery.php:26
+msgid "Edit Gallery"
+msgstr ""
+
+#: ../admin/settings/fields/standard-gallery.php:24
+#: ../admin/settings/fields/standard-gallery.php:26
+msgid "Add Gallery"
+msgstr ""
+
+#: ../admin/settings/fields/standard-gallery.php:29
+msgid "Remove Gallery"
+msgstr ""
+
+#: ../admin/settings/fields/standard-link-color.php:29
+msgid "Regular"
+msgstr ""
+
+#: ../admin/settings/fields/standard-link-color.php:31
+msgid "Hover"
+msgstr ""
+
+#: ../admin/settings/fields/standard-media.php:17
+#: ../admin/settings/fields/standard-media.php:19
+msgid "Change Audio"
+msgstr ""
+
+#: ../admin/settings/fields/standard-media.php:17
+#: ../admin/settings/fields/standard-media.php:19
+msgid "Add Audio"
+msgstr ""
+
+#: ../admin/settings/fields/standard-media.php:22
+msgid "Remove Audio"
+msgstr ""
+
+#: ../admin/settings/fields/standard-media.php:33
+#: ../admin/settings/fields/standard-media.php:35
+msgid "Change Video"
+msgstr ""
+
+#: ../admin/settings/fields/standard-media.php:33
+#: ../admin/settings/fields/standard-media.php:35
+msgid "Add Video"
+msgstr ""
+
+#: ../admin/settings/fields/standard-media.php:38
+msgid "Remove Video"
+msgstr ""
+
+#: ../admin/settings/fields/standard-multi-text.php:13
+#: ../admin/settings/fields/standard-multi-text.php:22
+#: ../admin/settings/fields/standard-multi-text.php:29
+msgid "Remove"
+msgstr ""
+
+#: ../admin/settings/fields/standard-multi-text.php:32
+msgid "Add Another"
+msgstr ""
+
+#: ../admin/settings/fields/standard-typography.php:51
+msgid "Font Size"
+msgstr ""
+
+#: ../admin/settings/fields/standard-typography.php:62
+msgid "Line Height"
+msgstr ""
+
+#: ../admin/settings/fields/standard-typography.php:73
+msgid "Font Family"
+msgstr ""
+
+#: ../admin/settings/fields/standard-typography.php:95
+msgid "Backup Font Family"
+msgstr ""
+
+#: ../admin/settings/fields/standard-typography.php:113
+msgid "Font Variants"
+msgstr ""
+
+#: ../admin/settings/fields/standard-typography.php:133
+msgid "Font Subsets"
+msgstr ""
+
+#: ../admin/settings/fields/standard-typography.php:162
+msgid "Letter Spacing"
+msgstr ""
+
+#: ../admin/settings/fields/standard-typography.php:172
+msgid "WordPress Spacing"
+msgstr ""
+
+#: ../admin/settings/fields/standard-typography.php:179
+msgid "Text Transform"
+msgstr ""
+
+#: ../admin/settings/fields/standard-typography.php:204
+msgid "Text Align"
+msgstr ""
+
+#: ../admin/settings/fields/standard-typography.php:229
+msgid "Text Decoration"
+msgstr ""
+
+#: ../admin/settings/framework-global.php:85
+msgid "Documentation"
+msgstr ""
+
+#: ../admin/settings/framework-global.php:127
+msgid "Save Changes"
+msgstr ""
+
+#: ../admin/settings/framework-global.php:128
+msgid "Reset All Settings"
+msgstr ""
+
+#: ../admin/settings/framework-global.php:129
+msgid "Are you sure you want to reset all your settings?"
+msgstr ""
+
+#: ../admin/settings/framework-global.php:245
+msgid "Your settings have been reset to the default values."
+msgstr ""
+
+#: ../admin/settings/framework-global.php:259
+msgid "Your settings have been saved."
+msgstr ""
+
+#: ../admin/settings/framework-global.php:266
+msgid "Error saving your settings."
+msgstr ""
+
+#: ../admin/settings/framework-global.php:316
+msgid "Please upload a valid .txt file."
+msgstr ""
+
+#: ../admin/settings/framework-global.php:320
+msgid "Please upload a file to import."
+msgstr ""
+
+#: ../admin/settings/settings-functions.php:208
+msgid "All categories"
+msgstr ""
+
+#: ../admin/settings/settings-functions.php:233
+msgid "Default"
+msgstr ""
+
+#: ../admin/status/class-status.php:56
+msgid "Server"
+msgstr ""
+
+#: ../admin/status/class-status.php:71
+msgid " - Please update WordPress as version 3.8 or higher is required."
+msgstr ""
+
+#: ../admin/status/class-status.php:74
+msgid "WordPress Version"
+msgstr ""
+
+#: ../admin/status/class-status.php:75
+msgid "WordPress version."
+msgstr ""
+
+#: ../admin/status/class-status.php:83
+msgid "Uploads folder is writable"
+msgstr ""
+
+#: ../admin/status/class-status.php:86
+msgid ""
+"Uploads folder is not writable. Please check with your hosting provider."
+msgstr ""
+
+#: ../admin/status/class-status.php:89
+msgid "File Permissions"
+msgstr ""
+
+#: ../admin/status/class-status.php:90
+msgid "Whether or not your uploads folder is writable."
+msgstr ""
+
+#: ../admin/status/class-status.php:101
+msgid " - A PHP version greater than 5.6 is required, to update your this"
+msgstr ""
+
+#: ../admin/status/class-status.php:101 ../admin/status/class-status.php:104
+#: ../admin/status/class-status.php:119 ../admin/status/class-status.php:136
+#: ../admin/status/class-status.php:151 ../admin/status/class-status.php:179
+msgid "click here"
+msgstr ""
+
+#: ../admin/status/class-status.php:104
+msgid ""
+" - We recommend using PHP version 7.2 or above for greater performance and "
+"security, to update this"
+msgstr ""
+
+#: ../admin/status/class-status.php:107
+msgid "PHP Version"
+msgstr ""
+
+#: ../admin/status/class-status.php:108
+msgid "PHP version of your server."
+msgstr ""
+
+#: ../admin/status/class-status.php:119
+msgid " - We recommend setting the memory limit to at least 128MB, to do this"
+msgstr ""
+
+#: ../admin/status/class-status.php:122
+msgid "PHP Memory Limit"
+msgstr ""
+
+#: ../admin/status/class-status.php:123
+msgid "The maximum amount of memory that your site can use at one time."
+msgstr ""
+
+#: ../admin/status/class-status.php:136
+msgid ""
+" - We recommend setting the maximum execution time to at least 180 for "
+"running larger tasks, to do this"
+msgstr ""
+
+#: ../admin/status/class-status.php:139
+msgid "PHP Maximum Execution Limit"
+msgstr ""
+
+#: ../admin/status/class-status.php:140
+msgid ""
+"The amount of time (in seconds) that your site will spend on a single "
+"operation before timing out."
+msgstr ""
+
+#: ../admin/status/class-status.php:151
+msgid ""
+" - We recommend setting the maximum input vars to at least 1000 otherwise "
+"POST data will be truncated, to do this"
+msgstr ""
+
+#: ../admin/status/class-status.php:154
+msgid "PHP Maximum Input Vars"
+msgstr ""
+
+#: ../admin/status/class-status.php:155
+msgid ""
+"The maximum number of variables your server can use for a single function to "
+"avoid overloads."
+msgstr ""
+
+#: ../admin/status/class-status.php:161
+msgid "Installed"
+msgstr ""
+
+#: ../admin/status/class-status.php:165
+msgid ""
+"Not installed - ZipArchive is required for importing the demo data. Please "
+"contact your server administrator and ask them to enable it."
+msgstr ""
+
+#: ../admin/status/class-status.php:168
+msgid "ZipArchive"
+msgstr ""
+
+#: ../admin/status/class-status.php:169
+msgid "ZipArchive is required for importing the demo data."
+msgstr ""
+
+#: ../admin/status/class-status.php:175
+msgid "OK - DEBUG is OFF"
+msgstr ""
+
+#: ../admin/status/class-status.php:179
+msgid ""
+"DEBUG is ON - It is recommended you disable WordPress debugging on your live "
+"site, to do this"
+msgstr ""
+
+#: ../admin/status/class-status.php:182
+msgid "WP Debug"
+msgstr ""
+
+#: ../admin/status/class-status.php:183
+msgid "Whether or not WordPress is in Debug Mode."
+msgstr ""
+
+#: ../admin/status/class-status.php:209
+msgid "Theme"
+msgstr ""
+
+#: ../admin/widgets/review-template.php:8
+msgid "Display a review template."
+msgstr ""
+
+#: ../admin/widgets/review-template.php:13
+msgid "Ultimate Reviewer: Review Template"
+msgstr ""
+
+#: ../admin/widgets/review-template.php:63
+msgid "Template:"
+msgstr ""
+
+#: ../admin/widgets/reviews-list.php:8
+msgid "Display reviews."
+msgstr ""
+
+#: ../admin/widgets/reviews-list.php:13
+msgid "Ultimate Reviewer: Reviews List"
+msgstr ""
+
+#: ../admin/widgets/reviews-list.php:108 ../admin/widgets/user-reviews.php:283
+msgid "Title:"
+msgstr ""
+
+#: ../admin/widgets/reviews-list.php:113
+msgid "Post Types:"
+msgstr ""
+
+#: ../admin/widgets/reviews-list.php:138
+msgid "Post/Page IDs:"
+msgstr ""
+
+#: ../admin/widgets/reviews-list.php:144
+msgid "Categories:"
+msgstr ""
+
+#: ../admin/widgets/reviews-list.php:150
+msgid "Tags:"
+msgstr ""
+
+#: ../admin/widgets/reviews-list.php:161
+msgid "Sort:"
+msgstr ""
+
+#: ../admin/widgets/reviews-list.php:177 ../admin/widgets/user-reviews.php:298
+msgid "Number:"
+msgstr ""
+
+#: ../admin/widgets/reviews-list.php:186 ../admin/widgets/user-reviews.php:319
+msgid "Show:"
+msgstr ""
+
+#: ../admin/widgets/reviews-list.php:233
+msgid "Image Size:"
+msgstr ""
+
+#: ../admin/widgets/reviews-list.php:239
+msgid "Title Length:"
+msgstr ""
+
+#: ../admin/widgets/reviews-list.php:245
+msgid "Excerpt Length:"
+msgstr ""
+
+#: ../admin/widgets/reviews-list.php:247 ../admin/widgets/user-reviews.php:316
+msgid ""
+"The number of characters in the comment text. Leave empty to display all "
+"characters."
+msgstr ""
+
+#: ../admin/widgets/user-reviews.php:8
+msgid "Display user reviews."
+msgstr ""
+
+#: ../admin/widgets/user-reviews.php:13
+msgid "Ultimate Reviewer: User Reviews"
+msgstr ""
+
+#: ../admin/widgets/user-reviews.php:198
+#: ../public/templates/review-item.php:181
+msgid "View"
+msgstr ""
+
+#: ../admin/widgets/user-reviews.php:214
+msgid "person"
+msgstr ""
+
+#: ../admin/widgets/user-reviews.php:216
+msgid "people"
+msgstr ""
+
+#: ../admin/widgets/user-reviews.php:219
+#, php-format
+msgid "%d %s found this helpful"
+msgstr ""
+
+#: ../admin/widgets/user-reviews.php:288
+msgid "Order:"
+msgstr ""
+
+#: ../admin/widgets/user-reviews.php:291 ../public/class-ajax-comments.php:65
+msgid "Top Rated"
+msgstr ""
+
+#: ../admin/widgets/user-reviews.php:292 ../public/class-ajax-comments.php:67
+msgid "Lowest Rated"
+msgstr ""
+
+#: ../admin/widgets/user-reviews.php:293
+msgid "Most Helpful"
+msgstr ""
+
+#: ../admin/widgets/user-reviews.php:303
+msgid "Post IDs:"
+msgstr ""
+
+#: ../admin/widgets/user-reviews.php:308
+msgid "Review Title Length:"
+msgstr ""
+
+#: ../admin/widgets/user-reviews.php:310
+msgid ""
+"The number of characters in the review title. Leave empty to display all "
+"characters."
+msgstr ""
+
+#: ../admin/widgets/user-reviews.php:314
+msgid "Comment Text Length:"
+msgstr ""
+
+#: ../admin/widgets/user-reviews.php:324
+msgid "Avatar"
+msgstr ""
+
+#: ../admin/widgets/user-reviews.php:332
+msgid "Review Date"
+msgstr ""
+
+#: ../admin/widgets/user-reviews.php:348
+msgid "Comment Text"
+msgstr ""
+
+#: ../admin/widgets/user-reviews.php:356
+msgid "Post Title"
+msgstr ""
+
+#: ../admin/widgets/user-reviews.php:362
+msgid "Show Average Rating"
+msgstr ""
+
+#: ../admin/widgets/user-reviews.php:363
+msgid "Show an average of the user's rating if it has multi criteria ratings."
+msgstr ""
+
+#: ../public/class-ajax-comments.php:15
+msgid "Reviews"
+msgstr ""
+
+#: ../public/class-ajax-comments.php:30
+#, php-format
+msgctxt "comment count"
+msgid "Showing %s review"
+msgstr ""
+
+#: ../public/class-ajax-comments.php:34
+#, php-format
+msgctxt "comment count"
+msgid "Showing %s reviews"
+msgstr ""
+
+#: ../public/class-ajax-comments.php:66
+msgid "Most Helpul"
+msgstr ""
+
+#: ../public/class-ajax-comments.php:74
+msgid "All Ratings"
+msgstr ""
+
+#: ../public/class-ajax-comments.php:254
+msgid "No comments found."
+msgstr ""
+
+#: ../public/templates/aardvark/comments-list.php:11
+#: ../public/templates/default/comments-list.php:11
+msgid "Your comment is awaiting approval."
+msgstr ""
+
+#: ../public/templates/aardvark/comments-list.php:34
+msgid "Log in to reply"
+msgstr ""
+
+#: ../public/templates/aardvark/comments-list.php:36
+#: ../public/templates/default/comments-list.php:31
+#: ../public/templates/default/comments-template.php:76
+msgid "Reply"
+msgstr ""
+
+#: ../public/templates/aardvark/comments-template.php:20
+#: ../public/templates/default/comments-template.php:43
+msgid "Pingback:"
+msgstr ""
+
+#: ../public/templates/aardvark/comments-template.php:42
+#: ../public/templates/review-item.php:144
+msgid "No Comments"
+msgstr ""
+
+#: ../public/templates/aardvark/comments-template.php:42
+#: ../public/templates/review-item.php:144
+msgid "1 Comment"
+msgstr ""
+
+#: ../public/templates/aardvark/comments-template.php:42
+#: ../public/templates/review-item.php:144
+msgid "% Comments"
+msgstr ""
+
+#: ../public/templates/aardvark/comments-template.php:64
+msgid "Comments are now closed for this post."
+msgstr ""
+
+#: ../public/templates/aardvark/comments-template.php:72
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: ../public/templates/aardvark/comments-template.php:76
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../public/templates/aardvark/comments-template.php:77
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../public/templates/aardvark/comments-template.php:78
+msgid "Cancel Reply"
+msgstr ""
+
+#: ../public/templates/aardvark/comments-template.php:79
+msgid "Post Comment"
+msgstr ""
+
+#: ../public/templates/aardvark/comments-template.php:83
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../public/templates/aardvark/comments-template.php:85
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: ../public/templates/aardvark/comments-template.php:87
+msgid "Your email address will not be published. "
+msgstr ""
+
+#: ../public/templates/aardvark/comments-template.php:89
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+
+#: ../public/templates/aardvark/comments-template.php:95
+msgid "Email"
+msgstr ""
+
+#: ../public/templates/aardvark/comments-template.php:97
+msgid "Website"
+msgstr ""
+
+#: ../public/templates/comparison-table-fields.php:54
+#: ../public/templates/comparison-table-fields.php:66
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: ../public/templates/default/comments-template.php:95
+msgid "Comments are closed."
+msgstr ""
+
+#: ../public/templates/review-item.php:144
+msgid "Comments Closed"
+msgstr ""
+
+#: ../public/templates/review-item.php:151
+msgid "like"
+msgstr ""
+
+#: ../public/templates/review-item.php:153
+msgid "likes"
+msgstr ""
+
+#: ../public/templates/review-item.php:155
+#, php-format
+msgid "%d %s"
+msgstr ""
+
+#: ../ultimate-reviewer.php:76
+msgid "WPBakery Page Builder"
+msgstr ""
+
+#: ../ultimate-reviewer.php:85
+msgid "Envato Market"
+msgstr ""
+
+#, fuzzy
+#~ msgid "New Sidebar"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Create Sidebar"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Custom Sidebars"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Reset Sidebars"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Add New Slide"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "No slides found"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "No slides found in Trash"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Slide Categories"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "All Slide Categories"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Add New Slide Category"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Edit Slide Category"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "New Slide Category"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "View Slide Category"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Search Slide Categories"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Large Background"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Hub Category"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "All Hub Categories"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Add New Hub Category"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Edit Hub Category"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "New Hub Category"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "View Hub Category"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Search Hub Categories"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Portfolio Items"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Portfolio Item"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "All Portfolio Items"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Add New Portfolio Item"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Edit Portfolio Item"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "New Portfolio Item"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "View Portfolio Item"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Search Portfolio Items"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "No portfolio items found"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "No portfolio items found in Trash"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Portfolio Category"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "All Portfolio Categories"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Add New Portfolio Category"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Edit Portfolio Category"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "New Portfolio Category"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "View Portfolio Category"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Search Portfolio Categories"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "No user reviews found"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "No user reviews found in Trash"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Video Category"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "All Video Categories"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Add New Video Category"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Edit Video Category"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "New Video Category"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "View Video Category"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Search Video Categories"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Page Title Settings"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Page Title Height"
+#~ msgstr "Test"
