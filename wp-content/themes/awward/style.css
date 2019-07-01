@@ -12189,3 +12189,68 @@ section#comments-list>ul li span.rating-stars i {
 .br-widget {
   margin-bottom: 12px;
 }
+
+/*  */
+
+.ratiing-box > ul > li {
+    padding: 15px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+}
+
+.ratiing-box h5 {
+    font-size: 23px;
+    margin-bottom: 0;
+}
+
+.ratiing-box > ul > li::before {
+    content: ' ';
+    width: 65px;
+    display: block;
+    height: 65px;
+    background-size: cover;
+    float: left;
+    margin-right: 16px;
+}
+
+.airline .ratiing-box > ul > li::before {
+   background-image: url('http://awward.1clickhostings.com/wp-content/uploads/2019/06/air-freight-.png');
+}
+
+.flight .ratiing-box > ul > li::before {
+   background-image: url('http://awward.1clickhostings.com/wp-content/uploads/2019/06/global1.png');
+}
+
+.airport .ratiing-box > ul > li::before {
+   background-image: url('http://awward.1clickhostings.com/wp-content/uploads/2019/06/airport.png');
+}
+
+.rating-info-box h1 {
+    font-size: 44px;
+}
+
+/* .inner-raiting-box ul {
+    width: 32%;
+    float: left;
+    margin-right: 15px;
+} */
+.detail p {
+    margin-bottom: 0px !important;
+    font-size: 16px;
+}
+.inner-raiting-box p {
+    margin-bottom: 15px;
+}
+.inner-raiting-box h5 a
+{
+	border-bottom: 1px dashed #000;
+    color: #000;
+}
+.grid-item
+{
+	padding: 10px !important;
+}
+
+.ratiing-box > ul {
+	margin-bottom: 0px;
+}

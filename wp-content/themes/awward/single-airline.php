@@ -57,7 +57,7 @@
       <footer class="footer">
         <?php get_template_part( 'nav', 'below-single' ); ?>
       </footer>
-      <?php echo do_shortcode(' '); ?>
+      <?php echo do_shortcode(''); ?>
     </main>
   </div>
   <div class="col-md-4">

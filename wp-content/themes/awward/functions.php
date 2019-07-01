@@ -167,3 +167,232 @@ add_filter('comment_form_defaults', 'wpsites_change_comment_form_submit_label');
 add_filter('pre_site_transient_update_core', 'remove_core_updates');
 add_filter('pre_site_transient_update_plugins', 'remove_core_updates');
 add_filter('pre_site_transient_update_themes', 'remove_core_updates');
+
+
+
+function insert_and_update_airline() {
+
+	$appId = '856acead';
+	$appKey = '42227f258e3e30fa2bdbb1e572599d25';
+
+	$airline_json = file_get_contents('https://api.flightstats.com/flex/airlines/rest/v1/json/all?appId='.$appId.'&appKey='.$appKey);
+
+	$airline_array = json_decode($airline_json, true)['airlines'];
+
+
+	$index = 0;
+	foreach($airline_array as $airline) {
+
+		$index++;
+		
+		// if($index == 600)  {
+		// 	break;
+		// }
+
+		$airline_meta_array = [];
+
+		foreach($airline as $airline_meta_key => $airline_meta) {
+
+			$airline_meta_array[$airline_meta_key] = strval($airline_meta);
+
+		}
+		
+		$args = array(
+			'post_type' => 'airline',
+			'meta_query' => array(
+				'relation' => 'AND',
+				array(
+					'key' => 'name',
+					'value' => $airline['name'],
+					'compare' => '=',
+				),
+				array(
+					'key' => 'fs',
+					'value' => $airline['fs'],
+					'compare' => '=',
+				),
+			)
+		);
+
+		$check_title = new WP_Query($args);
+
+		$insert = true;
+
+		if ( $check_title->found_posts > 0 ) { 
+
+			$insert = false;
+
+		}
+
+		// echo $index;
+
+		if($insert == true) {
+			
+			// echo ' - insert-' . $airline['name'] .'-'. $airline['fs'];
+			// echo '<br>';
+
+			wp_insert_post( array(
+				'post_title'    => $airline['name'],
+				'post_type'     => 'airline',
+				'post_status' => 'publish',
+				'meta_input'    => $airline_meta_array
+
+			) ); 
+
+		} else { // update post
+
+			// echo '-update-' . $check_title->ID .'-'. $airline['name'] .'-'. $airline['fs'];
+			// echo '<br>';
+
+			wp_update_post( array(
+				'ID' => $check_title->ID,
+				'post_title'    => $airline['name'],
+				'post_type'     => 'airline',
+				'post_status' => 'publish',
+				'meta_input'    => $airline_meta_array
+
+			) );
+
+		}
+
+		$airline_meta_array = null;
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function insert_and_update_airport() {
+
+	$appId = '856acead';
+	$appKey = '42227f258e3e30fa2bdbb1e572599d25';
+
+	$airport_json = file_get_contents('https://api.flightstats.com/flex/airports/rest/v1/json/all?appId='.$appId.'&appKey='.$appKey);
+
+	$airport_array = json_decode($airport_json, true)['airports'];
+
+
+	$index = 0;
+	foreach($airport_array as $airport) {
+
+		$index++;
+		
+		// if($index == 600)  {
+		// 	break;
+		// }
+
+		$airport_meta_array = [];
+
+		foreach($airport as $airport_meta_key => $airport_meta) {
+
+			$airport_meta_array[$airport_meta_key] = strval($airport_meta);
+
+		}
+		
+		$args = array(
+			'post_type' => 'airport',
+			'meta_query' => array(
+				'relation' => 'AND',
+				array(
+					'key' => 'name',
+					'value' => $airport['name'],
+					'compare' => '=',
+				),
+				array(
+					'key' => 'fs',
+					'value' => $airport['fs'],
+					'compare' => '=',
+				),
+			)
+		);
+
+		$check_title = new WP_Query($args);
+
+		$insert = true;
+
+		if ( $check_title->found_posts > 0 ) { 
+
+			$insert = false;
+
+		}
+
+		// echo $index;
+
+		if($insert == true) {
+			
+			// echo ' - insert-' . $airport['name'] .'-'. $airport['fs'];
+			// echo '<br>';
+
+			wp_insert_post( array(
+				'post_title'    => $airport['name'],
+				'post_type'     => 'airport',
+				'post_status' => 'publish',
+				'meta_input'    => $airport_meta_array
+
+			) ); 
+
+		} else { // update post
+
+			// echo '-update-' . $check_title->ID .'-'. $airport['name'] .'-'. $airport['fs'];
+			// echo '<br>';
+
+			wp_update_post( array(
+				'ID' => $check_title->ID,
+				'post_title'    => $airport['name'],
+				'post_type'     => 'airport',
+				'post_status' => 'publish',
+				'meta_input'    => $airport_meta_array
+
+			) );
+
+		}
+
+		$airport_meta_array = null;
+
+	}
+
+}
+
+
+add_filter( 'init', function( $template ) {
+
+    if ( isset( $_GET['airline'] )) {
+        
+		
+		insert_and_update_airline();
+        die;
+
+	}
+	
+	if ( isset( $_GET['airport'] )) {
+        
+		
+		
+		insert_and_update_airport();
+        die;
+
+    }
+
+} );
+
+
+
+
+
