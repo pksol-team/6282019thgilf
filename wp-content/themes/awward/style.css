@@ -12202,7 +12202,7 @@ section#comments-list>ul li span.rating-stars i {
     font-size: 23px;
     margin-bottom: 0;
 }
-
+/* 
 .ratiing-box > ul > li::before {
     content: ' ';
     width: 65px;
@@ -12211,11 +12211,11 @@ section#comments-list>ul li span.rating-stars i {
     background-size: cover;
     float: left;
     margin-right: 16px;
-}
+} */
 
-.airline .ratiing-box > ul > li::before {
-   background-image: url('http://awward.1clickhostings.com/wp-content/uploads/2019/06/air-freight-.png');
-}
+/* .airline .ratiing-box > ul > li::before {
+   background-image: url('https://booking.kayak.com/rimg/provider-logos/airlines/v/.png?crop=false&width=64&height=64&fallback=default2.png&_v=8d8d0b60f9172bb9c10950f2fb00ce56377c2108');
+} */
 
 .flight .ratiing-box > ul > li::before {
    background-image: url('http://awward.1clickhostings.com/wp-content/uploads/2019/06/global1.png');
@@ -12253,4 +12253,548 @@ section#comments-list>ul li span.rating-stars i {
 
 .ratiing-box > ul {
 	margin-bottom: 0px;
+}
+
+.inner-raiting-box .stars-avg-rating, .inner-raiting-box .stars-avg-rating * {
+	font-size: 13px;
+}
+
+.inner-raiting-box .stars-avg-rating {
+	margin-bottom: 13px;
+}
+
+.inner-raiting-box ul li img {
+    display: block;
+    float: left;
+    margin-right: 15px;
+}
+
+.top-heading
+{
+	border-bottom: 2px #000 solid;
+}
+section.flight-search {
+    margin: 40px 0px 40px 0px;
+}
+.top-heading {
+    border-bottom: 2px #49c5b6 solid;
+	margin-bottom: 10px;
+}
+.top-heading h3 {
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+.search-flight {
+    background-color: #49c5b65e;
+    padding: 5px 12px;
+    margin: 13px 0px;
+}
+
+.search-flight h5 {
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+.search-box button {
+    background-color: #49c5b6;
+    border-color: #49c5b6;
+    margin: 15px 0px;
+    padding: 5px 35px;
+    font-size: 17px;
+}
+
+.search-box button:hover {
+    color: #49c5b6;
+    background-color: #fff;
+    border-color: #49c5b6;
+}
+.search-box input {
+    border-color: #49c5b6;
+}
+.form-group.my-time input {
+    background-color: #fff;
+    border: 1px #49c5b6 solid;
+    padding: 5px 10px !important;
+}
+.my-time i {
+    padding: 6px 8px;
+    color: #49c5b6;
+}
+
+.ratiing-box > ul > li {
+	box-shadow: 0px 0px 3px 0px #00000026;
+}
+
+.airport_meta_data {
+	width: 50%;
+}
+
+.airport_meta_data tr td {
+	padding: 10px;
+}
+
+@media only screen and (max-width: 786px) {
+	
+	.airport_meta_data {
+		
+		width: 100%;
+
+	}
+
+}
+
+#map2 {
+	height: 400px;
+}
+
+
+/**************** Flight Details ***************/
+.flight-ticket.green {
+   background-color: rgba(125, 214, 59, .32);
+}
+
+.flight-ticket-header.green {
+   background-color: rgba(125, 214, 59, .4);
+}
+
+@media screen and (max-width:991px) {
+   .flight-status-box {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+   }
+}
+
+.historical-flight-header .status-header {
+   padding: 10px 20px;
+   border-bottom: 5px solid #000;
+}
+
+.historical-flight-header .status-header .content-wrapper {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -ms-flex-direction: column;
+   flex-direction: column;
+}
+
+@media screen and (min-width:1200px) {
+   .historical-flight-header .status-header .content-wrapper {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+   }
+}
+
+.historical-flight-header .status-header .content-wrapper>p {
+   -ms-flex-item-align: center;
+   align-self: center;
+}
+
+.historical-flight-header .status-header .content-wrapper>h1 {
+   -ms-flex-item-align: start;
+   align-self: flex-start;
+}
+
+@media screen and (min-width:1200px) {
+   .historical-flight-header .status-header .content-wrapper>h1 {
+      -ms-flex-item-align: center;
+      align-self: center;
+   }
+}
+
+.historical-flight-header .status-header .status-text-style {
+   display: block;
+   text-align: center;
+   font-size: 20pt;
+   margin: 15px 0 5px;
+   line-height: 20pt;
+   padding: 5px 30px;
+   width: 92%;
+}
+
+@media screen and (min-width:1200px) {
+   .historical-flight-header .status-header .status-text-style {
+      width: auto;
+   }
+}
+
+.historical-flight-header .status-header .green {
+   background-color: #7dd63b;
+}
+
+@media screen and (min-width:1100px) {
+   .historical-flight-header .status-header .green {
+      display: inline-block;
+      text-align: initial;
+   }
+}
+
+.historical-flight-header .status-header .carrier-text-style {
+   display: inline-block;
+   font-weight: 700;
+   font-size: 20pt;
+   margin: 10px 10px 0 0;
+   line-height: 20pt;
+}
+
+@media screen and (min-width:500px) {
+   .historical-flight-header .status-header .carrier-text-style {
+      font-size: 20pt;
+   }
+}
+
+.historicalFlightInformation {
+   font-size: 12pt;
+}
+
+.historicalFlightInformation .flight-ticket {
+   padding-bottom: 5px;
+}
+
+@media (min-width:768px) {
+   .historicalFlightInformation {
+      margin: 20px;
+   }
+}
+
+@media (max-width:767px) {
+   .historicalFlightInformation .flightCell {
+      margin: 20px 0;
+   }
+}
+
+.historicalFlightInformation .departureArrivalTitle {
+   padding: 20px 0;
+   border-bottom: 1px solid #fff;
+   font-size: 30pt;
+}
+
+.historicalFlightInformation .airportDiv {
+   padding: 20px 20px 0;
+}
+
+.historicalFlightInformation .airportDiv .airportCodeTitle {
+   font-size: 30pt;
+}
+
+.historicalFlightInformation .airportDiv .airportNameSubtitle {
+   min-height: 35px;
+   line-height: 13pt;
+   margin: 10px 0;
+}
+
+.historicalFlightInformation .innerStyle {
+   padding: 5px 20px 10px;
+   margin-bottom: 10px;
+}
+
+@media (min-width:768px) {
+   .historicalFlightInformation .innerStyle.departure {
+      border-right: 1px solid #fff;
+   }
+}
+
+.historicalFlightInformation .flight-details-buttons {
+   text-align: center;
+}
+
+.historicalFlightInformation .flight-details-buttons a,
+.historicalFlightInformation .flight-details-buttons button {
+   width: 95%;
+   margin: 15px 0 0!important;
+}
+
+.historicalFlightInformation .times {
+   margin-bottom: 10px;
+}
+
+.historicalFlightInformation .times .title {
+   margin: 5px;
+}
+
+.historicalFlightInformation .times .date {
+   margin: 5px auto;
+   color: hsla(0, 0%, 100%, .7);
+   text-align: center;
+}
+
+.historicalFlightInformation .times .timeBlock {
+   padding-top: 5px;
+}
+
+@media screen and (min-width:768px) and (max-width:1200px) {
+   .historicalFlightInformation .times .timeBlock {
+      min-height: 80px;
+   }
+}
+
+.historicalFlightInformation .times .timeBlock .title {
+   margin: 0;
+}
+
+.historicalFlightInformation .times .timeBlock .timeDetails {
+   font-weight: 100;
+   display: inline-block;
+   margin: 0;
+   color: hsla(0, 0%, 100%, .7);
+}
+
+.historicalFlightInformation .times .delayText {
+   margin: 5px 0 10px;
+   color: hsla(0, 0%, 100%, .7);
+}
+
+.historicalFlightInformation .additionalInfo {
+   padding: 10px 0 20px;
+   border-bottom: 1px solid #fff;
+}
+
+.historicalFlightInformation .additionalInfo .gateBlock,
+.historicalFlightInformation .additionalInfo .terminalBlock {
+   border-right: 2px #49c5b6 solid;
+   margin-right: -1px;
+}
+
+.historicalFlightInformation .additionalInfo .detail,
+.historicalFlightInformation .additionalInfo .title {
+   margin: 0;
+}
+
+@media (min-width:768px) {
+   .historicalFlightInformation .moreDetails {
+      padding: 10px;
+      text-align: left;
+   }
+}
+
+.historicalFlightInformation .moreDetails .craftTypeBlock {
+   margin-right: 1px;
+}
+
+@media (max-width:767px) {
+   .historicalFlightInformation .moreDetails .craftTypeBlock {
+      border-bottom: 1px solid #fff;
+   }
+}
+
+.historicalFlightInformation .moreDetails .flightTimeBlock {
+   text-align: center;
+   margin-right: -1px;
+   margin-left: -1px;
+}
+
+@media (min-width:768px) {
+   .historicalFlightInformation .moreDetails .flightTimeBlock {
+      border-left: 2px #49c5b6 solid;
+   }
+}
+
+.historicalFlightInformation .moreDetails .title {
+   margin: 10px 10px 5px;
+}
+
+.historicalFlightInformation .moreDetails .subtitle {
+   margin: 5px 5px 10px 10px;
+   font-weight: 100;
+   color: hsla(0, 0%, 100%, .7);
+}
+
+@media (min-width:768px) {
+   .historicalFlightInformation .moreDetails .subtitle {
+      min-height: 70px;
+   }
+}
+
+@media (min-width:980px) {
+   .historicalFlightInformation .moreDetails .subtitle {
+      min-height: 45px;
+   }
+}
+
+@media (min-width:1200px) {
+   .historicalFlightInformation .moreDetails .subtitle {
+      min-height: 28px;
+   }
+}
+
+.historicalFlightInformation .moreDetails .detail {
+   margin: 5px 10px;
+}
+
+.historicalFlightInformation .eventTimeline {
+   margin: 30px 0;
+}
+
+.historicalFlightInformation .eventTimeline .eventTable {
+   background-color: hsla(0, 0%, 100%, .1);
+}
+
+.historicalFlightInformation .eventTimeline .eventTable .tableHeader {
+   border-top: 2px solid hsla(0, 0%, 100%, .33);
+}
+
+.historicalFlightInformation .eventTimeline .eventTable .tableHeader .headerJustify {
+   margin: 0;
+   padding: 0 5px;
+}
+
+.historicalFlightInformation .eventTimeline .eventTable .time {
+   text-align: center;
+   background-color: hsla(0, 0%, 100%, .25);
+}
+
+.historicalFlightInformation .eventTimeline .eventTable .rowData {
+   font-size: 12pt;
+   line-height: 12pt;
+   font-weight: 100;
+   margin: 10px 0;
+   padding: 0 5px;
+}
+
+.historicalFlightInformation .eventTimeline .eventTable .rowData .historical-flight-time-hours,
+.historicalFlightInformation .eventTimeline .eventTable .rowData.historical-time-utc {
+   font-weight: 700;
+}
+
+.historicalFlightInformation .eventTimeline .eventTable .row.eventRow {
+   display: table;
+   width: 100%;
+   margin: 0 auto;
+}
+
+.historicalFlightInformation .eventTimeline .eventTable .row.eventRow>[class*=col-] {
+   float: none;
+   display: table-cell;
+   vertical-align: top;
+}
+
+.historicalFlightInformation .eventTimeline .eventTable .eventRow {
+   border-top: 2px solid hsla(0, 0%, 100%, .33);
+}
+
+.historicalFlightInformation .eventTimeline .eventTable .eventRow .historical-flight-time-ampm {
+   font-size: 8pt;
+   font-weight: 400;
+}
+
+
+p.status-text-style {
+    background-color: #49c5b6;
+    color: #fff;
+}
+.flight-ticket {
+    background-color: #49c5b64a;
+}
+.flight-ticket-header {
+    background-color: #49c5b6;
+    color: #fff;
+}
+.times {
+    border-bottom: 2px #49c5b6 solid !important;
+}
+.historicalFlightInformation .innerStyle.departure {
+    border-right: 2px solid #49c5b6;
+}
+.historicalFlightInformation p {
+    color: #000 !important;
+}
+.historicalFlightInformation .additionalInfo {
+    border-bottom: 2px solid #49c5b6;
+}
+.flight-ticket {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.timeBlock h4 {
+    font-size: 32px;
+}
+.row.moreDetails h4 {
+    font-size: 32px;
+}
+.timeBlock {
+    display: block;
+    float: left;
+}
+/*! CSS Used from: Embedded ; media=all */
+
+/* @media all {
+   :link,
+   :visited {
+      cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAADX0lEQVRIS9WVX0hacRTHz72pka4S78WxFVK5QfQwi7yDsiAqKghCRg8bDGch1Es5IihIqJ6kwBVShFEEG0QJswIhRySDDTFwTYPZKJKKijEdZmg683qHl03sjyNXL/u9nfv7nfP5/b7nz0UgycJxPLOoqKiJy+U2eL1eF0mSry0WiwsAqGQ+V31HkhxOk8vlUwRBPHe5XAwMwygURT+vrKw8W11d3boNwKO5uTnb0NAQ0263A4fDAZVKFV1fX+/W6/UjtwFoslqtS3V1dXByckLHGxwcBLvdrltYWGi/NUB9fT34fL44wOFw6AwGw38M2NnZ+Yqi6De32/3p9PT0DUVRzQKB4PHR0ZEjEAhMMplMSUZGRoXf73dQFKW3WCzfk1URnYNEifr6+iA/Px/W1tagoKAAhELh6cHBAXtra4u2c3Nzf3g8Hu7h4WEajuPRYDD4zmw2t14b0NDQAJubm7C3t0dX1cDAAJ14v98PbDYbdDodxC6xv78PfD4furq6zpxO5xMaUFVVxcUw7EE4HOZEIhHn8vJyhdVqNSS+oKSkBHZ3d8Hr9dJJl0qlsLi4GC+ozs5O0Gq1tJ2eng69vb2wvb2tQEpLS4XNzc3TFEWVn52dpWVlZX0ZHR19Pz8/35EIyMvLA7fbDYFAgA4iFovBZrPFAbEXmkymy4DGxsZXlZWVL7VaLRIKhUAul0MoFPLLZLI7iQAURSEajcYDMhgMiEQicZvFYkE4HL4MUCgUH0mSlMzMzNCbOI7D7OwsYBgG1dXV8T5IpbnOSSSVSkdFIpFyeHgYgsEgHaempgYmJiaAIIibA8rKygpbW1vNY2Nj9xwOBw2IydHd3Q2Tk5NwfHycyuUvSwQATJVKpc7JyVF2dHQw/uga05iiKCBJ8sYAEAgERWq1+q3ZbC6cnp5OOeBFh3M5+L2JiESiNo1GM6FQKOh6v8m6CkBL39LS8oHP55drNJpzJZgqLBkAJBKJWCaTGcfHx+9ubGykGjd+PikAAFj9/f0jPB6vXalUov9KiM2mnp6emNRPLw277OxssV6vnzWZTA9jsyaxe68LJAiCqq2t3TUajfVXTVOkuLi4tq2t7QWPx7uPIEiyiZuU5/P5PEajcWppaWn1b86ZAMC+7q0vnPsJALF/LfULA3q5yD79QwwAAAAASUVORK5CYII=) 8 0, auto!important;
+   }
+   ::-webkit-scrollbar-button {
+      cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAADX0lEQVRIS9WVX0hacRTHz72pka4S78WxFVK5QfQwi7yDsiAqKghCRg8bDGch1Es5IihIqJ6kwBVShFEEG0QJswIhRySDDTFwTYPZKJKKijEdZmg683qHl03sjyNXL/u9nfv7nfP5/b7nz0UgycJxPLOoqKiJy+U2eL1eF0mSry0WiwsAqGQ+V31HkhxOk8vlUwRBPHe5XAwMwygURT+vrKw8W11d3boNwKO5uTnb0NAQ0263A4fDAZVKFV1fX+/W6/UjtwFoslqtS3V1dXByckLHGxwcBLvdrltYWGi/NUB9fT34fL44wOFw6AwGw38M2NnZ+Yqi6De32/3p9PT0DUVRzQKB4PHR0ZEjEAhMMplMSUZGRoXf73dQFKW3WCzfk1URnYNEifr6+iA/Px/W1tagoKAAhELh6cHBAXtra4u2c3Nzf3g8Hu7h4WEajuPRYDD4zmw2t14b0NDQAJubm7C3t0dX1cDAAJ14v98PbDYbdDodxC6xv78PfD4furq6zpxO5xMaUFVVxcUw7EE4HOZEIhHn8vJyhdVqNSS+oKSkBHZ3d8Hr9dJJl0qlsLi4GC+ozs5O0Gq1tJ2eng69vb2wvb2tQEpLS4XNzc3TFEWVn52dpWVlZX0ZHR19Pz8/35EIyMvLA7fbDYFAgA4iFovBZrPFAbEXmkymy4DGxsZXlZWVL7VaLRIKhUAul0MoFPLLZLI7iQAURSEajcYDMhgMiEQicZvFYkE4HL4MUCgUH0mSlMzMzNCbOI7D7OwsYBgG1dXV8T5IpbnOSSSVSkdFIpFyeHgYgsEgHaempgYmJiaAIIibA8rKygpbW1vNY2Nj9xwOBw2IydHd3Q2Tk5NwfHycyuUvSwQATJVKpc7JyVF2dHQw/uga05iiKCBJ8sYAEAgERWq1+q3ZbC6cnp5OOeBFh3M5+L2JiESiNo1GM6FQKOh6v8m6CkBL39LS8oHP55drNJpzJZgqLBkAJBKJWCaTGcfHx+9ubGykGjd+PikAAFj9/f0jPB6vXalUov9KiM2mnp6emNRPLw277OxssV6vnzWZTA9jsyaxe68LJAiCqq2t3TUajfVXTVOkuLi4tq2t7QWPx7uPIEiyiZuU5/P5PEajcWppaWn1b86ZAMC+7q0vnPsJALF/LfULA3q5yD79QwwAAAAASUVORK5CYII=) 8 0, auto!important;
+   }
+   button {
+      cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAADX0lEQVRIS9WVX0hacRTHz72pka4S78WxFVK5QfQwi7yDsiAqKghCRg8bDGch1Es5IihIqJ6kwBVShFEEG0QJswIhRySDDTFwTYPZKJKKijEdZmg683qHl03sjyNXL/u9nfv7nfP5/b7nz0UgycJxPLOoqKiJy+U2eL1eF0mSry0WiwsAqGQ+V31HkhxOk8vlUwRBPHe5XAwMwygURT+vrKw8W11d3boNwKO5uTnb0NAQ0263A4fDAZVKFV1fX+/W6/UjtwFoslqtS3V1dXByckLHGxwcBLvdrltYWGi/NUB9fT34fL44wOFw6AwGw38M2NnZ+Yqi6De32/3p9PT0DUVRzQKB4PHR0ZEjEAhMMplMSUZGRoXf73dQFKW3WCzfk1URnYNEifr6+iA/Px/W1tagoKAAhELh6cHBAXtra4u2c3Nzf3g8Hu7h4WEajuPRYDD4zmw2t14b0NDQAJubm7C3t0dX1cDAAJ14v98PbDYbdDodxC6xv78PfD4furq6zpxO5xMaUFVVxcUw7EE4HOZEIhHn8vJyhdVqNSS+oKSkBHZ3d8Hr9dJJl0qlsLi4GC+ozs5O0Gq1tJ2eng69vb2wvb2tQEpLS4XNzc3TFEWVn52dpWVlZX0ZHR19Pz8/35EIyMvLA7fbDYFAgA4iFovBZrPFAbEXmkymy4DGxsZXlZWVL7VaLRIKhUAul0MoFPLLZLI7iQAURSEajcYDMhgMiEQicZvFYkE4HL4MUCgUH0mSlMzMzNCbOI7D7OwsYBgG1dXV8T5IpbnOSSSVSkdFIpFyeHgYgsEgHaempgYmJiaAIIibA8rKygpbW1vNY2Nj9xwOBw2IydHd3Q2Tk5NwfHycyuUvSwQATJVKpc7JyVF2dHQw/uga05iiKCBJ8sYAEAgERWq1+q3ZbC6cnp5OOeBFh3M5+L2JiESiNo1GM6FQKOh6v8m6CkBL39LS8oHP55drNJpzJZgqLBkAJBKJWCaTGcfHx+9ubGykGjd+PikAAFj9/f0jPB6vXalUov9KiM2mnp6emNRPLw277OxssV6vnzWZTA9jsyaxe68LJAiCqq2t3TUajfVXTVOkuLi4tq2t7QWPx7uPIEiyiZuU5/P5PEajcWppaWn1b86ZAMC+7q0vnPsJALF/LfULA3q5yD79QwwAAAAASUVORK5CYII=) 8 0, auto!important;
+   }
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*! CSS Used from: file:///C:/Users/Noman/Desktop/colorlib-search-4/css/main.css */
+b{font-weight:inherit;}
+b{font-weight:bolder;}
+svg:not(:root){overflow:hidden;}
+button,input{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0;}
+button,input{overflow:visible;}
+button{text-transform:none;}
+button,html [type="button"]{-webkit-appearance:button;}
+button::-moz-focus-inner,[type="button"]::-moz-focus-inner{border-style:none;padding:0;}
+button:-moz-focusring,[type="button"]:-moz-focusring{outline:1px dotted ButtonText;}
+fieldset{padding:0.35em 0.75em 0.625em;}
+legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal;}
+fieldset{margin:0;padding:0;-webkit-margin-start:0;-webkit-margin-end:0;-webkit-padding-before:0;-webkit-padding-start:0;-webkit-padding-end:0;-webkit-padding-after:0;border:0;}
+legend{margin:0;padding:0;display:block;-webkit-padding-start:0;-webkit-padding-end:0;}
+.choices{position:relative;margin-bottom:24px;font-size:16px;}
+.choices:focus{outline:none;}
+.choices[data-type*="text"] .choices__inner{cursor:text;}
+.choices__inner{display:inline-block;vertical-align:top;width:100%;background-color:#f9f9f9;padding:7.5px 7.5px 3.75px;border:1px solid #DDDDDD;border-radius:2.5px;font-size:14px;min-height:44px;overflow:hidden;}
+.choices__list{margin:0;padding-left:0;list-style:none;}
+.choices__list--multiple{display:inline;}
+.choices__list--dropdown{display:none;z-index:1;position:absolute;width:100%;background-color:#FFFFFF;border:1px solid #DDDDDD;top:100%;margin-top:-1px;border-bottom-left-radius:2.5px;border-bottom-right-radius:2.5px;overflow:hidden;word-break:break-all;}
+.choices__list--dropdown .choices__item{position:relative;padding:10px;font-size:14px;}
+.choices__item{cursor:default;}
+.choices__input{display:inline-block;vertical-align:baseline;background-color:#f9f9f9;font-size:14px;margin-bottom:5px;border:0;border-radius:0;max-width:100%;padding:4px 0 4px 2px;}
+.choices__input:focus{outline:0;}
+*{box-sizing:border-box;}
+.s004 form{width:100%;max-width:790px; margin: 0 auto;}
+.s004 form legend{font-size:36px;color:#fff;font-weight:800;text-align:center;margin-bottom:50px;}
+.s004 form .inner-form{width:100%;margin-bottom:17px;}
+.s004 form .inner-form .input-field{width:100%;position:relative;}
+.s004 form .inner-form .input-field .choices{margin-bottom:0;}
+.s004 form .inner-form .input-field .choices .choices__inner{min-height:70px;width:100%;background:transparent;border:0;background:#fff;display:block;width:100%;padding:10px 70px 10px 32px;font-size:18px;color:#666;border-radius:34px;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-align:center;align-items:center;}
+.s004 form .inner-form .input-field .choices .choices__inner .choices__input{font-size:16px;color:#333;background-color:transparent;margin-bottom:0;}
+.s004 form .inner-form .input-field .choices .choices__list--dropdown{background:transparent;font-size:16px;color:#fff;border:0;padding:0 32px;}
+.s004 form .inner-form .input-field .choices .choices__list--dropdown .choices__item{font-size:13px;height:25px;line-height:1.3;padding:0;padding-top:5px;opacity:.7;}
+.s004 form .inner-form .input-field .btn-search{width:70px;display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;position:absolute;right:0;top:0;height:100%;background:transparent;border:0;padding:0;cursor:pointer;display:flex;-ms-flex-pack:center;justify-content:center;align-items:center;}
+.s004 form .inner-form .input-field .btn-search svg{fill:#333;width:40px;height:40px;transition:all .2s ease-out, color .2s ease-out;}
+.s004 form .inner-form .input-field .btn-search:hover,.s004 form .inner-form .input-field .btn-search:focus{outline:0;box-shadow:none;}
+.s004 form .inner-form .input-field .btn-search:hover svg,.s004 form .inner-form .input-field .btn-search:focus svg{fill:#000;}
+.s004 form .suggestion-wrap{padding:0 15px;}
+.s004 form .suggestion-wrap span{font-size:14px;font-family:'Helvetica', sans-serif;display:inline-block;padding:0 15px;line-height:32px;color:#fff;border-radius:16px;margin-right:10px;margin-bottom:10px;}
+
+.s004 svg {
+	fill: #49c5b6 !important;
 }

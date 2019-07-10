@@ -1,0 +1,128 @@
+0000.005 (0) Opened log file at time: Wed, 10 Jul 2019 05:38:17 +0000 on http://flight.test
+0000.019 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.4.24 WP: 5.2.2 PHP: 7.1.24 (apache2handler, Windows NT NOMAN-PC 6.2 build 9200 (Windows 8 Professional Edition) i586) MySQL: 10.1.37-MariaDB WPLANG: en_US Server: Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/7.1.24 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 44M | 46M) multisite: N openssl: OpenSSL 1.0.2p  14 Aug 2018 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.034 (0) Free space on disk containing Updraft's temporary directory: 35086.1 MB
+0000.071 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.084 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.127 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1562561765, seconds_ago=175332)
+0000.181 (0) Set semaphore last lock (fd) time to 2019-07-10 05:38:18
+0000.195 (0) Semaphore lock (fd) complete
+0000.235 (0) Backup run: resumption=0, nonce=d3e64ec3254a, file_nonce=d3e64ec3254a begun at=1562737097 (1s ago), job type=backup
+0000.263 (0) Scheduling a resumption (1) after 300 seconds (1562737398) in case this run gets aborted
+0000.330 (0) Checking if we have a zip executable available
+0000.354 (0) Creation of backups of directories: beginning
+0000.396 (0) No backup of plugins: excluded by user's options
+0000.411 (0) No backup of themes: excluded by user's options
+0000.426 (0) No backup of uploads: excluded by user's options
+0000.438 (0) No backup of wpcore: excluded by user's options
+0000.452 (0) No backup of others: excluded by user's options
+0000.464 (0) No backup of more: excluded by user's options
+0000.513 (0) Saving backup status to database (elements: 0)
+0000.548 (0) Beginning creation of database dump (WordPress DB)
+0000.727 (0) Table wp_options: Total expected rows (approximate): 522
+0000.841 (0) Table wp_options: Total rows added: 527 in 0.10 seconds
+0000.884 (0) Table wp_options: finishing file (backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_options.table.gz - 223.4 KB)
+0000.983 (0) Table wp_users: Total expected rows (approximate): 3
+0001.024 (0) Table wp_users: Total rows added: 3 in 0.03 seconds
+0001.052 (0) Table wp_users: finishing file (backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_users.table.gz - 0.6 KB)
+0001.105 (0) Table wp_usermeta: Total expected rows (approximate): 71
+0001.136 (0) Table wp_usermeta: Total rows added: 71 in 0.02 seconds
+0001.162 (0) Table wp_usermeta: finishing file (backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_usermeta.table.gz - 2.2 KB)
+0001.222 (0) Table wp_commentmeta: Total expected rows (approximate): 31
+0001.267 (0) Table wp_commentmeta: Total rows added: 31 in 0.03 seconds
+0001.301 (0) Table wp_commentmeta: finishing file (backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_commentmeta.table.gz - 0.6 KB)
+0001.352 (0) Table wp_comments: Total expected rows (approximate): 18
+0001.396 (0) Table wp_comments: Total rows added: 18 in 0.03 seconds
+0001.420 (0) Table wp_comments: finishing file (backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_comments.table.gz - 1.8 KB)
+0001.474 (0) Table wp_links: Total expected rows (approximate): 0
+0001.534 (0) Table wp_links: Total rows added: 0 in 0.02 seconds
+0001.560 (0) Table wp_links: finishing file (backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_links.table.gz - 0.4 KB)
+0001.613 (0) Table wp_postmeta: Total expected rows (approximate): 363651
+0001.640 (0) [Warning] Table wp_postmeta has very many rows (363651) - we hope your web hosting company gives you enough resources to dump out that table in the backup If not, you will need to either remove data from this table, or contact your hosting company to request more resources.
+0086.368 (0) Table wp_postmeta: Total rows added: 367127 in 84.71 seconds
+0086.400 (0) Table wp_postmeta: finishing file (backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_postmeta.table.gz - 2838.5 KB)
+0086.450 (0) Table wp_posts: Total expected rows (approximate): 17266
+0087.915 (0) Table wp_posts: Total rows added: 19436 in 1.42 seconds
+0087.934 (0) Table wp_posts: finishing file (backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_posts.table.gz - 473.7 KB)
+0087.984 (0) Table wp_term_relationships: Total expected rows (approximate): 10
+0088.027 (0) Table wp_term_relationships: Total rows added: 10 in 0.03 seconds
+0088.051 (0) Table wp_term_relationships: finishing file (backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0088.106 (0) Table wp_term_taxonomy: Total expected rows (approximate): 3
+0088.149 (0) Table wp_term_taxonomy: Total rows added: 3 in 0.03 seconds
+0088.174 (0) Table wp_term_taxonomy: finishing file (backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_term_taxonomy.table.gz - 0.4 KB)
+0088.237 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0088.283 (0) Table wp_termmeta: Total rows added: 0 in 0.03 seconds
+0088.304 (0) Table wp_termmeta: finishing file (backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_termmeta.table.gz - 0.4 KB)
+0088.356 (0) Table wp_terms: Total expected rows (approximate): 3
+0088.382 (0) Table wp_terms: Total rows added: 3 in 0.01 seconds
+0088.402 (0) Table wp_terms: finishing file (backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_terms.table.gz - 0.4 KB)
+0088.460 (0) Table wp_apsl_users_social_profile_details: Total expected rows (approximate): 0
+0088.484 (0) Table wp_apsl_users_social_profile_details: Total rows added: 0 in 0.01 seconds
+0088.502 (0) Table wp_apsl_users_social_profile_details: finishing file (backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_apsl_users_social_profile_details.table.gz - 0.5 KB)
+0088.579 (0) Table wp_revslider_css: Total expected rows (approximate): 109
+0088.604 (0) Table wp_revslider_css: Total rows added: 109 in 0.01 seconds
+0088.622 (0) Table wp_revslider_css: finishing file (backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_revslider_css.table.gz - 4.9 KB)
+0088.678 (0) Table wp_revslider_layer_animations: Total expected rows (approximate): 0
+0088.709 (0) Table wp_revslider_layer_animations: Total rows added: 0 in 0.02 seconds
+0088.736 (0) Table wp_revslider_layer_animations: finishing file (backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_revslider_layer_animations.table.gz - 0.3 KB)
+0088.797 (0) Table wp_revslider_navigations: Total expected rows (approximate): 0
+0088.822 (0) Table wp_revslider_navigations: Total rows added: 0 in 0.01 seconds
+0088.845 (0) Table wp_revslider_navigations: finishing file (backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_revslider_navigations.table.gz - 0.3 KB)
+0088.928 (0) Table wp_revslider_sliders: Total expected rows (approximate): 0
+0088.956 (0) Table wp_revslider_sliders: Total rows added: 0 in 0.02 seconds
+0088.977 (0) Table wp_revslider_sliders: finishing file (backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_revslider_sliders.table.gz - 0.3 KB)
+0089.066 (0) Table wp_revslider_slides: Total expected rows (approximate): 0
+0089.090 (0) Table wp_revslider_slides: Total rows added: 0 in 0.01 seconds
+0089.110 (0) Table wp_revslider_slides: finishing file (backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_revslider_slides.table.gz - 0.3 KB)
+0089.172 (0) Table wp_revslider_static_slides: Total expected rows (approximate): 0
+0089.211 (0) Table wp_revslider_static_slides: Total rows added: 0 in 0.03 seconds
+0089.230 (0) Table wp_revslider_static_slides: finishing file (backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_revslider_static_slides.table.gz - 0.3 KB)
+0089.291 (0) Table wp_uwp_form_extras: Total expected rows (approximate): 5
+0089.312 (0) Table wp_uwp_form_extras: Total rows added: 5 in 0.01 seconds
+0089.337 (0) Table wp_uwp_form_extras: finishing file (backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_uwp_form_extras.table.gz - 0.7 KB)
+0089.435 (0) Table wp_uwp_form_fields: Total expected rows (approximate): 17
+0089.478 (0) Table wp_uwp_form_fields: Total rows added: 17 in 0.03 seconds
+0089.504 (0) Table wp_uwp_form_fields: finishing file (backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_uwp_form_fields.table.gz - 1.1 KB)
+0089.560 (0) Table wp_wpfm_backup: Total expected rows (approximate): 0
+0089.598 (0) Table wp_wpfm_backup: Total rows added: 0 in 0.02 seconds
+0089.625 (0) Table wp_wpfm_backup: finishing file (backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_wpfm_backup.table.gz - 0.3 KB)
+0089.659 (0) backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_options.table.gz (1/22): adding to final database dump
+0089.733 (0) backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_users.table.gz (2/22): adding to final database dump
+0089.747 (0) backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_usermeta.table.gz (3/22): adding to final database dump
+0089.762 (0) backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_commentmeta.table.gz (4/22): adding to final database dump
+0089.777 (0) backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_comments.table.gz (5/22): adding to final database dump
+0089.795 (0) backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_links.table.gz (6/22): adding to final database dump
+0089.812 (0) backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_postmeta.table.gz (7/22): adding to final database dump
+0091.637 (0) backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_posts.table.gz (8/22): adding to final database dump
+0091.898 (0) backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_term_relationships.table.gz (9/22): adding to final database dump
+0091.912 (0) backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_term_taxonomy.table.gz (10/22): adding to final database dump
+0091.925 (0) backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_termmeta.table.gz (11/22): adding to final database dump
+0091.939 (0) backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_terms.table.gz (12/22): adding to final database dump
+0091.954 (0) backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_apsl_users_social_profile_details.table.gz (13/22): adding to final database dump
+0091.971 (0) backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_revslider_css.table.gz (14/22): adding to final database dump
+0091.988 (0) backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_revslider_layer_animations.table.gz (15/22): adding to final database dump
+0092.015 (0) backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_revslider_navigations.table.gz (16/22): adding to final database dump
+0092.029 (0) backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_revslider_sliders.table.gz (17/22): adding to final database dump
+0092.042 (0) backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_revslider_slides.table.gz (18/22): adding to final database dump
+0092.053 (0) backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_revslider_static_slides.table.gz (19/22): adding to final database dump
+0092.066 (0) backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_uwp_form_extras.table.gz (20/22): adding to final database dump
+0092.078 (0) backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_uwp_form_fields.table.gz (21/22): adding to final database dump
+0092.091 (0) backup_2019-07-10-0538_Gooders_d3e64ec3254a-db-table-wp_wpfm_backup.table.gz (22/22): adding to final database dump
+0092.102 (0) backup_2019-07-10-0538_Gooders_d3e64ec3254a-db.gz: finished writing out complete database file (3536 KB)
+0092.267 (0) Total database tables backed up: 22 (backup_2019-07-10-0538_Gooders_d3e64ec3254a-db.gz, size: 3631721, sha256)
+0092.353 (0) backup_2019-07-10-0538_Gooders_d3e64ec3254a-db.gz: db: This file has not yet been successfully uploaded: will queue
+0092.366 (0) Saving backup history. Total backup size: 3.5 MB
+0092.404 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0092.469 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0092.482 (0) No remote despatch: user chose no remote backup service
+0092.508 (0) Recording as successfully uploaded: backup_2019-07-10-0538_Gooders_d3e64ec3254a-db.gz
+0092.557 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0092.581 (0) Resume backup (d3e64ec3254a, 0): finish run
+0092.653 (0) Decremented the semaphore (fd) by 1
+0092.693 (0) Semaphore (fd) unlocked
+0092.718 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0092.798 (0) No email will/can be sent - the user has not configured an email address.
+0092.822 (0) The backup apparently succeeded and is now complete
+0000.000 (1) Opened log file at time: Wed, 10 Jul 2019 05:46:11 +0000 on http://flight.test
+0000.014 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.4.24 WP: 5.2.2 PHP: 7.1.24 (apache2handler, Windows NT NOMAN-PC 6.2 build 9200 (Windows 8 Professional Edition) i586) MySQL: 10.1.37-MariaDB WPLANG: en_US Server: Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/7.1.24 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 43.5M | 4M) multisite: N openssl: OpenSSL 1.0.2p  14 Aug 2018 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.027 (1) Free space on disk containing Updraft's temporary directory: 35082.6 MB
+0000.041 (1) This backup task (d3e64ec3254a) is either complete or began over 2 days ago: ending (1562737571.3619, ) (existing jobdata keys: )

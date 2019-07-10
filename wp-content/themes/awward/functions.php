@@ -185,7 +185,7 @@ function insert_and_update_airline() {
 
 		$index++;
 		
-		// if($index == 600)  {
+		// if($index == 20)  {
 		// 	break;
 		// }
 
@@ -210,7 +210,7 @@ function insert_and_update_airline() {
 					'key' => 'fs',
 					'value' => $airline['fs'],
 					'compare' => '=',
-				),
+				)
 			)
 		);
 
@@ -226,6 +226,8 @@ function insert_and_update_airline() {
 
 		// echo $index;
 
+		$status = ($airline['active']) ? 'publish' : 'pending';
+
 		if($insert == true) {
 			
 			// echo ' - insert-' . $airline['name'] .'-'. $airline['fs'];
@@ -234,7 +236,7 @@ function insert_and_update_airline() {
 			wp_insert_post( array(
 				'post_title'    => $airline['name'],
 				'post_type'     => 'airline',
-				'post_status' => 'publish',
+				'post_status' => $status,
 				'meta_input'    => $airline_meta_array
 
 			) ); 
@@ -248,7 +250,7 @@ function insert_and_update_airline() {
 				'ID' => $check_title->ID,
 				'post_title'    => $airline['name'],
 				'post_type'     => 'airline',
-				'post_status' => 'publish',
+				'post_status' => $status,
 				'meta_input'    => $airline_meta_array
 
 			) );
@@ -327,6 +329,10 @@ function insert_and_update_airport() {
 
 		$insert = true;
 
+
+		$status = ($airport['active']) ? 'publish' : 'pending';
+
+
 		if ( $check_title->found_posts > 0 ) { 
 
 			$insert = false;
@@ -343,7 +349,7 @@ function insert_and_update_airport() {
 			wp_insert_post( array(
 				'post_title'    => $airport['name'],
 				'post_type'     => 'airport',
-				'post_status' => 'publish',
+				'post_status' => $status,
 				'meta_input'    => $airport_meta_array
 
 			) ); 
@@ -357,7 +363,7 @@ function insert_and_update_airport() {
 				'ID' => $check_title->ID,
 				'post_title'    => $airport['name'],
 				'post_type'     => 'airport',
-				'post_status' => 'publish',
+				'post_status' => $status,
 				'meta_input'    => $airport_meta_array
 
 			) );
@@ -394,5 +400,17 @@ add_filter( 'init', function( $template ) {
 
 
 
+
+
+
+
+// function title_filter( $where, &$wp_query )
+// {
+//     global $wpdb;
+//     if ( $search_term = $wp_query->get( 'search_prod_title' ) ) {
+//         $where .= ' AND ' . $wpdb->posts . '.post_title LIKE \'%' . esc_sql( like_escape( $search_term ) ) . '%\'';
+//     }
+//     return $where;
+// }
 
 

@@ -1,32 +1,63 @@
 <?php get_header(); ?>
 <div class="row">
   <div class="col-md-12">
-    <main id="content">
+	<br>
+	<br>
+
+	<?php 	
+							
+		$airline_id = get_the_ID();
+		
+		$iata = get_post_meta($airline_id, 'iata', true);
+		$icao = get_post_meta($airline_id, 'icao', true);
+		$phoneNumber = get_post_meta($airline_id, 'phoneNumber', true);
+
+
+	?>
+
       <?php if ( is_singular() ) {
-        echo '<h1 class="entry-title">';
+		  
+		echo '<h1 class="entry-title">';
+		
         } else {
         echo '<h2 class="entry-title">';
         } ?>
-      <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" rel="bookmark"><?php the_title(); ?></a>
+
+
+		<img src="https://booking.kayak.com/rimg/provider-logos/airlines/v/<?= $iata; ?>.png?crop=false&width=72&height=72&fallback=default2.png&_v=8d8d0b60f9172bb9c10950f2fb00ce56377c2108" alt="<?= $iata; ?>">	
+      <?php the_title(); ?>
+
+
       <?php if ( is_singular() ) {
         echo '</h1>';
         } else {
         echo '</h2>';
         } ?>
       <ul class="address-info">
-        <li>
-          <p><i class="fa fa-map"></i> <?php the_field('address'); ?>  </p>
-        </li>
-        <li>
-          <p><i class="fa fa-phone"></i> <?php the_field('contact_no');  ?></p>
-        </li>
-        <li>
-          <p><i class="fa fa-laptop"></i> <a href="<?php the_field('website'); ?>">Website </a> </p>
-        </li>
 		<li>
           <p><i class="fa fa-pencil-square-o"></i> <a href="#respond">Leave a Review </a> </p>
         </li>
       </ul>
+
+
+	<p>
+		<?php if ($iata): ?>
+			<strong>	IATA: <?= $iata; ?> </strong>
+			<br>
+		<?php endif ?>
+
+		<?php if ($icao): ?>
+			<strong> ICAO: <?= $icao; ?> </strong>
+			<br>
+		<?php endif ?>
+
+		<?php if ($phoneNumber): ?>
+			<strong> Phone Number: <?= $phoneNumber; ?> </strong>
+			<br>
+		<?php endif ?>
+	</p>
+
+
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
       <?php if( have_rows('slider_images') ): ?>
       <div id="airlineslider" class="carousel slide" data-ride="carousel">
