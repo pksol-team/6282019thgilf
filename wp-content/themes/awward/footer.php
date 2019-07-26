@@ -35,10 +35,38 @@
 </footer>
 </div>
 </div>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <?php
+			
+			echo do_shortcode('[gravityform id=1]');
+
+		?>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
 <?php wp_footer(); ?>
 
  <script src="<?php  echo get_template_directory_uri(); ?>/js/vendor.2fd930e2b5108d7ee29c.js"></script>
 <script src="<?php  echo get_template_directory_uri(); ?>/js/winner.adcd56e89fd1220cbc13.js"></script> 
+<script src="<?php  echo get_template_directory_uri(); ?>/js/main.js"></script> 
 <script>
         jQuery(document).ready(function($){
           $("ul.address-info li a").on('click', function(event) {

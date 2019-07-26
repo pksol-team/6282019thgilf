@@ -44,7 +44,7 @@ get_header(); ?>
 										<div class="choices__inner">
 											<input class="form-control choices__input is-hidden" id="choices-text-preset-values" type="text" placeholder="Type to search..." tabindex="-1" style="display:none;" aria-hidden="true" data-choice="active" value="">
 											<div class="choices__list choices__list--multiple"></div>
-											<input name="search" type="text" class="choices__input choices__input--cloned" autocomplete="off" autocapitalize="off" spellcheck="false" role="textbox" aria-autocomplete="list" placeholder="Type to search..." style="width: 109px;" value="<?= (isset($_GET['search'])) ? $_GET['search'] : ""; ?>">
+											<input name="search" type="text" class="choices__input choices__input--cloned" autocomplete="off" autocapitalize="off" spellcheck="false" role="textbox" aria-autocomplete="list" placeholder="Type to search..." style="width: 70%; height: 50px;" value="<?= (isset($_GET['search'])) ? $_GET['search'] : ""; ?>">
 										</div>
 									</div>
 									<button class="btn-search" type="submit">
@@ -61,33 +61,22 @@ get_header(); ?>
 
 					<?php
 						
-						// 'orderby' => 'rand',
-						// 's' => 'pia',	
-
-
 					$args = array(
 						'post_type' => 'airline',
 						'post_status' => 'publish',
 						'posts_per_page' => 21,
-
-
+						
 						// 'meta_query' => array(
-						// 	'relation' => 'OR',
-						// 	array(
-						// 		'key' => 'iata',
-						// 		'value' => 'pia%',							
-						// 		'compare' => 'LIKE',
-						// 	),
-						// 	array(
-						// 		'key' => 'name',
-						// 		'value' => 'pia',
-						// 		'compare' => 'LIKE',
-						// 	),
-						// 	array(
-						// 		'key' => 'iata',
-						// 		'value' => 'pia',
-						// 		'compare' => 'LIKE',
-						// 	),
+
+						// 	'average_clause' => array(
+						// 		'key' => 'average_ratings',
+						// 		'compare' => 'EXISTS',
+						// 	), 
+
+						// ),
+
+						// 'orderby' => array(
+						// 	'average_clause' => 'DESC',
 						// ),
 
 						'showposts'=> 21,
@@ -106,45 +95,32 @@ get_header(); ?>
 					}
 
 					query_posts( array( 
-						'post_type' => 'airline', 
-
-						// 'meta_query' => array(
-						// 	'relation' => 'OR',
-						// 	array(
-						// 		'key' => 'iata',
-						// 		'value' => 'pia',
-						// 		'compare' => 'LIKE',
-						// 	),
-						// 	array(
-						// 		'key' => 'icao',
-						// 		'value' => 'pia',
-						// 		'compare' => 'LIKE',
-						// 	),
-						// 	array(
-						// 		'key' => 'name',
-						// 		'value' => 'pia',
-						// 		'compare' => 'LIKE',
-						// 	),
-						// ),
-
+						'post_type' => 'airline',
 						
+						// 'meta_query' => array(
+
+						// 	'average_clause' => array(
+						// 		'key' => 'average_ratings',
+						// 		'compare' => 'EXISTS',
+						// 	), 
+
+						// ),	
+
+						'orderby' => array(
+							'average_clause' => 'DESC',
+						),
+
 						'paged' => $paged,
 						's' => (isset($_GET['search'])) ? $_GET['search'] : ''
 					) );
 
-					// 's' => 'pia',
-						// 'orderby' => 'rand', 
-					
-					$my_query = null;
-
-
-					
+					$my_query = null;					
 					$my_query = new WP_Query($args); 
 					
 					
 					?>
 					
-					<?php // var_dump($GLOBALS['wp_query']->request); ?>
+					<?php // var_dump($GLOBALS['wp_query']->request); ?> 
 
 					<?php if( $my_query->have_posts() ) : ?>
 

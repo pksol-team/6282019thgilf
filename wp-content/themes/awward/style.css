@@ -24,6 +24,14 @@ html {
   box-sizing: inherit
 }
 
+
+@font-face {
+	font-family: proxima-nova;
+	src: url("https://assets.flightstats.com/common/webfonts/proximanova-regular/proximanova-regular-webfont.woff2") format("woff2"), url("https://assets.flightstats.com/common/webfonts/proximanova-regular/proximanova-regular-webfont.woff") format("woff"), url("https://assets.flightstats.com/common/webfonts/proximanova-regular/proximanova-regular-webfont.ttf") format("truetype"), url("https://assets.flightstats.com/common/webfonts/proximanova-regular/proximanova-regular-webfont.svg#proxima_novaregular") format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+
 article,
 aside,
 details,
@@ -12472,7 +12480,7 @@ section.flight-search {
 }
 
 .historicalFlightInformation .airportDiv {
-   padding: 20px 20px 0;
+   padding: 10px 20px 0;
 }
 
 .historicalFlightInformation .airportDiv .airportCodeTitle {
@@ -12717,6 +12725,9 @@ p.status-text-style {
     display: block;
     float: left;
 }
+
+
+
 /*! CSS Used from: Embedded ; media=all */
 
 /* @media all {
@@ -12798,3 +12809,151 @@ legend{margin:0;padding:0;display:block;-webkit-padding-start:0;-webkit-padding-
 .s004 svg {
 	fill: #49c5b6 !important;
 }
+
+
+.choices__input choices__input--cloned {
+	height: 50px !important;
+    width: 70% !important;
+}
+
+.gateBlock .detail, 
+.terminalBlock .detail, 
+.baggageBlock .detail {
+	font-size: 32px;
+}
+
+
+
+
+p.status-text-style {
+    background-color: #49c5b6;
+    color: #fff;
+}
+.flight-ticket {
+    background-color: #49c5b64a;
+}
+.flight-ticket-header {
+    background-color: #49c5b6;
+    color: #fff;
+}
+.times {
+    border-bottom: 2px #49c5b6 solid !important;
+}
+.historicalFlightInformation .innerStyle.departure {
+    border-right: 2px solid #49c5b6;
+}
+.historicalFlightInformation p {
+    color: #000 !important;
+}
+.historicalFlightInformation .additionalInfo {
+    border-bottom: 2px solid #49c5b6;
+}
+
+.main_box_row {
+	padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main_box_row * {
+	font-family: proxima-nova;
+}
+
+.flight-details {
+	padding: 0 30px;
+}
+
+.flight-ticket-header {
+	margin: 0;
+}
+
+h2.flight-ticket-header {
+    margin: 0;
+}
+
+h2.airportCodeTitle {
+    margin: 0;
+}
+
+.historicalFlightInformation .departureArrivalTitle {
+    padding: 15px 0;
+}
+
+p.title {
+    margin: 0 !important;
+    line-height: 20px;
+}
+
+p.date {
+    color: grey !important;
+    font-size: 14px;
+    margin: 0 !important;
+}
+
+.timeBlock {
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+
+.moreDetails > div .title,
+.moreDetails > div .subtitle,
+.moreDetails > div .detail
+{
+    text-align: center;
+}
+
+.moreDetails > div .subtitle
+{
+    color: grey !important;
+}
+
+.moreDetails > div
+{
+	margin-top: 12px;
+	padding-bottom: 0;
+}
+
+.moreDetails {
+	padding-bottom: 0;
+}
+
+.airportDiv + .innerStyle {
+	margin-bottom: 8px;
+}
+
+#description-tmce, #description-html {
+	display: none;
+}
+
+.file-upload-loader {
+	display: none;
+}
+
+#airport_image {
+	width: 400px;
+}
+
+.loader_buttom {
+	background: #fff !important;
+	color: grey !important;
+	box-shadow: inset 0px 0px 5px 2px #0000005c;
+	cursor: not-allowed;
+	display: none;
+}
+
+.cancel_button {
+	background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+}
+
+.button_view {
+	background-color: #007bff !important;
+    border-color: #007bff !important;	
+}
+
+#success_msg {
+	display: none;
+}
+
+
+

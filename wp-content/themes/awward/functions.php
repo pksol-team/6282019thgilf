@@ -196,6 +196,8 @@ function insert_and_update_airline() {
 			$airline_meta_array[$airline_meta_key] = strval($airline_meta);
 
 		}
+
+		$airline_meta_array['average_ratings'] = '0';
 		
 		$args = array(
 			'post_type' => 'airline',
@@ -220,7 +222,7 @@ function insert_and_update_airline() {
 
 		if ( $check_title->found_posts > 0 ) { 
 
-			$insert = false;
+			$insert = false; 
 
 		}
 
@@ -268,19 +270,6 @@ function insert_and_update_airline() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 function insert_and_update_airport() {
 
 	$appId = '856acead';
@@ -307,6 +296,8 @@ function insert_and_update_airport() {
 			$airport_meta_array[$airport_meta_key] = strval($airport_meta);
 
 		}
+
+		$airport_meta_array['average_ratings'] = '0';
 		
 		$args = array(
 			'post_type' => 'airport',
@@ -399,18 +390,129 @@ add_filter( 'init', function( $template ) {
 } );
 
 
+add_action( 'comment_post', 'show_message_function', 10, 2 );
+function show_message_function( $comment_ID, $comment_approved ) {
+
+    $comment_posted = get_comment( $comment_ID ); 
+    $comment_post_id = $comment_posted->comment_post_ID ;
+
+	$args = array(
+		'post_id' => $comment_post_id,
+		'status'  => 'approve'
+	);
+
+	$comments = get_comments( $args );
+	$ratings  = array();
+	$count    = 0;
+
+	foreach ( $comments as $comment ) {
+
+		$rating = get_comment_meta( $comment->comment_ID, 'rating', true );
+
+		if ( ! empty( $rating ) ) {
+			$ratings[] = absint( $rating );
+			$count ++;
+		}
+	}
+
+	$avg = 0;
+
+	if ( 0 != count( $ratings ) ) {
+
+		$avg = round( array_sum( $ratings ) / count( $ratings ) );
+
+	}
+
+	update_post_meta( $comment_post_id, 'average_ratings', $avg);
+	
+}
 
 
 
+add_action( 'wp_ajax_upload_file', 'upload_file' );
+add_action('wp_ajax_nopriv_upload_file', 'upload_file');
+function upload_file() { 
 
 
-// function title_filter( $where, &$wp_query )
-// {
-//     global $wpdb;
-//     if ( $search_term = $wp_query->get( 'search_prod_title' ) ) {
-//         $where .= ' AND ' . $wpdb->posts . '.post_title LIKE \'%' . esc_sql( like_escape( $search_term ) ) . '%\'';
-//     }
-//     return $where;
-// }
+	if ( ! function_exists( 'wp_handle_upload' ) ) {
+	    require_once( ABSPATH . 'wp-admin/includes/file.php' );
+	}
+	
+	$uploadedfile = $_FILES['file'];
+
+
+	$upload_overrides = array( 'test_form' => false );
+	$movefile = wp_handle_upload( $uploadedfile, $upload_overrides );
+
+	// echo $movefile['url'];
+
+	$url = $movefile['url'];
+	$title = $_POST['airport_name'];
+	$alt_text = $_POST['airport_name'];
+
+	require_once(ABSPATH . 'wp-admin/includes/media.php');
+	require_once(ABSPATH . 'wp-admin/includes/file.php');
+	require_once(ABSPATH . 'wp-admin/includes/image.php');
+
+	// sideload the image --- requires the files above to work correctly
+	$src = media_sideload_image( $url, null, null, 'src' );
+
+	// convert the url to image id
+	$image_id = attachment_url_to_postid( $src );
+
+	if( $image_id ) {
+
+		// make sure the post exists
+		$image = get_post( $image_id );
+
+		if( $image) {
+
+			// Add title to image
+			wp_update_post( array (
+				'ID'         => $image->ID,
+				'post_title' => "Some Image Title",
+			) );
+
+			// Add Alt text to image
+			update_post_meta($image->ID, '_wp_attachment_image_alt', $alt_text);
+		}
+	}
+
+	echo json_encode(['id' => $image->ID, 'url' => $movefile['url']]);
+
+	wp_die();
+
+}
+
+
+
+add_action( 'wp_ajax_update_airport_data', 'update_airport_data' );
+add_action('wp_ajax_nopriv_update_airport_data', 'update_airport_data');
+function update_airport_data() { 
+
+	$airport_image_id = $_POST['airport_image_id'];
+
+
+	$title = $_POST['title'];
+	$desc = $_POST['description'];
+	$latitude = $_POST['latitude'];
+	$longitude = $_POST['longitude'];
+	$airport_id = $_POST['airport_id'];
+
+	$airport_post = array();
+	$airport_post['ID'] = $airport_id;
+	$airport_post['post_title'] = $title;
+	$airport_post['post_content'] = $desc;
+
+	update_post_meta( $airport_id, 'latitude', $latitude);
+	update_post_meta( $airport_id, 'longitude', $longitude);
+
+	wp_update_post( $airport_post );
+	
+	set_post_thumbnail( $airport_id, $airport_image_id );
+
+	wp_die();
+
+}
 
 

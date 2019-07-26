@@ -2,6 +2,15 @@
 <div class="row">
   <div class="col-md-12">
     <main id="content">
+
+		<?php $access = get_user_meta(get_current_user_id(), 'airport_id', true); ?>
+		<?php if ($access == get_the_ID()): ?>
+		<a href="<?= get_home_url() ?>/edit_airport/?id=<?= get_the_ID(); ?>" style="text-decoration: underline; ">Edit Airport</a>
+		<br>
+		<?php endif ?>
+
+
+
       <?php if ( is_singular() ) {
         echo '<h1 class="entry-title">';
         } else {
@@ -17,6 +26,13 @@
 		<li>
           <p><i class="fa fa-pencil-square-o"></i> <a href="#respond">Leave a Review </a> </p>
         </li>  
+
+		<li>
+        
+		  <p><i class="fa fa-floppy-o"></i> <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> <a href="#respond"> Own this Airport Request Access </a> </p>
+
+        </li>  
+
       </ul>
 
 	<?php 
@@ -95,43 +111,18 @@
 
 
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-      <?php if( have_rows('slider_images') ): ?>
-      <div id="airlineslider" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <?php $count = 0; ?>
-          <?php while( have_rows('slider_images') ): the_row(); 
-            $image = get_sub_field('slider_img');  
-            $count++;
-            ?>
-          <div class="carousel-item<?php if($count == 1){echo ' active';}?> ">
-            <img src="<?php echo $image; ?>" alt="#" >
-          </div>
-          <?php endwhile; ?>
-        </div>
-        <a class="carousel-control-prev" href="#airlineslider" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#airlineslider" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-        </a>
-      </div>
-      <?php endif; ?>
+     
+		<img src="<?= get_the_post_thumbnail_url(); ?>">
 
 		<?php 
 
 			$appId = '856acead';
 			$appKey = '42227f258e3e30fa2bdbb1e572599d25';
 
-			// $Airport_flights = file_get_contents('https://api.flightstats.com/flex/airports/rest/v1/json/all?appId='.$appId.'&appKey='.$appKey);
 			$Airport_flights = file_get_contents('https://api.flightstats.com/flex/fids/rest/v1/json/'.$fs.'/departures?appId='.$appId.'&appKey='.$appKey.'&requestedFields=flightid%20originCity%2CdestinationCity%2CairlineName%2CairlineLogoUrlPng%2CairlineCode%2CflightNumber%2Ccity%2CcurrentTime%2Cgate%2Cremarks&lateMinutes=15&useRunwayTimes=false&excludeCargoOnlyFlights=false');
 
 			$Airport_flights_array = json_decode($Airport_flights, true)['fidsData'];
 
-			// var_dump($Airport_flights_array);
-
-			// foreach($airport_array as $airport) {
 
 
 		?>
@@ -188,6 +179,7 @@
   </div>
 </div>
 
+
 <script>
 	function initMap() {
 		var myLatLng = { lat: <?= $latitude; ?>, lng: <?= $longitude ?> };
@@ -211,6 +203,7 @@
 		$('#flights_table').DataTable();
 	} );
 </script>
+
 
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeD3LSJjBsUHiKv7IHUomkYIdbzF1b1pk&callback=initMap"></script>
 <?php get_footer(); ?>

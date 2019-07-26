@@ -1,0 +1,109 @@
+0000.001 (0) Opened log file at time: Thu, 25 Jul 2019 12:27:01 +0000 on http://flight.test
+0000.017 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.4.24 WP: 5.2.2 PHP: 7.1.24 (apache2handler, Windows NT NOMAN-PC 6.2 build 9200 (Windows 8 Professional Edition) i586) MySQL: 10.1.37-MariaDB WPLANG: en_US Server: Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/7.1.24 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 51.6M | 44M) multisite: N openssl: OpenSSL 1.0.2p  14 Aug 2018 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.031 (0) Free space on disk containing Updraft's temporary directory: 36167.4 MB
+0000.047 (0) Deleting old log file: log.0ef2f3e8084a.txt
+0000.067 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.086 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.132 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1563944009, seconds_ago=113612)
+0000.185 (0) Set semaphore last lock (fd) time to 2019-07-25 12:27:01
+0000.198 (0) Semaphore lock (fd) complete
+0000.281 (0) Backup run: resumption=0, nonce=03edb40ec2ed, file_nonce=03edb40ec2ed begun at=1564057621 (0s ago), job type=backup
+0000.305 (0) Scheduling a resumption (1) after 300 seconds (1564057921) in case this run gets aborted
+0000.362 (0) Checking if we have a zip executable available
+0000.388 (0) Creation of backups of directories: beginning
+0000.423 (0) No backup of plugins: excluded by user's options
+0000.435 (0) No backup of themes: excluded by user's options
+0000.448 (0) No backup of uploads: excluded by user's options
+0000.461 (0) No backup of wpcore: excluded by user's options
+0000.474 (0) No backup of others: excluded by user's options
+0000.487 (0) No backup of more: excluded by user's options
+0000.551 (0) Saving backup status to database (elements: 0)
+0000.582 (0) Beginning creation of database dump (WordPress DB)
+0000.709 (0) Table wp_options: Total expected rows (approximate): 570
+0000.895 (0) Table wp_options: Total rows added: 576 in 0.17 seconds
+0000.925 (0) Table wp_options: finishing file (backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_options.table.gz - 230.3 KB)
+0000.997 (0) Table wp_commentmeta: Total expected rows (approximate): 17
+0001.022 (0) Table wp_commentmeta: Total rows added: 17 in 0.01 seconds
+0001.040 (0) Table wp_commentmeta: finishing file (backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_commentmeta.table.gz - 0.5 KB)
+0001.084 (0) Table wp_comments: Total expected rows (approximate): 17
+0001.109 (0) Table wp_comments: Total rows added: 17 in 0.01 seconds
+0001.126 (0) Table wp_comments: finishing file (backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_comments.table.gz - 1.1 KB)
+0001.172 (0) Table wp_links: Total expected rows (approximate): 0
+0001.195 (0) Table wp_links: Total rows added: 0 in 0.01 seconds
+0001.251 (0) Table wp_links: finishing file (backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_links.table.gz - 0.5 KB)
+0001.322 (0) Table wp_postmeta: Total expected rows (approximate): 165261
+0001.347 (0) [Warning] Table wp_postmeta has very many rows (165261) - we hope your web hosting company gives you enough resources to dump out that table in the backup If not, you will need to either remove data from this table, or contact your hosting company to request more resources.
+0001.477 (0) Table wp_postmeta: Total rows added: 0 in 0.12 seconds
+0001.510 (0) Table wp_postmeta: finishing file (backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_postmeta.table.gz - 0.4 KB)
+0001.556 (0) Table wp_apsl_users_social_profile_details: Total expected rows (approximate): 0
+0001.591 (0) Table wp_apsl_users_social_profile_details: Total rows added: 0 in 0.02 seconds
+0001.615 (0) Table wp_apsl_users_social_profile_details: finishing file (backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_apsl_users_social_profile_details.table.gz - 0.5 KB)
+0001.676 (0) Table wp_gf_addon_feed: Total expected rows (approximate): 1
+0001.732 (0) Table wp_gf_addon_feed: Total rows added: 1 in 0.02 seconds
+0001.767 (0) Table wp_gf_addon_feed: finishing file (backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_gf_addon_feed.table.gz - 0.8 KB)
+0001.813 (0) Table wp_gf_addon_payment_callback: Total expected rows (approximate): 0
+0001.837 (0) Table wp_gf_addon_payment_callback: Total rows added: 0 in 0.01 seconds
+0001.853 (0) Table wp_gf_addon_payment_callback: finishing file (backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_gf_addon_payment_callback.table.gz - 0.4 KB)
+0001.897 (0) Table wp_gf_addon_payment_transaction: Total expected rows (approximate): 0
+0001.924 (0) Table wp_gf_addon_payment_transaction: Total rows added: 0 in 0.01 seconds
+0001.943 (0) Table wp_gf_addon_payment_transaction: finishing file (backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_gf_addon_payment_transaction.table.gz - 0.5 KB)
+0001.993 (0) Table wp_gf_draft_submissions: Total expected rows (approximate): 0
+0002.015 (0) Table wp_gf_draft_submissions: Total rows added: 0 in 0.01 seconds
+0002.034 (0) Table wp_gf_draft_submissions: finishing file (backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_gf_draft_submissions.table.gz - 0.4 KB)
+0002.078 (0) Table wp_gf_entry: Total expected rows (approximate): 2
+0002.105 (0) Table wp_gf_entry: Total rows added: 2 in 0.02 seconds
+0002.122 (0) Table wp_gf_entry: finishing file (backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_gf_entry.table.gz - 0.8 KB)
+0002.166 (0) Table wp_gf_entry_meta: Total expected rows (approximate): 18
+0002.191 (0) Table wp_gf_entry_meta: Total rows added: 18 in 0.01 seconds
+0002.211 (0) Table wp_gf_entry_meta: finishing file (backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_gf_entry_meta.table.gz - 0.8 KB)
+0002.289 (0) Table wp_gf_entry_notes: Total expected rows (approximate): 0
+0002.308 (0) Table wp_gf_entry_notes: Total rows added: 0 in 0.01 seconds
+0002.327 (0) Table wp_gf_entry_notes: finishing file (backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_gf_entry_notes.table.gz - 0.4 KB)
+0002.374 (0) Table wp_gf_form: Total expected rows (approximate): 1
+0002.400 (0) Table wp_gf_form: Total rows added: 1 in 0.01 seconds
+0002.419 (0) Table wp_gf_form: finishing file (backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_gf_form.table.gz - 0.5 KB)
+0002.459 (0) Table wp_gf_form_meta: Total expected rows (approximate): 1
+0002.482 (0) Table wp_gf_form_meta: Total rows added: 1 in 0.01 seconds
+0002.503 (0) Table wp_gf_form_meta: finishing file (backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_gf_form_meta.table.gz - 1.2 KB)
+0002.546 (0) Table wp_gf_form_revisions: Total expected rows (approximate): 0
+0002.576 (0) Table wp_gf_form_revisions: Total rows added: 0 in 0.02 seconds
+0002.594 (0) Table wp_gf_form_revisions: finishing file (backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_gf_form_revisions.table.gz - 0.4 KB)
+0002.663 (0) Table wp_gf_form_view: Total expected rows (approximate): 0
+0002.686 (0) Table wp_gf_form_view: Total rows added: 0 in 0.01 seconds
+0002.705 (0) Table wp_gf_form_view: finishing file (backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_gf_form_view.table.gz - 0.4 KB)
+0002.758 (0) Table wp_wpfm_backup: Total expected rows (approximate): 0
+0002.781 (0) Table wp_wpfm_backup: Total rows added: 0 in 0.01 seconds
+0002.801 (0) Table wp_wpfm_backup: finishing file (backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_wpfm_backup.table.gz - 0.3 KB)
+0002.830 (0) backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_options.table.gz (1/18): adding to final database dump
+0002.951 (0) backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_commentmeta.table.gz (2/18): adding to final database dump
+0002.963 (0) backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_comments.table.gz (3/18): adding to final database dump
+0002.977 (0) backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_links.table.gz (4/18): adding to final database dump
+0002.997 (0) backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_postmeta.table.gz (5/18): adding to final database dump
+0003.016 (0) backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_apsl_users_social_profile_details.table.gz (6/18): adding to final database dump
+0003.031 (0) backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_gf_addon_feed.table.gz (7/18): adding to final database dump
+0003.046 (0) backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_gf_addon_payment_callback.table.gz (8/18): adding to final database dump
+0003.061 (0) backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_gf_addon_payment_transaction.table.gz (9/18): adding to final database dump
+0003.075 (0) backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_gf_draft_submissions.table.gz (10/18): adding to final database dump
+0003.089 (0) backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_gf_entry.table.gz (11/18): adding to final database dump
+0003.124 (0) backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_gf_entry_meta.table.gz (12/18): adding to final database dump
+0003.156 (0) backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_gf_entry_notes.table.gz (13/18): adding to final database dump
+0003.167 (0) backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_gf_form.table.gz (14/18): adding to final database dump
+0003.180 (0) backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_gf_form_meta.table.gz (15/18): adding to final database dump
+0003.194 (0) backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_gf_form_revisions.table.gz (16/18): adding to final database dump
+0003.206 (0) backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_gf_form_view.table.gz (17/18): adding to final database dump
+0003.245 (0) backup_2019-07-25-1227_Gooders_03edb40ec2ed-db-table-wp_wpfm_backup.table.gz (18/18): adding to final database dump
+0003.294 (0) backup_2019-07-25-1227_Gooders_03edb40ec2ed-db.gz: finished writing out complete database file (208 KB)
+0003.386 (0) Total database tables backed up: 18 (backup_2019-07-25-1227_Gooders_03edb40ec2ed-db.gz, size: 240597, sha256)
+0003.453 (0) backup_2019-07-25-1227_Gooders_03edb40ec2ed-db.gz: db: This file has not yet been successfully uploaded: will queue
+0003.465 (0) Saving backup history. Total backup size: 235 KB
+0003.496 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0003.537 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0003.550 (0) No remote despatch: user chose no remote backup service
+0003.562 (0) Recording as successfully uploaded: backup_2019-07-25-1227_Gooders_03edb40ec2ed-db.gz
+0003.588 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0003.624 (0) Resume backup (03edb40ec2ed, 0): finish run
+0003.670 (0) Decremented the semaphore (fd) by 1
+0003.719 (0) Semaphore (fd) unlocked
+0003.745 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0003.820 (0) No email will/can be sent - the user has not configured an email address.
+0003.831 (0) The backup apparently succeeded and is now complete

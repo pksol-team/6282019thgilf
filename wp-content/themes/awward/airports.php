@@ -40,7 +40,7 @@ get_header(); ?>
 											<div class="choices__inner">
 												<input class="form-control choices__input is-hidden" id="choices-text-preset-values" type="text" placeholder="Type to search..." tabindex="-1" style="display:none;" aria-hidden="true" data-choice="active" value="">
 												<div class="choices__list choices__list--multiple"></div>
-												<input name="search" type="text" class="choices__input choices__input--cloned" autocomplete="off" autocapitalize="off" spellcheck="false" role="textbox" aria-autocomplete="list" placeholder="Type to search..." style="width: 109px;" value="<?= (isset($_GET['search'])) ? $_GET['search'] : ""; ?>">
+												<input name="search" type="text" class="choices__input choices__input--cloned" autocomplete="off" autocapitalize="off" spellcheck="false" role="textbox" aria-autocomplete="list" placeholder="Type to search..." style="width: 70%; height: 50px;" value="<?= (isset($_GET['search'])) ? $_GET['search'] : ""; ?>">
 											</div>
 										</div>
 										<button class="btn-search" type="submit">
@@ -60,7 +60,20 @@ get_header(); ?>
 						'post_type' => 'airport',
 						'post_status' => 'publish',
 						'posts_per_page' => 21,
-						// 'orderby' => 'rand',
+						
+						// 'meta_query' => array(
+
+						// 	'average_clause' => array(
+						// 		'key' => 'average_ratings',
+						// 		'compare' => 'EXISTS',
+						// 	), 
+
+						// ),
+
+						// 'orderby' => array(
+						// 	'average_clause' => 'DESC',
+						// ),
+
 						'showposts'=> 21,
 						'paged' => $paged,
 						's' => (isset($_GET['search'])) ? $_GET['search'] : ''
@@ -75,7 +88,9 @@ get_header(); ?>
 
 					query_posts( array( 
 						'post_type' => 'airport', 
-						// 'orderby' => 'rand', 
+						
+
+						
 						'paged' => $paged ,
 						's' => (isset($_GET['search'])) ? $_GET['search'] : ''
 					) );

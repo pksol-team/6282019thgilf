@@ -112,7 +112,7 @@
 	  <div class="logo-header">
 	    <a href="/" aria-label="Awwwards">
 	      <?php 
-	      	$custom_logo_id = get_theme_mod( 'custom_logo' );
+			$custom_logo_id = get_theme_mod( 'custom_logo' );
 	      	$custom_logo_url = wp_get_attachment_image_url( $custom_logo_id , 'full' );
 	      	echo '<img src="' . esc_url( $custom_logo_url ) . '" width="141" alt="">';
 	      ?>
