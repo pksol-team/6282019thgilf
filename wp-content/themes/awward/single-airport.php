@@ -3,13 +3,22 @@
   <div class="col-md-12">
     <main id="content">
 
+		<style>
+			.reply {
+				display: none;
+			}
+		</style>
 		<?php $access = get_user_meta(get_current_user_id(), 'airport_id', true); ?>
 		<?php if ($access == get_the_ID()): ?>
 		<a href="<?= get_home_url() ?>/edit_airport/?id=<?= get_the_ID(); ?>" style="text-decoration: underline; ">Edit Airport</a>
+		<style>
+			.reply {
+				display: block;
+			}
+		</style>
 		<br>
 		<?php endif ?>
-
-
+		
 
       <?php if ( is_singular() ) {
         echo '<h1 class="entry-title">';
@@ -112,7 +121,13 @@
 
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
      
+		
+
 		<img src="<?= get_the_post_thumbnail_url(); ?>">
+
+
+
+
 
 		<?php 
 

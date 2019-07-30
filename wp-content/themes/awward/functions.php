@@ -427,11 +427,64 @@ function show_message_function( $comment_ID, $comment_approved ) {
 	
 }
 
+add_action( 'wp_ajax_update_airport_data', 'update_airport_data' );
+add_action('wp_ajax_nopriv_update_airport_data', 'update_airport_data');
+function update_airport_data() { 
+
+	$title = $_POST['title'];
+	$desc = $_POST['description'];
+	$latitude = $_POST['latitude'];
+	$longitude = $_POST['longitude'];
+	$airport_id = $_POST['airport_id'];
+
+	$airport_post = array();
+	$airport_post['ID'] = $airport_id;
+	$airport_post['post_title'] = $title;
+	$airport_post['post_content'] = $desc;
+
+	update_post_meta( $airport_id, 'latitude', $latitude);
+	update_post_meta( $airport_id, 'longitude', $longitude);
+
+	wp_update_post( $airport_post );
+	wp_die();
+
+}
 
 
-add_action( 'wp_ajax_upload_file', 'upload_file' );
-add_action('wp_ajax_nopriv_upload_file', 'upload_file');
-function upload_file() { 
+
+// add_action( 'wp_ajax_update_airport_slider', 'update_airport_slider' );
+// add_action('wp_ajax_nopriv_update_airport_slider', 'update_airport_slider');
+// function update_airport_slider() { 
+
+
+// 	var_dump($_POST);
+// 	wp_die();
+
+// }
+
+
+
+
+add_action( 'wp_ajax_delete_file', 'delete_file' );
+add_action('wp_ajax_nopriv_delete_file', 'delete_file');
+function delete_file() { 
+
+	$airport_id = $_POST['airport_id'];
+	$image_id = $_POST['upload_id'];
+
+	$slider_meta = str_replace($image_id.'-', '', get_post_meta($airport_id, 'slider_images', true));
+	update_post_meta($airport_id, 'slider_images', $slider_meta);
+
+	wp_delete_attachment($image_id, true);
+	wp_die();
+
+}
+
+
+
+add_action( 'wp_ajax_update_airport_slider', 'update_airport_slider' );
+add_action('wp_ajax_nopriv_update_airport_slider', 'update_airport_slider');
+function update_airport_slider() { 
 
 
 	if ( ! function_exists( 'wp_handle_upload' ) ) {
@@ -478,41 +531,23 @@ function upload_file() {
 		}
 	}
 
-	echo json_encode(['id' => $image->ID, 'url' => $movefile['url']]);
-
-	wp_die();
-
-}
-
-
-
-add_action( 'wp_ajax_update_airport_data', 'update_airport_data' );
-add_action('wp_ajax_nopriv_update_airport_data', 'update_airport_data');
-function update_airport_data() { 
-
-	$airport_image_id = $_POST['airport_image_id'];
-
-
-	$title = $_POST['title'];
-	$desc = $_POST['description'];
-	$latitude = $_POST['latitude'];
-	$longitude = $_POST['longitude'];
 	$airport_id = $_POST['airport_id'];
 
-	$airport_post = array();
-	$airport_post['ID'] = $airport_id;
-	$airport_post['post_title'] = $title;
-	$airport_post['post_content'] = $desc;
+	$slider_meta =  get_post_meta($airport_id, 'slider_images', true);
 
-	update_post_meta( $airport_id, 'latitude', $latitude);
-	update_post_meta( $airport_id, 'longitude', $longitude);
+	if($slider_meta) {
+		
+		$new_meta = $slider_meta. (string)$image->ID .'-'; 
 
-	wp_update_post( $airport_post );
-	
-	set_post_thumbnail( $airport_id, $airport_image_id );
+	} else { 
 
+		$new_meta = $image->ID.'-';
+
+	}
+
+	update_post_meta($airport_id, 'slider_images', $new_meta);
+
+	echo $image_id;
 	wp_die();
 
 }
-
-

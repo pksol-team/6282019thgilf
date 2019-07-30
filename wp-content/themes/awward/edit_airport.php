@@ -1,11 +1,12 @@
 <?php 
 	/* Template Name: Edit Airport */ 
 ?>
-<?php get_header(); ?>
+<?php get_header();
 
-<main id="content">
 
-	<?php
+?>
+
+<?php
 		
 
 		$ID = $_GET['id'];
@@ -17,24 +18,37 @@
 		$url = get_post_permalink($ID);
 
 	?>
+
+<?php $access = get_user_meta(get_current_user_id(), 'airport_id', true); ?>
+<?php if ($access != $ID): ?>
+	<script>
+		window.location.href= '<?= $url; ?>';
+	</script>
+<?php endif ?>
+
+<main id="content">
 <br>
 <br>
 <br>
 
 <h1><?= $airport_post->post_title; ?> <a href="<?= $url; ?>" target="_blank"> <i class="fa fa-eye"></i> </a> </h1>
 
+
+<form class="dropzone" id="my-awesome-dropzone"></form>
+<br>
+
 <form action="/action_page.php" id="airport_edit_page" method="post">
 
   <input type="hidden" name="action" value="update_airport_data">
-  <input type="hidden" name="airport_id" value="<?= $ID; ?>">
+  <input type="hidden" name="airport_id" id="airport_id" value="<?= $ID; ?>">
 
-  <img src="<?= get_the_post_thumbnail_url(); ?>" id="airport_image" >
+  <?php /* <img src="<?= get_the_post_thumbnail_url(); ?>" id="airport_image" >
   <div class="form-group">
     <label for="title">Image:</label>
 	<input type="file" id="prescription_photo" class="inputfile" accept="image/gif, image/jpeg, image/png" />
 	<img class="file-upload-loader" style="vertical-align: middle;" src="<?= get_stylesheet_directory_uri(); ?>/img/ajax-loader.gif">
 	<input type="hidden" name="airport_image_id" id="airport_image_id" value="<?=  get_post_thumbnail_id( $airport_post ); ?>">
-  </div>
+  </div> */ ?>
 
   <div class="form-group">
     <label for="title">Title:</label>
@@ -83,13 +97,33 @@
 </main>
 
 
+<script type="text/javascript">
+<?php
 
-<script>
-	$(document).ready(function () {
+	$existing_image = array_filter( explode( "-", get_post_meta($ID, 'slider_images', true) ) );
+
+	$json_images = [];
+
+	foreach ($existing_image as $key => $slider_images_each) {
 		
+		$image = wp_get_attachment_image_src( $existing_image[$key], 'thumbnail' )[0];
 
+		$file = get_attached_file( $existing_image[$key] );
+		$filename = str_replace('-1', '', basename ( $file ) );
+		$filesize = filesize( $file );
+		$filetype = get_post_mime_type($slider_images_each);
 
-	});
+		array_push($json_images, ['src' => $image, 'filename' => $filename, 'filesize' => $filesize, 'upload_id' => $slider_images_each, 'filetype' => $filetype]);
+
+	}
+
+	echo 'var json_images = '. json_encode($json_images);
+
+?>
+
+var loader_image = '<img src="<?= get_stylesheet_directory_uri() ?>/img/ajax-loader.gif"> Removing';
+
 </script>
+
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
