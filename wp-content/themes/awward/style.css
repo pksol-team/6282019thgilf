@@ -12955,5 +12955,42 @@ p.date {
 	display: none;
 }
 
+div#airlineslider {
+	margin-bottom: 20px;
+}
+
+.logo-header {
+  top: 4px;
+}
+
+
+#header .header-main,
+.bt-menu,
+#bt-submit,
+#bt-submit .button
+{
+    height: 110px;
+}
+
+.bt-menu, .item.login,
+#bt-submit .button
+{
+    padding-top: 22px !important;
+}
+
+#header .header-main {
+  background: #f4f7f6;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 

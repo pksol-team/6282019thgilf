@@ -21,9 +21,11 @@
 
 <?php $access = get_user_meta(get_current_user_id(), 'airport_id', true); ?>
 <?php if ($access != $ID): ?>
+	
 	<script>
 		window.location.href= '<?= $url; ?>';
 	</script>
+
 <?php endif ?>
 
 <main id="content">
@@ -37,18 +39,10 @@
 <form class="dropzone" id="my-awesome-dropzone"></form>
 <br>
 
-<form action="/action_page.php" id="airport_edit_page" method="post">
+<form action="/action_page.php" id="airport_edit_page" method="post" data-type="airport">
 
   <input type="hidden" name="action" value="update_airport_data">
   <input type="hidden" name="airport_id" id="airport_id" value="<?= $ID; ?>">
-
-  <?php /* <img src="<?= get_the_post_thumbnail_url(); ?>" id="airport_image" >
-  <div class="form-group">
-    <label for="title">Image:</label>
-	<input type="file" id="prescription_photo" class="inputfile" accept="image/gif, image/jpeg, image/png" />
-	<img class="file-upload-loader" style="vertical-align: middle;" src="<?= get_stylesheet_directory_uri(); ?>/img/ajax-loader.gif">
-	<input type="hidden" name="airport_image_id" id="airport_image_id" value="<?=  get_post_thumbnail_id( $airport_post ); ?>">
-  </div> */ ?>
 
   <div class="form-group">
     <label for="title">Title:</label>
@@ -92,6 +86,8 @@
 	<strong>Saved</strong> Data has been successfully updated
 </div>
 
+
+<?php echo do_shortcode(' [wpuf_comments post_type="airport"] '); ?>
 
 
 </main>

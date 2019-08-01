@@ -2,13 +2,15 @@
 <div class="row">
   <div class="col-md-12">
     <main id="content">
-
+    	<br>
 		<style>
 			.reply {
 				display: none;
 			}
+
 		</style>
 		<?php $access = get_user_meta(get_current_user_id(), 'airport_id', true); ?>
+
 		<?php if ($access == get_the_ID()): ?>
 		<a href="<?= get_home_url() ?>/edit_airport/?id=<?= get_the_ID(); ?>" style="text-decoration: underline; ">Edit Airport</a>
 		<style>
@@ -38,11 +40,54 @@
 
 		<li>
         
-		  <p><i class="fa fa-floppy-o"></i> <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> <a href="#respond"> Own this Airport Request Access </a> </p>
+		  <p><i class="fa fa-floppy-o"></i>
+
+		   <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+		    <a href="#respond"> Own this Airport Request Access </a> </p>
 
         </li>  
 
       </ul>
+
+
+      <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+  	   	<?php 
+
+			$ID = get_the_ID();
+			$existing_slider_image = array_filter( explode( "-", get_post_meta($ID, 'slider_images', true) ) );
+		?>
+
+		<?php if( count($existing_slider_image) > 0 ): ?>
+	     <div id="airlineslider" class="carousel slide" data-ride="carousel">
+	       <div class="carousel-inner">
+	         <?php $count = 0; ?>
+	         
+	         <?php 
+
+	         	foreach ($existing_slider_image as $key => $slider_image_single) :
+				$image = wp_get_attachment_image_src( $slider_image_single, 'full' )[0];
+	           	$count++;
+	        ?>
+	         <div class="carousel-item<?php if($count == 1){echo ' active';}?> ">
+	           <img src="<?php echo $image; ?>" alt="#" >
+	         </div>
+	         <?php endforeach; ?>
+	       </div>
+	       <a class="carousel-control-prev" href="#airlineslider" role="button" data-slide="prev">
+	       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	       <span class="sr-only">Previous</span>
+	       </a>
+	       <a class="carousel-control-next" href="#airlineslider" role="button" data-slide="next">
+	       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	       <span class="sr-only">Next</span>
+	       </a>
+	     </div>
+	     <?php endif; ?>
+
+	    <br>
+	    <?php get_template_part( 'entry' ); ?>
+
 
 	<?php 
 	  
@@ -118,17 +163,6 @@
 
 		<br>
 
-
-      <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-     
-		
-
-		<img src="<?= get_the_post_thumbnail_url(); ?>">
-
-
-
-
-
 		<?php 
 
 			$appId = '856acead';
@@ -176,11 +210,6 @@
 
 		<?php endif ?>
 
-
-
-
-
-      <?php get_template_part( 'entry' ); ?>
       <?php if ( comments_open() && ! post_password_required() ) { comments_template( '', true ); } ?>
       <?php endwhile; endif; ?>
       <footer class="footer">

@@ -1,40 +1,8 @@
 $(document).ready(function () {
 
 	var ajaxurl = '/wp-admin/admin-ajax.php';
-
-	// $('#prescription_photo').change(function (e) {
-
-	// 	var fd = new FormData();
-	// 	var file = jQuery(document).find('#prescription_photo');
-
-	// 	fd.append('action', 'upload_file');
-	// 	var individual_file = file[0].files[0];
-	// 	fd.append("file", individual_file);
-		
-	// 	fd.append("airport_name", $('#title').val() );
-
-	// 	$('.file-upload-loader').show();
-
-	// 	jQuery.ajax({
-	// 		type: 'POST',
-	// 		url: ajaxurl,
-	// 		data: fd,
-	// 		contentType: false,
-	// 		processData: false,
-	// 		success: function (response) {
-				
-	// 			var response_json_decoded = JSON.parse(response);
-	// 			$('#airport_image').attr('src', response_json_decoded.url);
-	// 			$('#airport_image_id').val(response_json_decoded.id);
-	// 			$('.file-upload-loader').hide();
-
-	// 		}
-	// 	});
-
-	// });
-
 	
-	$('#airport_edit_page').submit(e => { 
+	$('#airport_edit_page, #airline_edit_page').submit(e => { 
 		
 		e.preventDefault();
  
@@ -69,11 +37,12 @@ $(document).ready(function () {
 
 });
 
+
+
 var ajaxurl = '/wp-admin/admin-ajax.php';
 
 var file_up_names = [];
-Dropzone.options.myAwesomeDropzone= {
-	
+Dropzone.options.myAwesomeDropzone = {
 
 	url: ajaxurl,
     acceptedFiles: "image/*",
@@ -84,8 +53,19 @@ Dropzone.options.myAwesomeDropzone= {
 		
 		
 		this.on("sending", function (file, xhr, formData) {
-			formData.append("action", "update_airport_slider");
-			formData.append("airport_id", $('#airport_id').val() );
+
+			var form_type = $('[action="/action_page.php"]').attr('data-type');
+
+			if(form_type == 'airport') {
+				formData.append("action", "update_global_slider");
+				formData.append("airport_id", $('#airport_id').val() );
+			} else {
+				formData.append("action", "update_global_slider");
+				formData.append("airline_id", $('#airline_id').val() );
+			}
+
+			formData.append("form_type", form_type);
+
 		});
 
 		var $initThis = this;
@@ -98,8 +78,6 @@ Dropzone.options.myAwesomeDropzone= {
 		$.each(json_images, function(index, val) {
 			
 			var mockFile = { name: val.filename, size: val.filesize, type: val.filetype, upload_id: val.upload_id };
-
-			// var mockFile = { name: <filename>, size: <filesize>, type: <filetype>, url: <file_url> };
 		    $initThis.files.push(mockFile);
 		    $initThis.emit('addedfile', mockFile);
 		    $initThis.createThumbnailFromUrl(mockFile, mockFile.url);
@@ -130,7 +108,9 @@ Dropzone.options.myAwesomeDropzone= {
 
 		$(file.previewElement).find('.dz-remove').html(loader_image);
 
-		$.post(ajaxurl, { upload_id: file.upload_id, airport_id: $('#airport_id').val(), action: 'delete_file' }, function() {
+		var form_type = $('[action="/action_page.php"]').attr('data-type');
+
+		$.post(ajaxurl, { upload_id: file.upload_id, global_id: $('#'+form_type+'_id').val(), action: 'delete_file' }, function() {
 			file.previewElement.remove();
 		});
 

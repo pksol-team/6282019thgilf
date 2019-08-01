@@ -387,6 +387,9 @@ add_filter( 'init', function( $template ) {
 
     }
 
+    
+
+
 } );
 
 
@@ -424,6 +427,8 @@ function show_message_function( $comment_ID, $comment_approved ) {
 	}
 
 	update_post_meta( $comment_post_id, 'average_ratings', $avg);
+
+	
 	
 }
 
@@ -451,16 +456,23 @@ function update_airport_data() {
 }
 
 
+add_action( 'wp_ajax_update_airline_data', 'update_airline_data' );
+add_action('wp_ajax_nopriv_update_airline_data', 'update_airline_data');
+function update_airline_data() { 
 
-// add_action( 'wp_ajax_update_airport_slider', 'update_airport_slider' );
-// add_action('wp_ajax_nopriv_update_airport_slider', 'update_airport_slider');
-// function update_airport_slider() { 
+	$title = $_POST['title'];
+	$desc = $_POST['description'];
+	$airline_id = $_POST['airline_id'];
 
+	$airline_post = array();
+	$airline_post['ID'] = $airline_id;
+	$airline_post['post_title'] = $title;
+	$airline_post['post_content'] = $desc;
 
-// 	var_dump($_POST);
-// 	wp_die();
+	wp_update_post( $airline_post );
+	wp_die();
 
-// }
+}
 
 
 
@@ -469,11 +481,11 @@ add_action( 'wp_ajax_delete_file', 'delete_file' );
 add_action('wp_ajax_nopriv_delete_file', 'delete_file');
 function delete_file() { 
 
-	$airport_id = $_POST['airport_id'];
+	$global_id = $_POST['global_id'];
 	$image_id = $_POST['upload_id'];
 
-	$slider_meta = str_replace($image_id.'-', '', get_post_meta($airport_id, 'slider_images', true));
-	update_post_meta($airport_id, 'slider_images', $slider_meta);
+	$slider_meta = str_replace($image_id.'-', '', get_post_meta($global_id, 'slider_images', true));
+	update_post_meta($global_id, 'slider_images', $slider_meta);
 
 	wp_delete_attachment($image_id, true);
 	wp_die();
@@ -482,9 +494,9 @@ function delete_file() {
 
 
 
-add_action( 'wp_ajax_update_airport_slider', 'update_airport_slider' );
-add_action('wp_ajax_nopriv_update_airport_slider', 'update_airport_slider');
-function update_airport_slider() { 
+add_action( 'wp_ajax_update_global_slider', 'update_global_slider' );
+add_action('wp_ajax_nopriv_update_global_slider', 'update_global_slider');
+function update_global_slider() { 
 
 
 	if ( ! function_exists( 'wp_handle_upload' ) ) {
@@ -500,8 +512,10 @@ function update_airport_slider() {
 	// echo $movefile['url'];
 
 	$url = $movefile['url'];
-	$title = $_POST['airport_name'];
-	$alt_text = $_POST['airport_name'];
+	$form_type = $_POST['form_type'];
+
+	$title = $_POST[$form_type.'_name'];
+	$alt_text = $_POST[$form_type.'_name'];
 
 	require_once(ABSPATH . 'wp-admin/includes/media.php');
 	require_once(ABSPATH . 'wp-admin/includes/file.php');
@@ -531,9 +545,9 @@ function update_airport_slider() {
 		}
 	}
 
-	$airport_id = $_POST['airport_id'];
+	$global_id = $_POST[$form_type.'_id'];
 
-	$slider_meta =  get_post_meta($airport_id, 'slider_images', true);
+	$slider_meta =  get_post_meta($global_id, 'slider_images', true);
 
 	if($slider_meta) {
 		
@@ -545,7 +559,7 @@ function update_airport_slider() {
 
 	}
 
-	update_post_meta($airport_id, 'slider_images', $new_meta);
+	update_post_meta($global_id, 'slider_images', $new_meta);
 
 	echo $image_id;
 	wp_die();
