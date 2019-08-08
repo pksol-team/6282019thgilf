@@ -12982,9 +12982,30 @@ div#airlineslider {
   background: #f4f7f6;
 }
 
+.page-template-home-page .rating_list_box {
+
+    padding-bottom: 18px;
+    
+
+}
+
+.map-container {
+  margin-top: 20px;
+}
+
+#airport_modal .modal-header {
+  display: none;
+}
 
 
+#airline_modal .modal-header {
+  display: none;
+}
 
+
+.greentext {
+  color: green;
+}
 
 
 

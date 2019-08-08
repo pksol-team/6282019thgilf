@@ -7,7 +7,6 @@
 			.reply {
 				display: none;
 			}
-
 		</style>
 		<?php $access = get_user_meta(get_current_user_id(), 'airport_id', true); ?>
 
@@ -33,23 +32,36 @@
         } else {
         echo '</h2>';
         } ?>
+
+		<?php if (isset($_GET['gf_payfast_return'])): ?>
+			<p class="greentext">Your Request has been submitted you will be notified shortly through email</p>
+		<?php endif ?>
+
       <ul class="address-info">
 		<li>
           <p><i class="fa fa-pencil-square-o"></i> <a href="#respond">Leave a Review </a> </p>
         </li>  
 
+    	<?php  
+
+    		global $wpdb;
+    		$airport_id = get_the_ID();
+    		$editable_airport = $wpdb->get_var( "SELECT COUNT(*) FROM {$wpdb->prefix}usermeta WHERE meta_key = 'airport_id' AND meta_value = '$airport_id' " );
+
+    	?>
+
+
+       <?php if ($editable_airport == 0): ?>
+
 		<li>
         
-		  <p><i class="fa fa-floppy-o"></i>
+		  <p><i class="fa fa-floppy-o"></i><a href="#" class="check_user" data-toggle="modal" data-target="#airport_modal" > Own this Airport Request Access </a> </p>
 
-		   <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+        </li>
 
-		    <a href="#respond"> Own this Airport Request Access </a> </p>
-
-        </li>  
+		<?php endif; ?>
 
       </ul>
-
 
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
   	   	<?php 
@@ -172,8 +184,6 @@
 
 			$Airport_flights_array = json_decode($Airport_flights, true)['fidsData'];
 
-
-
 		?>
 
 		<?php if (count($Airport_flights_array) > 0): ?>
@@ -247,7 +257,6 @@
 		$('#flights_table').DataTable();
 	} );
 </script>
-
 
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeD3LSJjBsUHiKv7IHUomkYIdbzF1b1pk&callback=initMap"></script>
 <?php get_footer(); ?>

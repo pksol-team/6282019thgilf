@@ -565,3 +565,72 @@ function update_global_slider() {
 	wp_die();
 
 }
+
+
+function subscription_links() {
+
+
+	$current_user_id = get_current_user_id();
+	$airline = get_user_meta($current_user_id, 'airline_id', true);
+	$airport = get_user_meta($current_user_id, 'airport_id', true);
+
+	$links = '<table class="airport_meta_data table-striped table-bordered">';
+	if($airline) {
+
+		$links .= '<tr><td>
+			Your Airline </td>
+		';
+
+		$airline_post = get_post($airline);
+		$airline_url = get_post_permalink($airline);
+
+		$links .= '<td><a href="'.$airline_url.'" >'. $airline_post->post_title .'</a> </td> </tr>';
+
+
+	}
+
+	if($airport) {
+
+		$links .= '<tr><td>
+			Your Airport </td>
+		';
+
+		$airport_post = get_post($airport);
+		$airport_url = get_post_permalink($airport);
+
+		$links .= '<td><a href="'.$airport_url.'" >'. $airport_post->post_title .'</a> </td> </tr>';
+
+	}
+
+
+	$links .= '</table>';
+    
+
+    return $links;
+
+}
+
+add_shortcode('airport_airline_links', 'subscription_links');
+
+
+add_action( 'gform_post_update_entry_2', 'log_post_update_entry', 10, 2 );
+function log_post_update_entry( $entry, $original_entry ) {
+    
+
+    $airport_id = $entry[3];
+    $access = $entry[9];
+    $user_id = $entry['created_by'];
+
+    if($access == 'Yes') {
+
+    	update_user_meta( $user_id, 'airport_id',  $airport_id);
+
+    } else {
+
+    	delete_user_meta($user_id, 'airport_id');
+
+    }
+
+
+
+}

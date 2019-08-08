@@ -61,18 +61,18 @@ get_header(); ?>
 						'post_status' => 'publish',
 						'posts_per_page' => 21,
 						
-						// 'meta_query' => array(
+						'meta_query' => array(
 
-						// 	'average_clause' => array(
-						// 		'key' => 'average_ratings',
-						// 		'compare' => 'EXISTS',
-						// 	), 
+							'average_clause' => array(
+								'key' => 'average_ratings',
+								'compare' => 'EXISTS',
+							), 
 
-						// ),
+						),
 
-						// 'orderby' => array(
-						// 	'average_clause' => 'DESC',
-						// ),
+						'orderby' => array(
+							'average_clause' => 'DESC',
+						),
 
 						'showposts'=> 21,
 						'paged' => $paged,
@@ -89,7 +89,18 @@ get_header(); ?>
 					query_posts( array( 
 						'post_type' => 'airport', 
 						
+						'meta_query' => array(
 
+							'average_clause' => array(
+								'key' => 'average_ratings',
+								'compare' => 'EXISTS',
+							), 
+
+						),
+
+						'orderby' => array(
+							'average_clause' => 'DESC',
+						),
 						
 						'paged' => $paged ,
 						's' => (isset($_GET['search'])) ? $_GET['search'] : ''
@@ -137,7 +148,7 @@ get_header(); ?>
 								
 								
 								<div class="detail">
-								    <?php the_content(); ?>
+								    <?php // the_content(); ?>
 								</div>
 
 							</li>

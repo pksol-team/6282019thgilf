@@ -96,8 +96,6 @@
              <?php endif; ?>
 
             <?php get_template_part( 'entry' ); ?>
-
-            
             <p>
 
                 <table class="airport_meta_data table-striped table-bordered">
@@ -126,7 +124,6 @@
             </table>
 
             </p>
-
             
             <?php if ( comments_open() && ! post_password_required() ) { comments_template( '', true ); } ?>
             <?php endwhile; endif; ?>

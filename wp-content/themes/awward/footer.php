@@ -37,21 +37,22 @@
 </div>
 
 <!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog">
+<div id="airport_modal" class="modal fade" role="dialog">
   <div class="modal-dialog">
 
     <!-- Modal content-->
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4>
+        <h4 class="modal-title">Apply to get access</h4>
       </div>
       <div class="modal-body">
-        <?php
-			
-			echo do_shortcode('[gravityform id=1]');
-
-		?>
+      
+      <?php if (is_user_logged_in()): ?>
+      <?php echo do_shortcode('[gravityform id=2]'); ?>
+      <?php else: ?>
+      You need to login first
+      <?php endif ?>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -82,5 +83,20 @@
           });
         });
 	</script>
+
+  <script>
+
+    jQuery(document).ready(function($) {
+      
+      
+      $('#airport_modal #field_2_3 input').attr('value', '<?= get_the_ID(); ?>');
+      $('#airport_modal #field_2_6 input').attr('value', '<?= get_the_title(); ?>');
+      $('#airport_modal #field_2_9 input').attr('value', 'No');
+
+
+    });
+
+
+  </script>
 </body>
 </html>
